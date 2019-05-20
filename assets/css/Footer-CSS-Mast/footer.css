@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   margin:0 auto;
-  margin-top:38em;
+  margin-top:36.5em;
   width:100%;
   position:fixed;
   border-top:1px solid #c9c9c9;
@@ -11,8 +11,10 @@
   z-index:1
 }
 #footer > ul{
-  text-align: center;
+  text-align: left;
+  margin-left:5vw;
   color:#000;
   font-size:12px;
   padding:0;
+  line-height: 20px;
 }
