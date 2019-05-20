@@ -1,0 +1,6 @@
+@media only screen and (max-width: 400px) {
+  #splash{
+    grid-template-columns: 1fr;
+  }
+
+}

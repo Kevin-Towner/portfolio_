@@ -1,0 +1,42 @@
+@media only screen and (max-width: 450px) {
+  body{
+    margin: 0 auto !important;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+  }
+  #content{
+    display:grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    grid-gap:2em;
+    z-index:0;
+  }
+  #row-1{
+    display:grid;
+    grid-template-columns: 1fr !important;;
+    border-bottom:1px solid #595959;
+    padding-bottom:5em;
+  }
+  #row-1-2{
+    order:1;
+  }
+  #row-1-1{
+    order:2;
+  }
+  #about-photo-1{
+    height:50vh;
+    width:100% !important;;
+    float:right;
+    border-radius:5px;
+  }
+  #row-2{
+    display:grid;
+    grid-template-columns: 1fr !important;
+    margin-top:5em;
+  }
+  #about-photo-2{
+    height:50vh;
+    width:100% !important;
+    border-radius:5px;
+  }
+}

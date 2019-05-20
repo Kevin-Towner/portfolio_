@@ -1,0 +1,41 @@
+@media only screen and (max-width: 400px) {
+  .navbar{
+    display:grid;
+    grid-template-columns: .5fr 2fr;
+    position:fixed;
+    width:100%;
+    margin:auto;
+    border-bottom:#c9c9c9 1px solid;
+    z-index:1;
+  }
+
+  #navbar-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #logo{
+    margin-left:1em;
+  }
+
+  #navbar-link{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #navbar-links > ul{
+    display: inline-flex;
+    padding:0;
+  }
+
+
+  #navbar-links > ul > li > a:hover{
+    color:#000;
+    text-decoration: underline;
+  }
+
+  #navbar-links > ul > li:nth-child(1){
+    margin-right:2em;
+  }
+
+}

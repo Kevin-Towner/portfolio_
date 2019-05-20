@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Design Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Bark-CSS-Mast/bark.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Bark-CSS-Mast/bark-media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Nav-CSS-Mast/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Nav-CSS-Mast/navbar-media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Footer-CSS-Mast/footer.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Footer-CSS-Mast/footer-media.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Body-Container-CSS/body.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/Body-Container-CSS/body-media.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
+
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100vw;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div id="navbar-logo">
+      <img style="margin-top:5%;" id="logo" src="../assets/images/portfolio-displays/logo.svg">
+    </div>
+    <div id="navbar-links">
+      <ul>
+        <li>
+          <a href="../index.html">Work/Home</a>
+        </li>
+        <li>
+          <a href="../about-me.html">About Me</a>
+        </li>
+        <li>
+          <a href="../contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div id="content">
+      <div id = "header-row">
+        <div>
+          <h1>Barkbuddy Redesigned</h1>
+          <p>Barkbuddy is a mobile app developed by Bark & Co. Much like a dating app, the user swipes left or right to say whether he or she likes a particular dog. If the dog's guardian swipes right on the user, they match. The personal dog data is
+          pulled from Petfinder.
+          The reason I am choosing to do a redesign of Barkbuddy is because I like to design for mobile and I feel Barkbuddy has plenty of areas for improvement. This case study will look at the app, its user's goals, and how I will utilize design
+          thinking in order to improve the users' experience via an improved UI</p>
+          <ul id= "technologies-outer-list">
+            <li style = "font-weight:bold;">
+              Tools/Technologies:
+            </li>
+            <li>
+              <ul id="technologies-inner-list" style="display:inline-flex;">
+                <li>
+                  <img class="tech-logo" src="../assets/images/logo-images/sketch-logo.png" alt="sketch-logo">
+                </li>
+                <li>
+                  <img class="tech-logo" src="../assets/images/logo-images/invision-logo.png" alt="invision-logo">
+                </li>
+                <li>
+                  <img class="tech-logo" src="../assets/images/logo-images/html-logo.png" alt="html-logo">
+                </li>
+                <li>
+                  <img class="tech-logo" src="../assets/images/logo-images/css-logo.png" alt="css-logo">
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img id = "header-gif" style = "border-radius:50%; height:20em; width:20em;" src="http://gifgifmagazine.com/wp-content/uploads/2018/03/samojed-i-obrve.gif" alt="doggy-gif">
+        </div>
+      </div>
+      <div id = "research-row" class = "row">
+        <div id = "research-row-intro">
+          <h2>The Users</h2>
+          <p id = "research-intro">Before I identify any areas of opportunity, I decided to read some of Barkbuddy's user reviews about the application. On Google's Playstore, a large portion of the negative reviews were performance based. Barkbuddy directly responded
+          to and stated that there were to server issues which should be resolved. Aside from general app performance there are two things which I am looking for in these reviews:</p>
+        </div>
+        <div id="research-row-rows">
+          <div>
+            <h3>Motivations</h3>
+            <p class = "research-para">Many of the users seem to have decent intentions. They want to add an additional member to their respective family units. Although this app's, as well as Petfinder's, purpose is to help dogs in need, it's unfortunate that users aren't
+              able to find what they are looking for. That being said, there are positve reviews for the app and, for a lot of people, the act of adopting a Pet is for a good cause.</p>
+            <ul class="research-list">
+              <li>"we love what yall do for these pets.me and jasmine."</li>
+              <li>"Love the concept. Wish more of my local shelters would jump on board"</li>
+              <li>"it is easy to use & you can't help but fall in love with the choices you do see!"</li>
+              <li>"we have a German Shepherd foxhound mix his name is petey delbert Penrod we want to find him a big brother"</li>
+              <li>"I know you all are new and just getting started...so many missing images :( and none were listed for MY area... Good luck. It's a great idea."</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Pain-Points</h3>
+            <p class = "research-para">According to some of the reviews on the Google play store, there are a number of opportunities for this app to improve. A majority of the pain points lie in the app's limited filtering ability. Some users want specific situational
+              filtering like, "Needs more filter options. For instance I'll like a dog and then find out it can't be placed in a home with kids under 10. A filter for ok with kids would eliminate this problem.".</p>
+            <ul class="research-list">
+              <li>"I work at a shelter and would love to put our dogs on this app. It does not seem to show a way for us to post our dogs or pull our dogs from pet finder. Any help would be welcome."</li>
+              <li>"You can't sort by breed and the filters don't do anything. It's a waste if an app."</li>
+              <li>"Impossible to change parameters...frustrating"</li>
+              <li>"Would give a zero star if possible. I've set my standards to include any dog anywhere and it tells me no dogs available. Waste of time!"</li>
+              <li>"Said there were no dogs"</li>
+            </ul>
+          </div>
+        </div>
+        <div id = "research-personas">
+          <div>
+                <img src="../assets/images/bark-displays/persona-1.png" alt="persona-1">
+
+                <img src="../assets/images/bark-displays/persona-2.png" alt="persona-2">
+          </div>
+        </div>
+        <div id = "two-improvements">
+          <h3>Based on the user feedback and developed personas...</h3>
+          <p>I came up with two questions to directly tackle the high-level areas of improvement</p>
+          <ul class = "research-list">
+            <li>Why are Barkbuddy's filtering abilities not effectively providing the users with an optimal experience? </li>
+            <li>Why are some users not able to find the amount of, if any, dogs for their search?</li>
+          </ul>
+        </div>
+      </div>
+      <div id = "high-level-row" class="row">
+        <div id = "high-level-row-50">
+          <h2>My Answer to the Two Questions</h2>
+          <p id = "high-level-intro">Acting on the pain-points of the users, while maintaining the users' motivations to keep using BarkBuddy is the primary challenge. To answer my first question, I plan on improving the filtering process to provide more in-depth options for the users based on the pre-existing filtering options within Petfinder's app. This approach could theoretically provide a more in-depth user experience, while maintaining good relations between Petfinder and Barkbuddy developers.
+          <br><br>
+          The answer to my second question would be to expand upon Barkbuddy's App to become a more versatile experience. Enabling the ability for users to create an account and upload their own dogs, into Barkbuddy's swipe game, would yield more pet results and turn Barkbuddy into a true social app.
+          <br><br>
+          A general view of this implementation would be for Petfinder's API to be on the forefront for users to "search" for dogs (improving the filter). The swipe game, akin to Tinder, would be for the account-holders to upload their own dogs into the game and would provide a more personal UX for the players/users.
+          </p>
+        </div>
+        <div id = "wireframes-row">
+          <div id="lofi-2-column">
+            <div>
+              <img class= "low-fi-photos" src="../assets/images/bark-displays/add.png" alt="original-ia">
+            </div>
+            <div>
+              <img class= "low-fi-photos" src="../assets/images/bark-displays/filters.png" alt="original-ia">
+            </div>
+          </div>
+          <div id="ia-3-columns">
+            <div>
+              <img class="low-fi-photos" src="../assets/images/bark-displays/card-sorting.png" alt="original-ia">
+            </div>
+            <div>
+              <img class="low-fi-photos" src="../assets/images/bark-displays/original-ia.png" alt="original-ia">
+            </div>
+            <div>
+              <img class="low-fi-photos" src="../assets/images/bark-displays/improvements.png" alt="original-ia">
+            </div>
+          </div>
+          <!-- <div id="lofi-2-column">
+            <div>
+              <img class= "low-fi-photos" src="../assets/images/bark-displays/add.png" alt="original-ia">
+            </div>
+            <div>
+              <img class= "low-fi-photos" src="../assets/images/bark-displays/filters.png" alt="original-ia">
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div id = "hi-fidelities" class="row">
+        <h2>High Fidelities</h2>
+        <div id = "hi-fidelities-2-columns">
+          <div>
+            <p>The home/splash page where the user encounters the dogs from Petfinder's website. Once the user scrolls through and is not able to immediately find the desired dog, he or she does the following:</p>
+            <ul class = "hi-fidelities-list">
+              <li>Presses the filter icon</li>
+              <li>Adjusts specifications to adopt a puppy to adult, female, Shiba Inu, who happens to fall within a 33 mi radius of the user's current location</li>
+              <li>Applies changes</li>
+              <li>Presses the "view profile" button for "Iman"</li>
+              <li>Views Iman's profile</li>
+            </ul>
+          </div>
+            <img id = "filter-gif" src="../assets/images/bark-displays/filt.gif" alt="filter-gif">
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <ul style="padding-bottom:2em;">
+        <li>&copy Kevin Towner 2019</li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="content">
+  <div id="row-1" class="row">
+    <H1>BarkBuddy Redesigned</h1>
+  </div>
+  <div id="row-2" class="row">
+    <h2>Introduction</h2>
+    <p>Barkbuddy is a mobile app developed by Bark & Co. Much like a dating app, the user swipes left or right to say whether he or she likes a particular dog. If the dog's guardian swipes right on the user, they match. The personal dog data is
+      pulled from Petfinder. Before I continue, I think I should mention that I like Bark & Co., dogs and believe in the app's purpose.
+      The reason I am choosing to do a redesign of Barkbuddy is because I like to design for mobile and I feel Barkbuddy has plenty of areas for improvement. This case study will look at the app, its user's goals, and how I will utilize design
+      thinking in order to improve the users' experience via an improved UI</p>
+    <ul id="technologies-outer-list">
+      <li>
+        <h3>Tools/Technologies:</h3>
+      </li>
+      <li>
+        <ul id="technologies-inner-list" style="display:inline-flex;">
+          <li>
+            <img class="tech-logo" src="../assets/images/logo-images/sketch-logo.png" alt="sketch-logo">
+          </li>
+          <li>
+            <img class="tech-logo" src="../assets/images/logo-images/invision-logo.png" alt="invision-logo">
+          </li>
+          <li>
+            <img class="tech-logo" src="../assets/images/logo-images/html-logo.png" alt="html-logo">
+          </li>
+          <li>
+            <img class="tech-logo" src="../assets/images/logo-images/css-logo.png" alt="css-logo">
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div id="row-3" class="row">
+    <h2>The Users</h2>
+    <p>Before I identify any areas of opportunity, I decided to read some of Barkbuddy's user reviews about the application. On Google's Playstore, a large portion of the negative reviews were performance based, which Barkbuddy directly responded
+      to and stated that there were to server issues which should be resolved. There are two things which I am looking for in these reviews:</p>
+    <div id="row-3-columns">
+      <div>
+        <h3>Motivations</h3>
+        <p>Many of the users seem to have decent intentions. They want to add an additional member to their respective family units. Although this app's, as well as Petfinder's, purpose is to help dogs in need, it's unfortunate that users aren't
+          able to find what they are looking for. That being said, there are positve reviews for the app and, for a lot of people, the act of adopting a Pet is for a good cause.</p>
+        <ul class="row-3-list">
+          <li>"we love what yall do for these pets.me and jasmine."</li>
+          <li>"Love the concept. Wish more of my local shelters would jump on board"</li>
+          <li>"it is easy to use & you can't help but fall in love with the choices you do see!"</li>
+          <li>"we have a German Shepherd foxhound mix his name is petey delbert Penrod we want to find him a big brother"</li>
+          <li>"I know you all are new and just getting started...so many missing images :( and none were listed for MY area... Good luck. It's a great idea."</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Pain-Points</h3>
+        <p>According to some of the reviews on the Google play store, there are a number of opportunities for this app to improve. A majority of the pain points lie in the app's limited filtering ability. Some users want specific situational
+          filtering like, "Needs more filter options. For instance I'll like a dog and then find out it can't be placed in a home with kids under 10. A filter for ok with kids would eliminate this problem.".</p>
+        <ul class="row-3-list">
+          <li>"I work at a shelter and would love to put our dogs on this app. It does not seem to show a way for us to post our dogs or pull our dogs from pet finder. Any help would be welcome."</li>
+          <li>"You can't sort by breed and the filters don't do anything. It's a waste if an app."</li>
+          <li>"Impossible to change parameters...frustrating"</li>
+          <li>"Would give a zero star if possible. I've set my standards to include any dog anywhere and it tells me no dogs available. Waste of time!"</li>
+          <li>"Said there were no dogs"</li>
+        </ul>
+      </div>
+    </div>
+    <h3>Personas</h3>
+    <div id="row-3-rows">
+      <img class="persona" id="persona-1" src="../assets/images/bark-displays/persona-1.png" alt="persona-1">
+      <img class="persona" id="persona-2" src="../assets/images/bark-displays/persona-2.png" alt="persona-2">
+    </div>
+    <h3>Some questions to consider...</h3>
+    <ul class="row-3-list">
+      <li>Why are the users having a difficult time filtering their results?</li>
+      <li>What motivates users to use a mobile app to adopt a dog?</li>
+      <li>How can we make the pet adoption process easier for the users, as well as Petfinder?</li>
+    </ul>
+  </div>
+  <div id="row-4" class="row">
+    <h2>Low-Fidelity</h2>
+    <h3>Original Information Architecture</h3>
+    <p>Reviewing the users' pain-points and motivations, I sorted and came up with design solutions (blue-sticky notes) per select motivatiosn and pain points. With the help of the sketched architecture of Barkbuddy's UI, I drew a low-fidelity
+      flow and placed the blue sticky notes over select portions of the wireframe.</p>
+    <div id="row-4-ia">
+      <div>
+        <img class="low-fi-photos" src="../assets/images/bark-displays/card-sorting.png" alt="original-ia">
+      </div>
+      <div>
+        <img class="low-fi-photos" src="../assets/images/bark-displays/original-ia.png" alt="original-ia">
+      </div>
+      <div>
+        <img class="low-fi-photos" src="../assets/images/bark-displays/improvements.png" alt="original-ia">
+      </div>
+    </div>
+    <h3>Low-Fidelity Component Wireframes</h3>
+    <p>In more detail, I whiteboarded some general concepts of what the component solutions would be and the specific ways they will improve upon Barkbuddy's original UX.</p>
+    <div id="row-4-wireframes">
+      <div>
+        <img class="low-fi-photos" src="../assets/images/bark-displays/add.png" alt="original-ia">
+      </div>
+      <div>
+        <img class="low-fi-photos" src="../assets/images/bark-displays/filters.png" alt="original-ia">
+      </div>
+    </div>
+  </div>
+  <div id="row-5" class="row">
+    <h2>High-Fidelity Solutions</h2>
+      <div id="row-5-2-column">
+        <div class="row-5-left-column">
+          <h3>Filtering Specific Dogs</h3>
+          <p>Taking some ispiration from LinkedIn's job filtering, I combined LinkedIn's filtering UI with BarkBuddy's pre-existing sliders to improve the filter options for users
+          <br><br>
+          In this specific case, the user sees the list of dogs but wants to narrow the search down to a relatively young female Shiba Ina who is good with other dogs.
+          </p>
+        </div>
+        <div class="row-5-right-column">
+          <img id = "filter-gif" src="../assets/images/bark-displays/bark-filter.gif" alt="filtering-gif">
+        </div>
+      </div>
+  </div>
+</div> -->

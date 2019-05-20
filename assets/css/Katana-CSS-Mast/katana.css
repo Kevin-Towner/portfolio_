@@ -1,0 +1,88 @@
+
+/*=-=-=-=-=-=-=-=-=-=-=--=-=GENERAL ELEMENTS =-=-=-=-=-=-=-=-=-=-=-*/
+h1{
+  font-size:28pt;
+}
+h2{
+  font-weight: bold;
+  font-size:20pt;
+  margin-top:-1em;
+}
+h3{
+  font-size:16pt;
+  padding:0em 0 0 0;
+}
+P{
+  line-height:25px;
+}
+a{
+  color: #FF1965;
+  text-decoration: none;
+}
+.paragraph{
+  width:66.66%;
+}
+.row{
+  margin-top:4em;
+}
+.outer-list{
+  line-height:25px;
+  font-weight: bold;
+  padding:0;
+}
+.inner-list{
+  list-style-type: circle;
+  line-height:25px;
+}
+.large-img{
+  width:100%;
+}
+
+#content{
+  display:grid;
+  grid-template-columns: 1fr;
+  width:90vw;
+  margin:auto;
+  color:#595959;
+  margin-top:15vh;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- INTRO =-=-=-=-=-=-=-=-=-==-=----==-=----=*/
+#intro-section{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap: 4em;
+  width:100%;
+}
+#intro-display{
+  width:100%;
+  margin-top:8em;
+  border-radius:4px;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- INTRO TWO=-=-=-=-=-=-=-=-=-==-=----==-=----=*/
+#intro-two{
+  margin-top:8em;
+}
+.intro-two-row{
+  width:33.3%;
+  padding:0 0 0 1em;
+  border-left : solid 2px rgba(255,25,101,0.5);
+}
+.intro-two-row:nth-child(1){
+  margin-left:10%;
+}
+.intro-two-row:nth-child(2){
+  /*-----TEAM--*/
+  margin-left:55.6%;
+}
+.intro-two-row:nth-child(3){
+  margin-left:10%;
+  margin-top:
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-STYLEGUIDE & PLANNING=-=-=-=-=-=-=-=-=-==-=----*/
+#planning{
+
+}
+#styleguide{
+  height:
+}

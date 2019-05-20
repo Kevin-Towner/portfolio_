@@ -1,0 +1,13 @@
+#footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  border-top:1px solid #c9c9c9;
+  background-color:#f5f5f5;
+  margin:0;
+}
+#footer > ul{
+  text-align: center;
+  color:#A7A7A7;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:12px;
+}

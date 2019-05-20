@@ -1,0 +1,46 @@
+@media only screen and (max-width: 500px) {
+
+  #content{
+    display:grid;
+    grid-template-columns: 1fr;
+    width:80vw;
+    margin:auto;
+    color:#595959;
+    margin-top:15vh;
+  }
+  #intro-section{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0em;
+    width:100%;
+  }
+  #intro-display{
+    width:100%;
+    margin-top:0em;
+  }
+  .intro-two-row{
+    width:100%;
+    margin:auto;
+    border-left:none;
+  }
+  .intro-two-row:nth-child(1){
+    margin-left:0%;
+
+  }
+  .intro-two-row:nth-child(2){
+    /*-----TEAM--*/
+    margin-left:0%;
+    /* border-bottom: solid 2px rgba(255,25,101,0.5);
+    padding-bottom:2em; */
+  }
+  .intro-two-row:nth-child(3){
+    margin-left:0%;
+
+  }
+  .outer-list{
+    padding-bottom:4em;
+  }
+  .media-exception{
+    line-height:2em;
+  }
+}

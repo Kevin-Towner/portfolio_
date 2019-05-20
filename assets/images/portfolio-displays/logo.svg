@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="76px" viewBox="0 0 101 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-60.000000, -79.000000)">
+            <g id="Group-2" transform="translate(61.000000, 79.000000)">
+                <polygon id="Polygon" stroke="#242424" points="36.5 1 62.3093975 11.8370491 73 38 62.3093975 64.1629509 36.5 75 10.6906025 64.1629509 0 38 10.6906025 11.8370491"></polygon>
+                <polygon id="Polygon" stroke="#242424" points="62.5 1 88.3093975 11.8370491 99 38 88.3093975 64.1629509 62.5 75 36.6906025 64.1629509 26 38 36.6906025 11.8370491"></polygon>
+                <g id="Group" transform="translate(1.000000, 0.000000)">
+                    <path d="M36.8235661,1.08094385 L60.4157004,1.08094385" id="Line" stroke="#777777" stroke-linecap="square"></path>
+                    <path d="M35.4781613,74.5851254 L61.2113963,74.5851254" id="Line-2" stroke="#777777" stroke-linecap="square"></path>
+                    <path d="M10.5589799,11.9067866 L35.4781613,11.9067866" id="Line-3" stroke="#777777" stroke-linecap="square"></path>
+                    <path d="M4.22857908e-13,37.8330346 L24.75598,37.8330346" id="Line-4" stroke="#777777" stroke-linecap="square"></path>
+                    <path d="M10.4567072,63.5838495 L34.7359727,63.5838495" id="Line-5" stroke="#777777" stroke-linecap="square"></path>
+                    <path d="M62.436522,11.9067866 L85.8724133,11.9067866" id="Line-6" stroke="#777777" stroke-linecap="square"></path>
+                    <path d="M72.5466582,37.8330346 L96.6453976,37.8330346" id="Line-7" stroke="#777777" stroke-linecap="square"></path>
+                    <path d="M61.2113963,63.5838495 L85.8724133,63.5838495" id="Line-8" stroke="#777777" stroke-linecap="square"></path>
+                    <polygon id="Rectangle" fill-opacity="0" fill="#A7A7A7" points="10.3535809 12.9637604 33.7748734 12.9637604 24.0813066 36.7245805 0.557596992 36.7245805"></polygon>
+                    <polygon id="Rectangle" fill-opacity="0" fill="#A7A7A7" points="35.4781613 2.25957448 45.5698659 6.38257347 35.0724 10.8228197 14.8515354 10.8228197"></polygon>
+                    <polygon id="Rectangle" fill-opacity="0" fill="#A7A7A7" points="0.557596992 38.9411213 24.0130106 38.9411213 33.7748734 62.5942556 10.3397505 62.5942556"></polygon>
+                    <polygon id="Rectangle" points="60.4157004 2.25957448 81.5504389 10.8228197 61.661263 10.8228197 41.0310903 2.25957448"></polygon>
+                    <polygon id="Rectangle" fill-opacity="0" fill="#A7A7A7" points="62.9983444 12.9971694 86.3241328 12.9971694 95.8702591 36.6980468 72.5466582 36.6980468"></polygon>
+                    <polygon id="Rectangle" points="14.4789523 64.6487262 34.7359727 64.6487262 45.5069416 69.2025666 35.4781613 73.4378012"></polygon>
+                </g>
+                <polygon id="Rectangle" fill-opacity="0" fill="#A7A7A7" points="63.0693229 64 83 64 62.5396697 73 42 73"></polygon>
+                <polygon id="Rectangle" fill-opacity="0" fill="#A7A7A7" points="73.0659945 39 97 39 87.6772036 63 64 62.9647576"></polygon>
+                <polygon id="Triangle" points="49.4901171 71 57 74 42 74"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
