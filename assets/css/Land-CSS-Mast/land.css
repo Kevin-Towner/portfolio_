@@ -54,6 +54,7 @@ h1{
   background-color:rgb(255,255,255,.9);
   text-align:center;
   transform:scale(0);
+  transition:all 400ms ease-out;
 }
 .hover-box:hover h3{
   transform:scale(1);
