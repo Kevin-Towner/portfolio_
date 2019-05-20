@@ -47,6 +47,8 @@
 .hover-box > img{
   width:100%;
   height:60vh;
+  min-height: 60vh;
+  max-height: 60vh;
 }
 .hover-box > h3{
   position:absolute;
