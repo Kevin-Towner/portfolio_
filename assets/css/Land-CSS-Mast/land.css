@@ -6,11 +6,6 @@
 }
 
 /*----------------------BANNER-------------------*/
-h1{
-  font-size:32pt;
-  padding:0;
-  font-family: 'Heebo', sans-serif;
-}
 #banner{
   display: grid;
   grid-template-columns: 1fr;
@@ -21,6 +16,14 @@ h1{
 #banner-ul{
   text-align: center;
   padding:0;
+}
+#banner-ul > li > h1{
+  font-size:32pt;
+  padding:0;
+  font-family: 'Heebo', sans-serif;
+}
+#banner-ul > li > h3{
+  font-family: 'Roboto', sans-serif;
 }
 /*----------------------BANNER END-------------------*/
 
@@ -65,7 +68,7 @@ h1{
   left:50%;
   font-size:28pt;
   transform: translate(-50%,-50%);
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color:black;
 }
 /*----------------------PROJECTS END-------------------*/
