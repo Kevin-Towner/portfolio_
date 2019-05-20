@@ -1,13 +1,18 @@
 #footer{
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin:0 auto;
+  margin-top:38em;
+  width:100%;
+  position:fixed;
   border-top:1px solid #c9c9c9;
   background-color:#f5f5f5;
-  margin:0;
+  z-index:1
 }
 #footer > ul{
   text-align: center;
-  color:#A7A7A7;
-  font-family: 'Ubuntu', sans-serif;
+  color:#000;
   font-size:12px;
+  padding:0;
 }

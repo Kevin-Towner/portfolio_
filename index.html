@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Product Design Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Barlow|Ubuntu:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500|Roboto:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel ="stylesheet" type="text/css" href="assets/css/Land-CSS-Mast/land.css">
     <link rel ="stylesheet" type="text/css" href="assets/css/Land-CSS-Mast/land-media.css">
@@ -23,12 +22,13 @@
       background-color: #f5f5f5;
 			margin: 0;
 			padding:0;
-      font-family: 'Barlow', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-weight:lighter;
 		}
     .container{
       display: grid;
       grid-template-columns: 1fr;
-      width:90vw;
+      width:100vw;
       margin:auto;
     }
 	</style>
@@ -52,59 +52,54 @@
   </nav>
 	<div class = "container">
 		<div id = "splash"> <!--MAIN CONTENT-->
-      <div class = "single-column">
+      <div id = "banner" class = "single-column">
         <div>
-          <ul id = "heading-1-ul">
+          <ul id = "banner-ul">
             <li>
-              <h1>Kevin Towner</h1>
+              <h1>My name is Kevin</h1>
+            </li>
+            <li>
+              <h3>..and I'm a digital product designer focusing on web and mobile UX Design <h3>
             </li>
           </ul>
         </div>
       </div>
-      <div class = "double-column">
-        <div id = "thirty-three-percent">
-          <div>
-            <ul id = "summmary-1-p">
-              <li>
-                <p>I'm a user-focused digital designer with a keen interest on mobile and web. I enjoy analyzing data, evaluating the constraints, and designing intuitive user-interface components</p>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul id = "social-links-a">
-              <li>
-                <a href="https://www.linkedin.com/in/kevin-towner-b0960b96/">LinkedIn</a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/k1mj0n61ll3st/">Instagram</a>
-              </li>
-              <li>
-              </li>
-            </ul>
-          </div>
+      <div id = "portfolio" class = "double-column">
+        <div class = "project">
+          <a class = "hover-box" href = "Projects/katana.html" target="_blank">
+            <img src="assets/images/portfolio-displays/katanaZero.png" alt="KatanaZero">
+            <h3><span>Katana Zero Website Concept</span></h3>
+          </a>
         </div>
-        <div id = "sixty-six-percent">
-          <div class = "project-image" id = "portfolio-column-1">
-            <a href = "Projects/transit.html" target="_blank">
-              <img src="assets/images/portfolio-displays/NJ-Transit.png" alt="Nj-Transit">
-            </a>
-          </div>
-          <div class = "project-image" id = "portfolio-column-2">
-          data
-          </div>
-          <div class = "project-image" id = "portfolio-column-2">
-          data
-          </div>
+        <div class = "project">
+          <a class = "hover-box" href = "Projects/bark.html" target="_blank">
+            <img src="assets/images/portfolio-displays/barkbuddy.png" alt="bark">
+            <h3><span>Barkbuddy Redesign</span></h3>
+          </a>
+        </div>
+        <div class = "project">
+          <a class = "hover-box" href = "Projects/transit.html" target="_blank">
+            <img src="assets/images/portfolio-displays/NJ-Transit.png" alt="nj-transit">
+            <h3><span>Functionality Overhaul</span></h3>
+          </a>
         </div>
 		  </div>
-	</div>
-  <footer id = "footer">
-    <ul style ="padding-bottom:2em;">
+	  </div>
+    <footer id = "footer">
+      <ul>
+        <li>&copy Kevin Towner 2019</li>
+        <li>(c) 908-577-6666</li>
+        <li>kevintowner@gmail.com</li>
+      </ul>
+    </footer>
+  </div>
+  <!-- <footer id = "footer">
+    <ul>
       <li>&copy Kevin Towner 2019</li>
       <li>(c) 908-577-6666</li>
       <li>kevintowner@gmail.com</li>
     </ul>
-  </footer>
+  </footer> -->
 </body>
 </html>
 

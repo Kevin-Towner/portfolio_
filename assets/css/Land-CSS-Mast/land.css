@@ -1,73 +1,70 @@
-
-h1{
-  font-size:44pt;
-  padding:0;
-  text-align: center;
-}
-
-
-
-
-.single-column{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap:2em;
-  color:#777777;
-  border-bottom:2px solid #c9c9c9;
-  padding-bottom: 4em;
-}
-.single-column > div{
-  padding:0 0 1em 0;
-}
-.double-column{
-  display: grid;
-  grid-template-columns: 33.33% 66.66%;
-  grid-gap:.5em;
-  width:100%;
-  margin-top:4em;
-  color:#777777;
-}
-#thirty-three-percent{
-  border-right: 1px solid #c9c9c9;
-
-}
-#sixty-six-percent{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap:1em;
-}
-.project-image{
-  border:1px solid black;
-  height:60vh;
-}
-
 #splash{
   display: grid;
   grid-template-columns:1fr;
-  margin-top:20vh;
+  margin-top:16vh;
   z-index:0;
 }
 
-#heading-1-ul{
+/*----------------------BANNER-------------------*/
+h1{
+  font-size:32pt;
+  padding:0;
+  font-family: 'Heebo', sans-serif;
+}
+#banner{
+  display: grid;
+  grid-template-columns: 1fr;
+  color:#000;
+  width:100%;
+  padding-bottom: 1em;
+}
+#banner-ul{
+  text-align: center;
   padding:0;
 }
-#summmary-1-p{
-  padding:0;
+/*----------------------BANNER END-------------------*/
+
+
+/*----------------------PROJECTS-------------------*/
+#portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:2em;
+  width:90%;
+  margin:auto;
+  margin-top:8em;
+  margin-bottom:5em;
 }
-#summary-1-p > li > p{
-  width:66.66%;
-  padding:0;
+.hover-box{
+  width:100%;
+  display:block;
+  position:relative;
+  overflow:hidden;
 }
-#social-links-a{
-  padding:0;
+.hover-box > img{
+  width:100%;
+  height:60vh;
 }
-#social-links-a > li > a{
-  padding:0;
-  line-height: 21px;
-  text-decoration: none;
-  font-weight:bold;
-  color:#777777;
+.hover-box > h3{
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:22px;
+  right:22px;
+  background-color:rgb(255,255,255,.9);
+  text-align:center;
+  transform:scale(0);
 }
-#social-links-a > li > a:hover{
+.hover-box:hover h3{
+  transform:scale(1);
+}
+.hover-box span{
+  position:absolute;
+  top:50%;
+  left:50%;
+  font-size:28pt;
+  transform: translate(-50%,-50%);
+  font-family: 'Heebo', sans-serif;
   color:black;
 }
+/*----------------------PROJECTS END-------------------*/

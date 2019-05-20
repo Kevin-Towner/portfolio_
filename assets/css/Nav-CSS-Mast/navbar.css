@@ -16,7 +16,7 @@
 
 #logo{
   margin-left:5vw;
-  height:44px;
+  height:30px;
 }
 
 #navbar-link{
@@ -33,10 +33,9 @@
 
 #navbar-links > ul > li > a{
   text-decoration: none;
-  color:#A7A7A7;
+  color:#000;
   padding-bottom:1em;
   font-size: 12px;
-  font-family: 'Ubuntu', sans-serif;
 }
 #navbar-links > ul > li > a:hover{
   color:#000;
