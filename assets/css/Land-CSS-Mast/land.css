@@ -71,20 +71,21 @@
   font-size:28pt;
   transform: translate(-50%,-50%);
   font-family: 'Heebo', sans-serif;
+  color:#000;
 }
 .hover-box:hover h3{
   transform:scale(1);
 }
 #katana-h3{
-  background-color:rgb(255,255,255,.5);
-  color:#FF1965;
+  background-color:rgb(255,255,255,.666);
+  /* color:#FF1965; */
 }
 #bark-h3{
-  background-color:rgb(255,255,255,.5);
-  color:#0091FF;
+  background-color:rgb(255,255,255,.666);
+  /* color:#0091FF; */
 }
 #nj-h3{
-  background-color:rgb(255,255,255,.5);
-  color:#812AE8;
+  background-color:rgb(255,255,255,.666);
+  /* color:#812AE8; */
 }
 /*----------------------PROJECTS END-------------------*/

@@ -3,9 +3,10 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   margin:0 auto;
-  margin-top:36.5em;
+  /* margin-top:36.5em; */
   width:100%;
   position:fixed;
+  bottom:0;
   border-top:1px solid #c9c9c9;
   background-color:#f5f5f5;
   z-index:1
