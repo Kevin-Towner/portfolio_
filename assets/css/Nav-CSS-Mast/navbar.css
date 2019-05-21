@@ -41,6 +41,8 @@
 #navbar-links > ul > li > a:hover{
   color:#000;
   text-decoration: underline;
+  font-weight: bold;;
+
 }
 
 #navbar-links > ul > li:nth-child(1){

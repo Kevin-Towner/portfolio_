@@ -9,9 +9,11 @@
 #banner{
   display: grid;
   grid-template-columns: 1fr;
+  margin:auto;
   color:#000;
-  width:100%;
+  width:66.7%;
   padding-bottom: 1em;
+  border-bottom:1px solid #eee;
 }
 #banner-ul{
   text-align: center;
@@ -35,7 +37,7 @@
   grid-gap:2em;
   width:90%;
   margin:auto;
-  margin-top:8em;
+  margin-top:12em;
   margin-bottom:8em;
 }
 .hover-box{
@@ -52,10 +54,10 @@
 }
 .hover-box > h3{
   position:absolute;
-  top:0px;
-  bottom:0px;
-  left:22px;
-  right:22px;
+  top:-17px;
+  bottom:-14px;
+  left:2px;
+  right:2px;
   background-color:rgb(245,245,245,.9);
   text-align:center;
   transform:scale(0);
