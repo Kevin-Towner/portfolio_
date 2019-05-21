@@ -58,10 +58,21 @@
   bottom:-14px;
   left:2px;
   right:2px;
-  background-color:rgb(245,245,245,.9);
   text-align:center;
   transform:scale(0);
   transition:all 400ms ease-out;
+}
+#katana-h3{
+  background-color:rgb(255,255,255,.9);
+  color:#FF1965;
+}
+#bark-h3{
+  background-color:rgb(255,255,255,.9);
+  color:#0091FF;
+}
+#nj-h3{
+  background-color:rgb(255,255,255,.9);
+  color:#812AE8;
 }
 .hover-box:hover h3{
   transform:scale(1);
@@ -73,6 +84,5 @@
   font-size:28pt;
   transform: translate(-50%,-50%);
   font-family: 'Roboto', sans-serif;
-  color:black;
 }
 /*----------------------PROJECTS END-------------------*/
