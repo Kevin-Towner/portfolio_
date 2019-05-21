@@ -1,6 +1,11 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   #splash{
     grid-template-columns: 1fr;
+  }
+
+  #banner{
+    width:90%;
+    margin:auto;
   }
   #banner-ul{
     text-align: left;
@@ -8,7 +13,7 @@
     margin-left: 5vw;
   }
   #banner-ul > li:nth-child(2) h3{
-    width:66.66%;
+    width:90%;
   }
 
   #portfolio{
