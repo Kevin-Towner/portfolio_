@@ -3,23 +3,25 @@
   #content{
     display:grid;
     grid-template-columns: 1fr;
-    width:80vw;
+    width:100vw;
     margin:auto;
-    color:#595959;
+    color:#f5f5f5;
     margin-top:15vh;
+    background-color: black;
   }
   #intro-section{
     display:grid;
     grid-template-columns: 1fr;
     grid-gap: 0em;
-    width:100%;
+    width:90%;
+    margin:auto;
   }
   #intro-display{
     width:100%;
     margin-top:0em;
   }
   .intro-two-row{
-    width:100%;
+    width:90%;
     margin:auto;
     border-left:none;
   }

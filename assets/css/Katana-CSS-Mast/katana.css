@@ -41,21 +41,23 @@ a{
 #content{
   display:grid;
   grid-template-columns: 1fr;
-  width:90vw;
+  width:100vw;
   margin:auto;
-  color:#595959;
+  color:#f5f5f5;
   margin-top:15vh;
   margin-bottom:8em;
+  background-color: #000;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- INTRO =-=-=-=-=-=-=-=-=-==-=----==-=----=*/
 #intro-section{
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-gap: 4em;
-  width:100%;
+  width:90%;
+  margin:auto;
 }
 #intro-display{
-  width:100%;
+  width:%;
   margin-top:8em;
   border-radius:4px;
 }
@@ -82,8 +84,10 @@ a{
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-STYLEGUIDE & PLANNING=-=-=-=-=-=-=-=-=-==-=----*/
 #planning{
-
+  width:90%;
+  margin:auto;
+  margin-top:10em;
 }
 #styleguide{
-  height:
+
 }
