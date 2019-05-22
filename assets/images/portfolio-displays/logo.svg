@@ -18,9 +18,6 @@
                     <path d="M72.5466582,37.8330346 L97,37.8330346" id="Line-7" stroke="#000000" stroke-linecap="square"></path>
                     <path d="M61.5,64.2391191 L87.0423533,63.775687" id="Line-8" stroke="#000000" stroke-linecap="square"></path>
                     <polygon id="Rectangle" fill-opacity="0" fill="#A7A7A7" points="10.3535809 12.9637604 33.7748734 12.9637604 24.0813066 36.7245805 0.557596992 36.7245805"></polygon>
-                    <path d="M35.4812133,3.34106018 L19.868344,9.82281971 L34.8696063,9.82281971 L42.9650272,6.39859687 L35.4812133,3.34106018 Z" id="Rectangle" stroke="#18AC77" stroke-width="2" fill="#02B352"></path>
-                    <path d="M2.05330879,39.9411213 L11.0083285,61.5942556 L32.280347,61.5942556 L23.3439023,39.9411213 L2.05330879,39.9411213 Z" id="Rectangle" stroke="#FF0000" stroke-width="2" fill="#FF0000"></path>
-                    <path d="M64.4793132,13.9971694 L73.2218918,35.6980468 L94.3894172,35.6980468 L85.6488413,13.9971694 L64.4793132,13.9971694 Z" id="Rectangle" stroke="#1E39F0" stroke-width="2" fill="#273CF9"></path>
                     <polygon id="Rectangle" points="14.4789523 64.6487262 34.7359727 64.6487262 45.5069416 69.2025666 35.4781613 73.4378012"></polygon>
                     <path d="M77.5,38 L67.5,63.5838495" id="Line-12" stroke="#000000" stroke-linecap="square"></path>
                     <path d="M84.5,38 L74.5,63.5838495" id="Line-12" stroke="#000000" stroke-linecap="square"></path>
@@ -29,7 +26,6 @@
                     <path d="M21.5,12.5 L12.5,37.7245805" id="Line-11" stroke="#000000" stroke-linecap="square"></path>
                     <path d="M27.5,12.5 L18.5,37.7245805" id="Line-11" stroke="#000000" stroke-linecap="square"></path>
                 </g>
-                <path d="M63.4686397,66.6008276 L55.8792371,69.7067922 L62.5087294,71.934647 L75.7756161,66.6008276 L63.4686397,66.6008276 Z" id="Rectangle" stroke="#FFDB51" stroke-width="2" fill="#FFDF69"></path>
                 <polygon id="Triangle" points="49.4901171 71 57 74 42 74"></polygon>
             </g>
         </g>
