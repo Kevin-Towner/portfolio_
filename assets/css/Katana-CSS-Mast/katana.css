@@ -1,23 +1,29 @@
 
 /*=-=-=-=-=-=-=-=-=-=-=--=-=GENERAL ELEMENTS =-=-=-=-=-=-=-=-=-=-=-*/
 h1{
-  font-size:28pt;
+  font-size:40pt;
 }
 h2{
   font-weight: bold;
-  font-size:20pt;
-  margin-top:-1em;
+  font-size:28pt;
 }
 h3{
-  font-size:16pt;
+  font-size:20px;
   padding:0em 0 0 0;
 }
 P{
-  line-height:25px;
+  /* line-height:25px; */
+  font-size: 20px;
 }
 a{
   color: #FF1965;
   text-decoration: none;
+}
+ul{
+  font-size:20px;
+}
+ul > li{
+  line-height:25px;
 }
 .paragraph{
   width:66.66%;
@@ -26,13 +32,13 @@ a{
   margin-top:4em;
 }
 .outer-list{
-  line-height:25px;
+  line-height:20px;
   font-weight: bold;
   padding:0;
 }
 .inner-list{
   list-style-type: circle;
-  line-height:25px;
+  line-height:20px;
 }
 .large-img{
   width:100%;
@@ -58,7 +64,7 @@ a{
 }
 #intro-display{
   width:%;
-  margin-top:8em;
+  margin-top:14em;
   border-radius:4px;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- INTRO TWO=-=-=-=-=-=-=-=-=-==-=----==-=----=*/
@@ -86,8 +92,29 @@ a{
 #planning{
   width:90%;
   margin:auto;
-  margin-top:10em;
+  margin-top:16em;
 }
-#styleguide{
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-MASTER-HIFI=-=-=-=-=-=-=-=-=-==-=----*/
 
+#master-hifi{
+  width:90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin:auto;
+  margin-top:16em;
+}
+#hi-fi-1{
+  height:100vh;
+  border:1px solid #424242;
+  width:65%;
+  float:right;
+  margin-right:10%;
+}
+#hi-fi-p-1{
+  width:90%;
+}
+#master-hifi-inner-row{
+  display:grid;
+  grid-template-columns: 66.66% 33.33%;
+  margin-top:4em;
 }
