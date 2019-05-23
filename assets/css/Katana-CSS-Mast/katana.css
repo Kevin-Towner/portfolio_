@@ -143,13 +143,13 @@ ul > li{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:4em;
-  width:66.7%;
+  width:75%;
   margin:auto;
 }
 #prototype-inner-2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:4em;
-  width:66.7%;
+  width:75%;
   margin:auto;
 }
