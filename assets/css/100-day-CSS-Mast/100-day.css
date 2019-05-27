@@ -1,0 +1,33 @@
+/*-------------------------------INTRO / HEAD---------------------*/
+h1{
+  font-size:40pt;
+}
+#intro{
+  position:relative;
+  margin-top:10em;
+  text-align: center;
+  color:#1764FF;
+}
+#intro > h3  > a{
+  color: #1764FF;
+  text-decoration: none;
+
+}
+#intro > h3  > a:hover{
+  color:#8A8A8A;
+}
+/*-------------------------------GALLERY---------------------*/
+#gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:1em;
+  width:100%;
+}
+#gallery div {
+  border:1px solid #efefef;
+  height:40em;
+}
+.ui-challenge{
+  width:100%;
+  height:100%;
+}
