@@ -30,3 +30,10 @@
 #footer > ul:nth-child(2) > li:nth-child(1){
     padding-right:2em;
 }
+
+#footer > ul:nth-child(2) > li:nth-child(2){
+    padding-right:2em;
+}
+#footer > ul:nth-child(2) > li:nth-child(3){
+  margin-top:-5px;;
+}
