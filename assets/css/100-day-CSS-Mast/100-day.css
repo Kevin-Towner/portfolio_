@@ -22,8 +22,8 @@ h1{
   grid-template-columns: 1fr 1fr;
   grid-gap:1em;
   width:100%;
-  margin-bottom:10em;
-  margin-top:10em;
+  margin:10em 0 10em 0;
+  padding:5em 0 5em 0;
 }
 #gallery div {
   border:1px solid #efefef;
