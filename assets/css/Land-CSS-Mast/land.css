@@ -73,8 +73,12 @@
   font-family: 'Heebo', sans-serif;
   color:#000;
 }
+.hover-box:hover{
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
 .hover-box:hover h3{
   transform:scale(1);
+  cursor: -webkit-grabbing; cursor: grabbing;
 }
 #katana-h3{
   background-color:rgb(255,255,255,.8);
