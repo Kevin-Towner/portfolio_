@@ -21,7 +21,7 @@
 }
 
 #logo {
-		-webkit-animation: rotation 66.66s infinite linear;
+		-webkit-animation: rotation 20s infinite linear;
 }
 
 @-webkit-keyframes rotation {
