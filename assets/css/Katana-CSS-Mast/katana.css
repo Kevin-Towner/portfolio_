@@ -153,6 +153,13 @@ ul > li{
   width:75%;
   margin:auto;
 }
+#prototype-inner-3{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap:4em;
+  width:75%;
+  margin:auto;
+}
 .proto-gif{
   width:100%;
 }
