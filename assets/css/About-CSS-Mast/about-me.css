@@ -23,7 +23,7 @@ p{
 #row-1{
   display:grid;
   grid-template-columns: 2fr 2fr;
-  border-bottom:1px solid #595959;
+
   padding-bottom:5em;
 }
 #about-photo-1{
