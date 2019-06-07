@@ -1,3 +1,17 @@
+body{
+  background-color: #fff;
+  margin: 0;
+  padding:0;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  width:100vw;
+  margin:auto;
+  cursor: -webkit-grab; cursor: grab;
+}
+
+
 #splash{
   display: grid;
   grid-template-columns:1fr;
@@ -11,8 +25,8 @@
   grid-template-columns: 1fr;
   margin:auto;
   color:#000;
-  width:66.7%;
-  padding-bottom: 4em;
+  width:66.66%;
+  padding-bottom:2em;
   border-bottom:1px solid #e7e7e7;
 }
 #banner-ul{
@@ -26,7 +40,8 @@
 }
 #banner-ul > li:nth-child(2) > h3{
   font-family: 'Heebo', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
+  font-size:12pt
 }
 /*----------------------BANNER END-------------------*/
 
@@ -34,11 +49,11 @@
 /*----------------------PROJECTS-------------------*/
 #portfolio{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap:2em;
-  width:90%;
+  width:66.66%;
   margin:auto;
-  margin-top:12em;
+  margin-top:4em;
   margin-bottom:8em;
 }
 .hover-box{
@@ -68,10 +83,11 @@
   position:absolute;
   top:50%;
   left:50%;
-  font-size:28pt;
+  font-size:12pt;
   transform: translate(-50%,-50%);
   font-family: 'Heebo', sans-serif;
-  color:#000;
+  font-weight: lighter;
+  color:#fff;
 }
 .hover-box:hover{
   cursor: -webkit-grabbing; cursor: grabbing;
@@ -81,15 +97,16 @@
   cursor: -webkit-grabbing; cursor: grabbing;
 }
 #katana-h3{
-  background-color:rgb(255,255,255,.8);
+  /* background-color:rgb(255,255,255,.8); */
+  background-color:rgb(0,0,0,.8);
   /* color:#FF1965; */
 }
 #bark-h3{
-  background-color:rgb(255,255,255,.8);
+  background-color:rgb(0,0,0,.9);
   /* color:#0091FF; */
 }
 #nj-h3{
-  background-color:rgb(255,255,255,.8);
+  background-color:rgb(0,0,0,.9);
   /* color:#812AE8; */
 }
 /*----------------------PROJECTS END-------------------*/
