@@ -87,6 +87,7 @@ body{
   transform: translate(-50%,-50%);
   font-family: 'Heebo', sans-serif;
   font-weight: lighter;
+  line-height: 20px;
   color:#fff;
 }
 .hover-box:hover{
