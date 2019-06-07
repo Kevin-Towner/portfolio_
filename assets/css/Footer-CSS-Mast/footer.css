@@ -25,15 +25,15 @@
   justify-content: flex-end;
   margin-right:5vw;
   padding:0;
-  margin-top:2em;
+  margin-top:3em;
 }
 #footer > ul:nth-child(2) > li:nth-child(1){
-    padding-right:2em;
+    padding-right:1em;
 }
 
 #footer > ul:nth-child(2) > li:nth-child(2){
-    padding-right:2em;
+    padding-right:.5em;
 }
 #footer > ul:nth-child(2) > li:nth-child(3){
-  margin-top:-5px;;
+  margin-top:-3px;
 }
