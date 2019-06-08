@@ -11,9 +11,9 @@ p{
 #content{
   display:grid;
   grid-template-columns: 1fr;
-  width:80vw;
+  width:66.66vw;
   margin:auto;
-  grid-gap:2em;
+  grid-gap:0em;
   margin-top:15vh;
   margin-bottom:4em;
   z-index:0;
@@ -23,7 +23,6 @@ p{
 #row-1{
   display:grid;
   grid-template-columns: 2fr 2fr;
-
   padding-bottom:5em;
 }
 #about-photo-1{
@@ -40,6 +39,6 @@ p{
 }
 #about-photo-2{
   height:60vh;
-  width:85%;;
+  width:90%;;
   border-radius:5px;
 }

@@ -40,8 +40,8 @@ body{
 }
 #banner-ul > li:nth-child(2) > h3{
   font-family: 'Heebo', sans-serif;
-  font-weight: normal;
-  font-size:12pt
+  font-weight: lighter;
+  font-size:12pt;
 }
 /*----------------------BANNER END-------------------*/
 
@@ -83,10 +83,10 @@ body{
   position:absolute;
   top:50%;
   left:50%;
+  font-family: 'Heebo', sans-serif;
+  font-weight: normal;
   font-size:12pt;
   transform: translate(-50%,-50%);
-  font-family: 'Heebo', sans-serif;
-  font-weight: lighter;
   line-height: 20px;
   color:#fff;
 }
@@ -103,11 +103,13 @@ body{
   /* color:#FF1965; */
 }
 #bark-h3{
-  background-color:rgb(0,0,0,.9);
+  background-color:rgb(0,0,0,.95);
+  /* background-color:rgb(13,177,233,.95); */
   /* color:#0091FF; */
 }
 #nj-h3{
-  background-color:rgb(0,0,0,.9);
+  background-color:rgb(0,0,0,.95);
+  /* background-color:rgb(246,103,27,.95); */
   /* color:#812AE8; */
 }
 /*----------------------PROJECTS END-------------------*/
