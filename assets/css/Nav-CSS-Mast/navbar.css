@@ -17,12 +17,10 @@
 
 #logo{
   margin-left:5vw;
-  height:30px;
+  height:26px;
+	-webkit-animation: rotation 20s infinite linear;
 }
 
-#logo {
-		-webkit-animation: rotation 20s infinite linear;
-}
 
 @-webkit-keyframes rotation {
 		from {
@@ -47,16 +45,15 @@
 
 #navbar-links > ul > li > a{
   text-decoration: none;
-  color:#000;
+  color:#777777;
   padding-bottom:1em;
   font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  font-weight:bolder;
 }
 #navbar-links > ul > li > a:hover{
   color:#000;
   text-decoration: underline;
-  font-weight: bold;;
-
 }
 
 #navbar-links > ul > li:nth-child(1){

@@ -14,11 +14,12 @@
 #footer > ul{
   text-align: left;
   margin-left:5vw;
-  color:#000;
+  color:#777777;
   font-size:12px;
   padding:0;
   line-height: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  font-weight:bolder;
 }
 #footer > ul:nth-child(2){
   display: inline-flex;
