@@ -1,11 +1,18 @@
 @media only screen and (max-width: 600px) {
   h1{
-    text-align: center;
+    text-align: left;
     font-size:32pt;
+
   }
   .inner-container{
     width:90%;
     margin:auto;
     margin-top:5em;
+  }
+  .two-column{
+    display:grid;
+    grid-template-columns:1fr;
+    width:100%;
+    grid-gap:2em;
   }
 }
