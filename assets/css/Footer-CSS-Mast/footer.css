@@ -19,7 +19,6 @@
   padding:0;
   line-height: 20px;
   font-family: 'Heebo', sans-serif;
-  font-weight:bolder;
 }
 #footer > ul:nth-child(2){
   display: inline-flex;

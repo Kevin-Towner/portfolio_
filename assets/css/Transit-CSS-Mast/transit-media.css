@@ -1,78 +1,11 @@
-@media only screen and (max-width: 400px) {
-  .container{
-    width:100vw;
-
+@media only screen and (max-width: 600px) {
+  h1{
+    text-align: center;
+    font-size:32pt;
   }
-  .paragraph{
-    width:100%;
-  }
-  .qualitative-results{
-    width:100%;
-    height:66.66vh;
-  }
-  .qualitative-answers{
-    width:100%;
-    height:66.66vh;
-  }
-  .low-fi{
-    height:66.66vh;
-  }
-  #row-1{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap:2em;
-  }
-  #transit-logo{
-    display:none;
-  }
-  #row-3-columns-1{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:1em;
-  }
-  #content{
-    display:grid;
-    grid-template-columns: 1fr;
-    width:90vw;
+  .inner-container{
+    width:90%;
     margin:auto;
-    margin-top:15vh;
-  }
-  #row-3-columns-4{
-    grid-template-columns:1fr;
-  }
-  #row-4-columns-1{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap:1em;
-  }
-  #gif-row-1{
-    display:grid;
-    grid-template-columns:1fr;
-    grid-gap:2em;
-    margin-top:8em;
-  }
-  #gif-row-2{
-    display:grid;
-    grid-template-columns:1fr;
-    grid-gap:2em;
-    margin-top:8em;
-  }
-  #gif-row-3{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap:2em;
-    margin-top:8em;
-  }
-  #outcomes-list{
-    line-height:30px;
-    list-style: none;;
-    padding:0;
-    width:90%
-  }
-  #gif-row-3-2{
-    display:grid;
-    grid-template-columns:1fr;
-    grid-gap:2em;
-    margin-top:8em;
+    margin-top:5em;
   }
 }
