@@ -8,10 +8,12 @@ body{
 }
 h1{
   font-size:44pt;
-  padding: 0 0 0 0;
+  padding: 0 0 2em 0;
+
 }
 h2{
   font-size:24pt;
+  padding:0 0 2em 0;
 }
 h3{
   font-size:20pt;
@@ -31,14 +33,17 @@ p{
   width:66.66%;
   margin:auto;
   margin-top:10em;
+  padding-bottom:10em;
 }
 .row{
-  margin-top:10em;
+  margin-top:20em;
+
 }
 .two-column{
   display:grid;
   grid-template-columns:1fr 1fr;
-  width:100%;
+  width:66.66%;
+  margin:auto;
   grid-gap:2em;
 }
 .two-row{
@@ -62,6 +67,10 @@ p{
   height:50vh;
 
 }
+/*-------------------- ROW 3 ------------------------*/
+#row-3-2-column{
+  width:100%;
+}
 /*-------------------- ROW 4 ------------------------*/
 .research-1{
   width:100%;
@@ -73,7 +82,42 @@ p{
   width:100%;
   height:80vh;
 }
-
+/*-------------------- ROW 6 ------------------------*/
+.hi-fi-1{
+  height:70vh;
+  border-radius:5%;
+}
+.hi-fi-1-p{
+  width:100%;
+}
+.hi-fi-1-info{
+  width:80%;
+  margin-top:5em;
+}
+#row-6-2-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+  grid-row-gap:10em;
+}
+#right-align{
+  text-align: right;
+  width:66.66%;
+  float:right;
+  width:100%;
+}
+#authentication-gif{
+  height:70vh;
+  border-radius:5%;
+}
+#row-6-2-column-2{
+}
+#authentication-list > li{
+  color:#9942ED;
+  line-height: 26px;
+  font-size:16pt;
+  list-style-type: circle;
+}
 
 
 
