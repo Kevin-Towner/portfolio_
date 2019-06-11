@@ -41,6 +41,13 @@ p{
   width:100%;
   grid-gap:2em;
 }
+.two-row{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows:1fr 1fr;
+  grid-gap:2em;
+  width:100%;
+}
 
 /*-------------------- ROW 2 ------------------------*/
 
@@ -62,7 +69,10 @@ p{
 }
 
 /*-------------------- ROW 5 ------------------------*/
-
+.low-fidelity-1{
+  width:100%;
+  height:80vh;
+}
 
 
 
