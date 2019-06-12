@@ -101,6 +101,9 @@ p{
   grid-template-rows:1fr 1fr 1fr;
   grid-row-gap:10em;
 }
+#row-6-2-column > div{
+  width:100%;
+}
 #right-align{
   text-align: right;
   width:66.66%;
