@@ -26,7 +26,7 @@ p{
 .container{
   display: grid;
   grid-template-columns: 1fr;
-  margin:auto;
+  margin:0 auto;
   width:100%;
 }
 .inner-container{
@@ -55,7 +55,9 @@ p{
 }
 
 /*-------------------- ROW 2 ------------------------*/
-
+#row-2-2-column{
+  width:100%;
+}
 #two-x-two{
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -65,7 +67,6 @@ p{
 #two-x-two > img{
   width:100%;
   height:50vh;
-
 }
 /*-------------------- ROW 3 ------------------------*/
 #row-3-2-column{
