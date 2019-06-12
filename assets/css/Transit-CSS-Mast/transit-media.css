@@ -5,7 +5,7 @@
     font-weight:bolder;
   }
   h2{
-    text-align: center;
+    /* text-align: center; */
     font-size:28pt;
     padding-bottom:1em;
   }
@@ -26,8 +26,7 @@
   }
   #row-6-2-column{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-row-gap:10em;
   }
   .hi-fi-1{

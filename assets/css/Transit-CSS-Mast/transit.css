@@ -42,9 +42,9 @@ p{
 .two-column{
   display:grid;
   grid-template-columns:1fr 1fr;
-  width:66.66%;
+  width:100%;
   margin:auto;
-  grid-gap:2em;
+  grid-gap:4em;
 }
 .two-row{
   display: grid;
@@ -85,8 +85,9 @@ p{
 }
 /*-------------------- ROW 6 ------------------------*/
 .hi-fi-1{
-  height:70vh;
+  height:50vh;
   border-radius:5%;
+  width:100%;
 }
 .hi-fi-1-p{
   width:100%;
@@ -98,18 +99,20 @@ p{
 #row-6-2-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr;
   grid-row-gap:10em;
 }
 #row-6-2-column > div{
   width:100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:1em;
 }
-#right-align{
+/* #right-align{
   text-align: right;
   width:66.66%;
   float:right;
   width:100%;
-}
+} */
 #authentication-gif{
   height:70vh;
   border-radius:5%;
