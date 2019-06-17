@@ -90,11 +90,17 @@ p{
   width:80%;
 }
 .hi-fi-1-p{
-  width:100%;
+  width:80%;
 }
 .hi-fi-1-info{
   width:80%;
   margin-top:5em;
+}
+#align-right{
+  text-align: right;
+}
+#float-right{
+  margin-left:2em
 }
 #row-6-2-column{
   display: grid;

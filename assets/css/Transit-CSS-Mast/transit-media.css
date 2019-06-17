@@ -32,4 +32,10 @@
   .hi-fi-1{
     height:50vh;
   }
+  #align-right{
+    text-align: right;
+  }
+  #float-right{
+    margin-left:0em;
+  }
 }
