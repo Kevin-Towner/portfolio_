@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Product Design Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500|Roboto:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Montserrat:900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
     <link rel ="stylesheet" type="text/css" href="../assets/css/Transit-CSS-Mast/transit.css">
     <link rel ="stylesheet" type="text/css" href="../assets/css/Transit-CSS-Mast/transit-media.css">
@@ -13,9 +13,7 @@
     <link rel ="stylesheet" type="text/css" href="../assets/css/Nav-CSS-Mast/navbar-media.css">
     <link rel ="stylesheet" type="text/css" href="../assets/css/Footer-CSS-Mast/footer.css">
     <link rel ="stylesheet" type="text/css" href="../assets/css/Footer-CSS-Mast/footer-media.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Body-Container-CSS/body.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Body-Container-CSS/body-media.css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 
 
@@ -29,124 +27,153 @@
 </head>
 <body>
   <nav class = "navbar">
-    <div id = "navbar-logo">
-      <img style = "margin-top:5%;" id = "logo" src = "../assets/images/portfolio-displays/logo.svg">
+    <div  id = "navbar-logo">
+      <a href = "index.html"><img id = "logo" src = "assets/images/portfolio-displays/logo.svg"></a>
     </div>
-    <div id = "navbar-links">
-      <ul>
-        <li>
-          <a href = "../index.html">Work/Home</a>
-        </li>
-        <li>
-          <a href="../about-me.html">About Me</a>
-        </li>
+    <div class="">
+      <ul id = "navbar-links">
+        <li><a class = "navigation-link" href = "../index.html">Home</a></li>
+        <li><a class = "navigation-link" href="../about-me.html">About Me</a></li>
       </ul>
     </div>
   </nav>
   <div class = "container">
-    <div class="inner-container">
-      <div id = "row-1" class="">
-        <h1>NJ Transit Mobile App - Redesign</h1>
-        <h2>Introduction</h2>
-        <p>Many would agree with the statement,<span style = "font-weight:bolder; color:#9942ED;"> "commuting via public transportation is less stressful than commuting by personal vehicle"</span>. Despite having more direct control over the route and speed, many commuters and travelers like public transportation. The ability to be productive on the train or to take a nap the bus are nice features of public transportation. Many experts also believe public transportation is more environmentally sustainable.
-        <br>
-      </p>
+    <div id = "splash">
+      <div class="row" id = "banner-row">
+        <h1>NJ Transit App (Native)</h1>
+        <h2 id = "sub-heading">NJ Transit functionality redesign</h2>
+        <div id = "banner-photo-background" banner-photo- class="">
+          <img id = "banner-photo" src="../assets/images/transit-displays/banner-photo.png" alt="Banner-Photo">
+        </div>
       </div>
-      <div id = "row-2" class="row">
-        <h2>The Challenge</h2>
-        <div id = "row-2-2-column" class = "two-column">
-          <div id="two-x-two">
-            <img class = "original-ui" src = "../assets/images/transit-displays/trip-plan-1.png" alt="original trip planning ui - 1">
-            <img class = "original-ui" src = "../assets/images/transit-displays/trip-plan-2.png" alt="original trip planning ui - 2">
-            <img class = "original-ui" src = "../assets/images/transit-displays/trip-plan-3.png" alt="original trip planning ui - 3">
-            <img class = "original-ui" src = "../assets/images/transit-displays/trip-plan-4.png" alt="original trip planning ui - 4">
+
+
+      <!-- <div class="spacer"></div> -->
+
+
+      <div class="row" id = "overview-row">
+        <h2>A Brief Overview</h2>
+        <div id="overview-container">
+          <div class="overview-container-third">
+            <h3>Timeframe</h3>
+            <ul>
+              <li>Iteration One - 1 month</li>
+              <li>Iteration Two - 1 week (ongoing)</li>
+            </ul>
+          </div>
+          <div class="overview-container-third">
+            <h3>My Role</h3>
+            <ul>
+              <li>UI Designer <span class = "bolden">(Sketch & Invision)</span></li>
+              <li>Researcher (qualitative interviewing)</li>
+              <li>UX Designer (Wireframing)</li>
+            </ul>
+          </div>
+          <div class="overview-container-third">
+            <h3>Completed?</h3>
+            <ul>
+              <li>Ongoing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="spacer"></div> -->
+
+
+      <div class="row" id = "introduction-row">
+        <div id = "introduction-background">
+          <h2>Introduction</h2>
+          <p>Upon signing up for a <span class = "paragraph-bold">UX Design</span> course at <span class = "paragraph-bold">Brainstation in New York City</span>, I wanted to gain a good understanding of my commute to the campus. I was not confident in my ability to navigate the city and/or city subway system without getting lost and I know others feel the same way I do.
+            <br>
+            <br>
+          I had already used the Mobile NJ Transit App in the past to purchase tickets, but I had never used the <span class = "paragraph-bold">Trip Planning functionality</span> because it doesn't have a lot to offer.</p>
+          <div id ="introduction-two-by-two">
+            <div class="">
+              <img src="../assets/images/transit-displays/trip-plan-1.png" alt="original-ui-1">
+            </div>
+            <div class="">
+              <img src=../assets/images/transit-displays/trip-plan-2.png alt="original-ui-2">
+            </div>
+            <div class="">
+              <img src=../assets/images/transit-displays/trip-plan-3.png alt="original-ui-3">
+            </div>
+            <div class="">
+              <img src=../assets/images/transit-displays/trip-plan-4.png alt="original-ui-4">
+            </div>
+          </div>
+          <sub class = "">NJ Transit's current user interface</sub>
+          <ul id = "objective-list">
+            <li><h3 style = "text-align:center;">Identifying Objectives</h3></li>
+            <li>
+              <ol style = "padding:0;">
+                <li style = "padding-bottom:15px;"> - Streamline the "Trip Planning" process from setting stations to assisting the users with commuting to their final destination</li>
+                <li> - Create a more modern interface which passively pushes users towards planning their trip</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" id = "original-idea-row">
+        <h2>Original Ideas (pre-research)</h2>
+        <p>Originally, I had thought about the idea of designing NJ Transit as a GPS-based application first. In many ways, this application would mirror something akin to Google Maps, or even Waze. Therefore, many of my research questions were heavily designed to obtain user insights on pre-existing applications which commuters use to get to and from NY / NJ.</p>
+        <div class = "two-by-one" id = "original-two-by-one">
+          <div class="">
+            <img src="../assets/images/transit-displays/low-fi-4.png" alt="original-low-fi-1">
           </div>
           <div class="">
-            <p id = "original-ui-p">
-              Nj Transit's mobile application has trip planning functionality, but there are many areas of opportunity to improve upon this function.<br><br>There are standard interactions and user inputs such as the buttons and forms. The application will respond to the user's parameters and give the available options (from the time the users finished their parameters).<br><br>Once, the users pick their options, they are shown a mini agenda, which includes the train fairs, the origin stations, and the destination stations.
-            </p>
+            <img src="../assets/images/transit-displays/low-fi-3.png" alt="original-low-fi-2">
           </div>
         </div>
+        <sub class = "">original wireframes illustrating a GPS interface as the homescreen</sub>
       </div>
-      <div class="row" id = "row-3">
-        <h2>Goal</h2>
-        <p id = "original-ui-p">
-          The goal is to develop a new user interface and add more functionality to the existing application.
-        </p>
-      </div>
-      <div id  = "row-4" class="row">
-        <h2>Research</h2>
-        <div id = "row-3-2-column" class = "two-column">
-          <div>
-            <img class = "research-1" src="../assets/images/transit-displays/qualitative-question-1.png" alt="">
-          </div>
-          <div>
-            <img class = "research-1" src="../assets/images/transit-displays/qualitative-question-2.png" alt="">
-          </div>
-          <div>
-            <img class = "research-1" src="../assets/images/transit-displays/qualitative-answers.png" alt="">
-          </div>
-          <div>
-            <img class = "research-1" src="../assets/images/transit-displays/qualitative-solution.png" alt="">
-          </div>
-        </div>
-      </div>
-      <div id  = "row-5" class="row">
-        <h2>Low Fidelity</h2>
-        <div id = "row-3-2-column" class = "two-row">
-          <div>
-            <img class = "low-fidelity-1" src="../assets/images/transit-displays/lofi-2.png" alt="low-fidelity wireframe">
-          </div>
-          <div>
-            <img class = "low-fidelity-1" src="../assets/images/transit-displays/lofi-1.png" alt="low-fidelity wireframe">
-          </div>
-        </div>
-      </div>
-      <div class = "row" id = "row-6">
-        <h2>High Fidelity</h2>
-        <!---AUTHENTICATION--->
-        <div id = "row-6-2-column" class = "two-column">
-          <div>
-            <img class = "hi-fi-1" src="../assets/images/transit-displays/auth.gif" alt="hi-fidelity">
-            <p class = "hi-fi-1-p">
-              The full authentication and login process for a new user
-            </p>
-          </div>
-          <div>
-            <p id = "align-right" class = "hi-fi-1-p">
-              Plans trip
-            </p>
-            <img id = "float-right" class = "hi-fi-1" src="../assets/images/transit-displays/full-standard.gif" alt="hi-fidelity">
-          </div>
-        </div>
-      </div>
-      <div id = "row-7" class="row">
+      <div class = "row" id = "research-row">
+        <div id="research-row-background">
+          <h2>Research</h2>
+          <div class="two-by-three">
+            <div class="research-row-row">
+              <div class="research-image-card">
+                <img class = "two-by-three-image"src="../assets/images/transit-displays/qualitative-question-1.png" alt="">
+                <sub style = "margin-top:5px;">Interview Questions and two interviewee responses.</sub>
+              </div>
+              <div class="">
+                <p class = "two-by-three-p">Qualitative Research was conducted via interviewing four select people who commute to and from New York City. The four people are comprised of two arcehtypes; <span class = "bolden">Millennials</span> & <span class = "bolden">Baby Boomers</span></p>
+              </div>
+            </div>
 
+            <!-- <div class="spacer"></div> -->
+
+            <div class="research-row-row">
+              <div class="">
+                <p class = "two-by-three-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ducimus! Sint impedit voluptatum, amet, dolorum eaque at officia officiis aspernatur porro voluptas mollitia assumenda aperiam esse, autem fuga temporibus asperiores voluptatibus ratione laborum iste doloribus ipsam. Laudantium unde, non reprehenderit.</p>
+              </div>
+                <div class="research-image-card">
+                  <img class = "two-by-three-image"src="../assets/images/transit-displays/qualitative-answers.png" alt="">
+                  <sub style = "margin-top:5px;">Interviewees' responses color coded and categorized by "motivations", "behaviors" and "pain-points."</sub>
+                </div>
+            </div>
+
+            <!-- <div class="spacer"></div> -->
+
+            <div class="research-row-row">
+              <div class="research-image-card">
+                <img class = "two-by-three-image"src="../assets/images/transit-displays/qualitative-solution.png" alt="">
+                <sub style = "margin-top:5px;">Brainstorm of design solutions to some of the common interviewee responses</sub>
+              </div>
+              <div class="">
+                <p class = "two-by-three-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ducimus! Sint impedit voluptatum, amet, dolorum eaque at officia officiis aspernatur porro voluptas mollitia assumenda aperiam esse, autem fuga temporibus asperiores voluptatibus ratione laborum iste doloribus ipsam. Laudantium unde, non reprehenderit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <footer id = "footer">
-      <ul>
-        <li>&copy Kevin Towner 2019</li>
-        <li>(c) 908-577-6666</li>
-        <li>kevintowner@gmail.com</li>
-      </ul>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/kevin-towner-b0960b96/">
-            <img src="https://img.icons8.com/android/24/000000/linkedin.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/k1mj0n61ll3st/">
-            <img src="https://img.icons8.com/metro/26/000000/instagram-new.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://dribbble.com/kev_tow">
-            <img src="https://img.icons8.com/windows/32/000000/dribbble.png">
-          </a>
-        </li>
-      </ul>
+  </div>
+  <footer id = "footer">
+    <ul>
+      <li>&copy Kevin Towner 2019</li>
+    </ul>
     </footer>
   </div>
 </body>

@@ -7,8 +7,8 @@
     <title>Product Design Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500|Roboto:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- <link rel ="stylesheet" type="text/css" href="assets/css/Land-CSS-Mast/land.css">
-    <link rel ="stylesheet" type="text/css" href="assets/css/Land-CSS-Mast/land-media.css"> -->
+    <link rel ="stylesheet" type="text/css" href="assets/css/Land-CSS-Mast/land.css">
+    <link rel ="stylesheet" type="text/css" href="assets/css/Land-CSS-Mast/land-media.css">
     <link rel ="stylesheet" type="text/css" href="assets/css/Nav-CSS-Mast/navbar.css">
     <link rel ="stylesheet" type="text/css" href="assets/css/Nav-CSS-Mast/navbar-media.css">
     <link rel ="stylesheet" type="text/css" href="assets/css/Footer-CSS-Mast/footer.css">
@@ -18,39 +18,69 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<style>
-		body{
-      background-color: #fff;
-			margin: 0;
-			padding:0;
-      background-image:url("https://steamuserimages-a.akamaihd.net/ugc/102855182612440410/CA0D03FD2C7438BE09B78909C47484A6B135A430/");
-      background-size: cover;
-      background-position: center;
-      height:100vh;
-      font-family: 'Heebo', sans-serif;
-		}
-    .heading{
-      display: flex;
-      flex-direction: column;
-      margin-left:10vw;
-      width:50%;
-    }
-    h1{
-      color:#fff;
-      margin-top:20%;
-    }
-    h2{
-      color:#fff;
-    }
-    a{
-      color:#EA4C89;
-    }
 	</style>
 
 </head>
 <body>
-  <div class="heading">
-    <h1>My website is currently undergoing maintenance and will be back up shortly</h1>
-    <h2>In the mean time, feel free to check out my <span><a href="https://dribbble.com/kev_tow">Dribbble</a> account</span></h2>
+  <nav class = "navbar">
+    <div  id = "navbar-logo">
+      <a href = "index.html"><img id = "logo" src = "assets/images/portfolio-displays/logo.svg"></a>
+    </div>
+    <div class="">
+      <ul id = "navbar-links">
+        <li><a class = "navigation-link" href = "index.html">Home</a></li>
+        <li><a class = "navigation-link" href="about-me.html">About Me</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class = "container">
+    <div id = "splash">
+      <div id = "banner" class = "single-column">
+        <div>
+          <ul id = "banner-ul">
+            <li>
+              <h1>My name is Kevin <br><br>I'm a UI/UX Designer living in New Jersey</h1>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id = "portfolio" class = "double-column">
+        <div class = "project">
+          <a class = "hover-box" href = "Projects/transit.html" target="_blank">
+            <img src="assets/images/portfolio-displays/NJ-Transit.png" alt="nj-transit">
+            <h3 class = "translate-box" id = "nj-h3"><span>NJ Transit Mobile App Redesign</span></h3>
+          </a>
+        </div>
+        <!-- <div class = "project">
+          <a class = "hover-box" href = "Projects/transit.html" target="_blank">
+            <img src="assets/images/portfolio-displays/NJ-Transit.png" alt="nj-transit">
+            <h3 class = "translate-box" id = "nj-h3"><span>NJ Transit Redesign (Iteration #2)</span></h3>
+          </a>
+        </div> -->
+      </div>
+    </div>
+    <footer id = "footer">
+      <ul>
+        <li>&copy Kevin Towner 2019</li>
+      </ul>
+      <!-- <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/kevin-towner-b0960b96/">
+            <img src="https://img.icons8.com/android/24/000000/linkedin.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/k1mj0n61ll3st/">
+            <img src="https://img.icons8.com/metro/26/000000/instagram-new.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://dribbble.com/kev_tow">
+            <img src="https://img.icons8.com/windows/32/000000/dribbble.png">
+          </a>
+        </li>
+      </ul> -->
+    </footer>
   </div>
 </body>
 </html>
