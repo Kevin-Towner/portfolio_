@@ -174,10 +174,6 @@ p{
   background-color: #E9E5EF;
   padding:5em 0 7em 0;
 }
-#research-row-background > p{
-  width:50%;
-  margin:auto;
-}
 #research-three-by-one > div > img{
   width:100%;
   height:50vh;
@@ -221,4 +217,23 @@ p{
 .research-image-card > sub{
   text-align: center;
   width:80%;
+}
+
+
+/*----------------------- Persona -----------------*/
+#persona-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:2em;
+  width:90%;
+  margin:auto;
+  padding:5em 0 7em 0;
+}
+.persona-row-column{
+  display: flex;
+  flex-direction: column;
+}
+.persona-row-column > img{
+  width:100%;
+  height:90vh;
 }
