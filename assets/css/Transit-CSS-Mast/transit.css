@@ -14,6 +14,7 @@ h1{
 h2{
   font-size:32pt;
   font-weight:bold;
+  padding-bottom:2em;
   font-family: 'Montserrat', sans-serif;
 }
 h3{
@@ -207,7 +208,8 @@ p{
   float:right;
 }
 .research-row-row:nth-child(2) > div > p{
-  float:left;
+  float:right;
+  margin-right:5em;
 }
 .research-row-row:nth-child(2) > div > img{
   float:left;
@@ -217,6 +219,6 @@ p{
   flex-direction: column;
 }
 .research-image-card > sub{
-  text-align: left;
-  width:66.66%;
+  text-align: center;
+  width:80%;
 }
