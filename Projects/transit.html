@@ -142,8 +142,6 @@
               </div>
             </div>
 
-            <!-- <div class="spacer"></div> -->
-
             <div class="research-row-row">
               <div class="">
                 <p class = "two-by-three-p">Analyzing the interviees' responses, I separated direct quotes and replies into three categories; <span class = "bolden">motivations</span>, <span class = "bolden"> behaviors</span> and <span class = "bolden">pain-points</span></p>
@@ -153,8 +151,6 @@
                   <sub style = "margin-top:5px;">Interviewees' responses color coded and categorized by "motivations", "behaviors" and "pain-points."</sub>
                 </div>
             </div>
-
-            <!-- <div class="spacer"></div> -->
 
             <div class="research-row-row">
               <div class="research-image-card">
@@ -190,20 +186,31 @@
       </div>
       <div class="row" id = "iteration-one-row">
         <div id="iteration-one-background">
-          <div id = "iteration-one-content">
+          <div id = "iteration-one-content-lofi">
             <h2>Iteration One - 03.2019</h2>
-            <p>
-              My first iteration of NJ Transit's redesign was scoped down to providing the user with a streamlined trip-planning process. The inputs the user would be provided with, on the home page, would be spelled out for them and displayed with three main call to actions. The user would go through the trip-planning phase, with inputs only becoming available based on whether the preceeding forms were filled. Certain forms could be left unfilled depending on specific user preferences (final destinations and ticket purchasing).
-            </p>
-            <div class = "two-by-one" id = "iteration-one-two-by-one">
-              <div class="">
-                <img src="../assets/images/transit-displays/lofi-1.png" alt="original-low-fi-1">
-              </div>
-              <div class="">
-                <img src="../assets/images/transit-displays/lofi-2.png" alt="original-low-fi-2">
+            <p>From the research I decided against my original, GPS-first, idea. I felt having the homescreen as a GPS interface would end up being counter intuitive to the app's main purpose. Having the homescreen or splash page serve as a location-based GPS would create a layer of complexity not intuitive to a wide range of ages.</p>
+            <h3>Low Fidelity Wireframes</h3>
+            <div class="">
+              <div class = "two-by-one" id = "iteration-one-row">
+                <div class="">
+                  <img src="../assets/images/transit-displays/lofi-1.png" alt="iteration-one-lofi">
+                  <sub style = "margin-top:5px;">Low Fidelity, Iteration One</sub>
+                </div>
+                <div class="">
+                  <img src="../assets/images/transit-displays/lofi-2.png" alt="iteration-one-lofi">
+                  <sub style = "margin-top:5px;"> Low Fidelity, Iteration One</sub>
+                </div>
               </div>
             </div>
+            <h3>New Objectives</h3>
+            <p>Updated objectives with high-level strategies towards designing the high-fidelity wireframe / prototype:</p>
+            <ul>
+              <li>Using CTA (Call to Action) elements, the interface will guide the user through clickable buttons and forms.</li>
+              <li>Allow the user to plan a trip without setting a final destination or purchasing tickets.</li>
+            </ul>
           </div>
+        </div>
+        <div class="">
         </div>
       </div>
     </div>
@@ -220,269 +227,3 @@
   <a href="https://icons8.com/icon/446/linkedin">LinkedIn icon by Icons8</a>
 </div>
 </html>
-
-
-
-
-
-
-
-
-
-<!-- <div id = "row-6-2-column" class = "two-column">
-  <div>
-    <img class = "hi-fi-1" src="../assets/images/transit-displays/login.png" alt="hi-fidelity">
-  </div>
-  <div>
-    <p class = "hi-fi-1-p">
-      The sign-in screen where the users can choose to enter his/her credentials or create an account.
-    </p>
-  </div>
-  <div>
-    <p class = "hi-fi-1-p" id = "right-align">
-      The login button as well as the forms change to a bright purple color to signify when the user can proceed to the next step.
-    </p>
-  </div>
-  <div>
-    <img class = "hi-fi-1" src="../assets/images/transit-displays/login-2.png" alt="hi-fidelity">
-  </div>
-  <div>
-    <img class = "hi-fi-1" src="../assets/images/transit-displays/authentication.gif" alt="hi-fidelity">
-  </div>
-  <div>
-    <p class = "hi-fi-1-p">
-      The full authentication process of a new user.
-    </p>
-    <ul id = "authentication-list">
-      <li>user email</li>
-      <li>user password & password confirmation</li>
-      <li>user login</li>
-    </ul>
-  </div>
-</div> -->
-
-
-
-
-<!-- <!doctype html>
-<html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Product Design Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Transit-CSS-Mast/transit.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Transit-CSS-Mast/transit-media.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Nav-CSS-Mast/navbar.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Nav-CSS-Mast/navbar-media.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Footer-CSS-Mast/footer.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Footer-CSS-Mast/footer-media.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Body-Container-CSS/body.css">
-    <link rel ="stylesheet" type="text/css" href="../assets/css/Body-Container-CSS/body-media.css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
-
-
-  <style>
-    body{
-      margin: 0;
-      padding:0;
-      font-family: 'Roboto', sans-serif;
-    }
-    .container{
-      display: grid;
-      grid-template-columns: 1fr;
-      width:100vw;
-      margin:auto;
-    }
-
-
-
-  </style>
-</head>
-<body>
-  <nav class = "navbar">
-    <div id = "navbar-logo">
-      <img style = "margin-top:5%;" id = "logo" src = "../assets/images/portfolio-displays/logo.svg">
-    </div>
-    <div id = "navbar-links">
-      <ul>
-        <li>
-          <a href = "../index.html">Work/Home</a>
-        </li>
-        <li>
-          <a href="../about-me.html">About Me</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class = "container">
-    <div id = "content">
-     	<div id = "row-1" class = "row">
-	        <h1>NJ Transit Mobile App Functionality Overhaul</h1>
-	        <img id = "transit-logo" src="../assets/images/transit-displays/logo.svg" alt="NEW-njTransit-Logo">
-      	</div>
-    	<div id = "row-2" class = "row">
-        	<div>
-          		<h2>Introduction</h2>
-        	</div>
-        	<div>
-        		<p class = "paragraph">
-		            It is widely known that commuting via public transportation is one of the least stressful ways of travel. Despite having control over more variables when using a personal vehicle, driving may be the most stressful form of travel. Using public transportation is also thought of as being more environmentally sustainable and better for the environment.
-		            <br>
-		            <br>
-		            If using public transportation is less stressful, why are so many transit app UIs not reflective of this stress-free commutting process? When using the NJ Transit App I am able to buy tickets, view schedules and plan a trip. However, these are all separate processes and do not allow the user to streamline a true "Trip Planning" process.
-	          	</p>
-			    </div>
-			  <ul id = "technologies-outer-list">
-				<li>
-					<h3>Tools/Technologies:</h3>
-				</li>
-				<li>
-					<ul id = "technologies-inner-list" style = "display:inline-flex;">
-						<li>
-							<img class = "tech-logo" src="../assets/images/logo-images/sketch-logo.png" alt="sketch-logo">
-						</li>
-						<li>
-							<img class = "tech-logo" src="../assets/images/logo-images/invision-logo.png" alt="invision-logo">
-						</li>
-						<li>
-							<img class = "tech-logo" src="../assets/images/logo-images/html-logo.png" alt="html-logo">
-						</li>
-						<li>
-							<img class = "tech-logo" src="../assets/images/logo-images/css-logo.png" alt="css-logo">
-						</li>
-					</ul>
-				</li>
-			</ul>
-  		</div>
-    	<div id = "row-3" class = "row">
-			<h2>Research, Qualitative Analysis & Personas</h2>
-			<h3>Conduct Interviews</h3>
-			<p class = "paragraph">I chose to interview four participants for my qualitative research. The participants comprise of 2 separate archetypes (Millennial &amp Boomer) and were chosen to illustrate a wide group of NJ-Transit users. The questions asked were designed to guage the way the NJ-Transit users view commuting to and from New York City via NJ-Transit ( RAIL ). Also, the questions were designed to gain opinions on GPS/Navigation applications and how they assist the user in their travels. As the role of the researcher, I wanted to know how the users feel when using public transportation, the stressors they encounter and other UIs the they may use to assist them where the current NJ-Transit App cannot.   </p>
-			<div id="row-3-columns-1">
-				<img class = "qualitative-results" src="../assets/images/transit-displays/qualitative-question-1.png" alt=" qualitative-results-1">
-				<img class = "qualitative-results" src="../assets/images/transit-displays/qualitative-question-2.png" alt=" qualitative-results-2">
-			</div>
-			<br>
-			<h3>Gather & Categorize Results</h3>
-			<p class = "paragraph">Identifying motivations, behaviors and pain-points; I color-coded the participant responses and recorded them in a separate list to identify the (above) types of statements.  </p>
-			<div id = "row-3-columns-2">
-				<img class = "qualitative-answers" src="../assets/images/transit-displays/qualitative-answers.png" alt="qualitative-answers">
-			</div>
-			<br>
-			<h3>Considerations for Improvement</h3>
-			<p class = "paragraph">Identifying motivations, behaviors and pain-points; I color-coded the participant responses and recorded them in a separate list to identify the (above) types of statements.  </p>
-			<div id = "row-3-columns-3">
-				<img class = "qualitative-answers" src="../assets/images/transit-displays/qualitative-solution.png" alt="qualitative-solution">
-			</div>
-			<br>
-			<h3>Key Findings</h3>
-			<p class = "paragraph">
-				The Millennial archetypes don't encounter as much difficulty when using public transportation. If they do happen to get lost, they don't seem to mind because they rely on their smart devices and/or GoogleMaps for assistance. Some features of GPS-based applications the Millennials enjoy are historic traffic patterns, traffic alerts and user feedback.
-				<br>
-				The Baby-Boomer archetypes are more likely to use their smart-devices for assistance via Uber. It's important to note that many Baby-Boomers aren't commuting to NYC for work as many are retired or simply go to the city for events and shows. With this in mind, taking an Uber is fairly straight-forward and leaves no desire to take the NYC subway.
-			</p>
-    		<h3>Personas</h3>
-      		<div id ="row-3-columns-4">
-				<div>
-					<img class="persona" src="../assets/images/transit-displays/persona-1.png" alt="persona-one">
-				</div>
-				<div>
-					<img class="persona" src="../assets/images/transit-displays/persona-2.png" alt="persona-two">
-				</div>
-			</div>
-    	</div>
-		<div id="row-4" class = "row">
-			<h2>Low-Fidelity Wireframes</h2>
-			<p class = "paragraph">The samples of the low-fidelity wireframes and information architecture show the concept of turning the NJ-Transit Application into a GPS-first application. With the landing page showing the user's current location within a map, the user will get a sense of reliability from knowing he or she will always know where he or she is. </p>
-			<div id = "row-4-columns-1">
-				<img class = "low-fi" src="../assets/images/transit-displays/low-fi-1.png" alt="information architecture">
-				<img class = "low-fi" src="../assets/images/transit-displays/low-fi-2.png" alt="wireframe">
-			</div>
-	  	</div>
-		<div id="row-5" class = "row">
-			<h2>Solution: "Plan Trip"</h2>
-			<p class = "paragraph">Upon thinking about the possible pros and cons of redesigning the app a GPS-forward service, I decided to shift my original concept. Instead, I provide a standard home-page with the 3 most standard services the app provides. Of these 3 services, the "Plan Trip" button will provide the user with everything the other 2 services does, and more.<br><br> Below will highlight the experience the typical user will go through with the changes I have made to NJ Transit's mobile app. </p>
-    		<div id = "gif-row-1">
-    			<div>
-					<h3>Katrina Creates an Account and Logs into NJ-Transit</h3>
-					<img class = "gif-uno"src = "../assets/images/transit-displays/authentication.gif">
-        		</div>
-				<div>
-					<h3>Katrina sets her origin and destination station</h3>
-					<img class = "gif-uno"src = "../assets/images/transit-displays/destination-a.gif">
-        		</div>
-				<div>
-					<h3>Katrina sets her final destination station and activates ticket</h3>
-					<img class = "gif-uno"src = "../assets/images/transit-displays/destination-b.gif">
-        		</div>
-      		</div>
-			<div id = "gif-row-2">
-				<div>
-					<h3>Finally...</h3>
-					<p class = "paragraph">Katrina is able to activate her ticket once she has made the purchase. Upon arriviving at her destination station, which is NY Penn Station, she will receive a notification with which will also be visible to her once she opens the app. From there, she will press the "Plan Trip" button and will be given the direction to her final destination via GPS navigation / Google-maps<br><br>Note: if she decides to exit out of the GPS map view, she will be able to access her current trip and pick up where she left off by pressing "Plan Trip". She will have an option to continue on her trip or start a new trip.</p>
-				</div>
-				<div>
-					<img class = "gif-uno"src = "../assets/images/transit-displays/gps.gif">
-				</div>
-			</div>
-			<div id = "gif-row-3">
-				<p class = "paragraph">Provided below are the full user-flows in separate high-fidelity prototypes. There are three possible outcomes which I accounted for:</p>
-				<ul id = "outcomes-list">
-					<li>The user plans his/her trip via setting an origin station, destination station, buys tickets and setting a final destination</li>
-					<li>The user plans his/er trip via setting an origin station, destination station, DOES NOT buy tickets, and setting a final destination</li>
-					<li>The user plans his/her trip via setting an origin station, destination station, buys tickets and DOES NOT set a final destination</li>
-				</ul>
-				<div id = "gif-row-3-2">
-					<div>
-						<h3>User Flow - Standard</h3>
-						<img class = "gif-uno"src = "../assets/images/transit-displays/gps.gif">
-					</div>
-					<div>
-						<h3>User Flow - No Final Destination </h3>
-						<img class = "gif-uno"src = "../assets/images/transit-displays/full-no-dest-B.gif">
-					</div>
-					<div>
-						<h3>User Flow - No Ticket</h3>
-						<img class = "gif-uno"src = "../assets/images/transit-displays/full-no-ticket.gif">
-					</div>
-				</div>
-			</div>
-		</div>
-    </div>
-    <footer id = "footer">
-      <ul>
-        <li>&copy Kevin Towner 2019</li>
-        <li>(c) 908-577-6666</li>
-        <li>kevintowner@gmail.com</li>
-      </ul>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/kevin-towner-b0960b96/">
-            <img src="https://img.icons8.com/android/24/000000/linkedin.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/k1mj0n61ll3st/">
-            <img src="https://img.icons8.com/metro/26/000000/instagram-new.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://dribbble.com/kev_tow">
-            <img src="https://img.icons8.com/windows/32/000000/dribbble.png">
-          </a>
-        </li>
-      </ul>
-    </footer>
-  </div>
-</body>
-<div style = "display:none;" class="">
-  <a href="https://icons8.com/icon/48841/instagram">Instagram icon by Icons8</a>
-  <a href="https://icons8.com/icon/446/linkedin">LinkedIn icon by Icons8</a>
-</div>
-</html> -->

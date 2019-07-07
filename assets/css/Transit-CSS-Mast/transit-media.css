@@ -97,7 +97,6 @@
     padding:5em 0 7em 0;
   }
   #research-row-background > p{
-
     margin:auto;
   }
   #research-three-by-one > div > img{
@@ -133,7 +132,7 @@
     /* flex-direction:column-reverse; */
   }
   .research-row-row:nth-child(n+2){
-    margin-top:5em;
+    margin-top:1em;
   }
   .research-row-row:nth-child(2) > div > p{
     float:left;
@@ -162,11 +161,15 @@
   }
   /*----------------- Iteration One ------------------*/
   #iteration-one-row{
-    width:90vw;
     margin:auto;
   }
-  #iteration-one-two-by-one > div > img{
+  #iteration-one-content-lofi{
+    width:90%;
+    margin:auto;
+  }
+  #iteration-one-row > div > img{
     width:100%;
     height:40vh;
+    margin-top:1em;
   }
 }
