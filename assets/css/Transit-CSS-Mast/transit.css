@@ -198,7 +198,7 @@ p{
   float:left;
 }
 .research-row-row:nth-child(n+2){
-  margin-top:10em;
+  margin-top:20em;
 }
 
 .research-row-row:nth-child(2){
@@ -238,4 +238,24 @@ p{
   width:100%;
   height:70vh;
   margin-top:4em;
+}
+
+/*----------------- Iteration One ------------------*/
+#iteration-one-background{
+  width:100%;
+  height:110vh;
+  margin:auto;
+  background-color: #E9E5EF;
+  padding:5em 0 7em 0;
+}
+#iteration-one-row{
+  width:100%;
+}
+#iteration-one-content{
+  width:50%;
+  margin:auto;
+}
+#iteration-one-two-by-one > div > img{
+  width:100%;
+  height:60vh;
 }
