@@ -92,60 +92,20 @@
 
 
   /*--------------- research ---------*/
-  #research-row > div .spacer{
-    display: none;
+  .research-text{
+    text-align: center;
   }
-  #research-row-background{
-    background-color: #E9E5EF;
-    padding:5em 0 7em 0;
+  .research-text > ul > li{
+    text-align: left;
   }
-  #research-row-background > p{
-    margin:auto;
+  #research-grid{
+    grid-template-columns:1fr;
   }
-  #research-three-by-one > div > img{
-    width:100%;
-    height:40vh;
-  }
-  .research-row-row{
-    display: flex;
-    flex-direction:column;
-    height:80vh;
-  }
-  .research-row-row:nth-child(odd){
-    flex-direction:column-reverse;
-    height:80vh;
-  }
-  .research-row-row > div{
-    width:100%;
-    margin:auto;
-  }
-  .two-by-three-image{
-    width:100%;
-    height:100%;
-    float:left;
-    border-radius:10px;
+  #research-grid > img{
     height:50vh;
   }
-  .two-by-three-p{
-    width:100%;
-    float:left;
-    margin-top:0em;
-  }
-  .research-row-row:nth-child(odd){
-    /* flex-direction:column-reverse; */
-  }
-  .research-row-row:nth-child(n+2){
-    margin-top:1em;
-  }
-  .research-row-row:nth-child(2) > div > p{
-    float:left;
-  }
-  .research-row-row:nth-child(2) > div > img{
-    float:left;
-  }
-  .research-image-card > sub{
-    text-align: left;
-    width:100%;
+  #research-grid > img:nth-child(2){
+    margin-bottom:-10em;
   }
 
   /*----------- persona row -------------*/
@@ -163,30 +123,28 @@
     margin-top:0em;
   }
   /*----------------- Iteration One ------------------*/
-  #iteration-one-row{
-    margin:auto;
-  }
-  #iteration-one-content-lofi{
+  .iteration-one-list{
     width:90%;
+  }
+  .margin-top-5{
+    margin-top:5em;
+  }
+  #iteration-one-background > p{
+    width:90%;
+  }
+  #iteration-one-prototype-1{
+    width:85%;
     margin:auto;
-  }
-  #iteration-one-row > div > img{
-    width:100%;
-    height:40vh;
-    margin-top:1em;
-  }
-  .three-by-two{
     display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width:90%;
-    margin:auto;
+    grid-template-columns: 1fr;
     grid-gap:2em;
   }
-  #iteration-one-content-hifi >  div > p{
+  #iteration-one-full{
+    height:68vh;
     width:90%;
-    margin:auto;
-    text-align:left;
-    padding-bottom:2em;
+  }
+  #iteration-one-full-ul{
+    width:90%;
+    float:right;
   }
 }

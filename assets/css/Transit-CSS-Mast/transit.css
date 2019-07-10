@@ -13,18 +13,18 @@ h1{
 }
 h2{
   font-size:32pt;
-  font-weight:bold;
   font-family: 'Montserrat', sans-serif;
-  padding-bottom:2.5em;
+
 }
 h3{
   font-size:20pt;
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p{
   line-height:25px;
-  font-size:16pt;
+  font-size:12pt;
   font-weight: lighter;
   text-align: left;
 }
@@ -44,7 +44,7 @@ p{
 
 .paragraph-bold{
   font-weight: bolder;
-  font-size: 16pt;
+  font-size: 12pt;
 }
 .two-by-one{
   width:100%;
@@ -54,21 +54,7 @@ p{
   grid-gap:2em;
   margin-top:2em;
 }
-.two-by-three{
-  width:85%;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin:auto;
-}
-.three-by-two{
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width:85%;
-  margin:auto;
-  grid-gap:2em;
 
-}
 .bolden{
   font-weight:bold;
 }
@@ -87,7 +73,7 @@ p{
 }
 #sub-heading{
   margin-bottom:5em;
-  font-size:16pt;
+  font-size:12pt;
   font-weight:lighter;
   font-family: 'Heebo', sans-serif;
   padding-bottom:5em;
@@ -127,7 +113,7 @@ p{
 }
 .overview-container-third > ul > li{
   padding-bottom:15px;
-  font-size:16pt;
+  font-size:12pt;
 }
 
 /*----------------------- introduction -------------*/
@@ -136,24 +122,24 @@ p{
   padding:3.5em 0 7em 0;
 }
 #introduction-background > p{
-  width:50%;
   margin:auto;
+  width:50%;
+}
+#introduction-background > ol{
+  width:50%;
+  list-style-type:decimal;
+  text-align: left;
+  margin:auto;
+  line-height: 25px;
 }
 
-#introduction-two-by-two{
-  width:50%;
-  display: grid;
-  margin:auto;
-  grid-template-columns: 1fr 1fr;
-  grid-gap:2em;
-  margin-top:2em;
-}
 #introduction-two-by-two > div > img{
-  width:100%;
+  width:90%;
   height:68vh;
+  margin:auto;
 }
 #objective-list{
-  width:50%;
+  width:66%;
   margin:auto;
   text-align: left;
   margin-top:5em;
@@ -177,60 +163,27 @@ p{
 }
 
 /*----------------------- research -----------------*/
+.research-text{
+  text-align:left;
+}
 #research-row{
-  width:100%;
+  width:85%;
   margin:auto;
 }
 #research-row-background{
-  background-color: #E9E5EF;
-  padding:3.5em 0 7em 0;
 }
-#research-three-by-one > div > img{
+#research-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  margin-top:5em;
+  grid-gap:2em;
+}
+#research-grid > img{
   width:100%;
-  height:50vh;
-}
-.research-row-row{
-  display: flex;
-  flex-direction: row;
   height:60vh;
 }
-.research-row-row > div{
-  width:50%;
-}
-.two-by-three-image{
-  width:85%;
-  height:80%;
-  /* float:left; */
-  /* border-radius:10px; */
-  height:60vh;
-}
-.two-by-three-p{
-  width:90%;
-  margin:0;
-  float:right;
-}
-.research-row-row:nth-child(2) > div > p{
-  float:left;
-}
-.research-row-row:nth-child(n+2){
-  margin-top:10em;
-}
 
-.research-row-row:nth-child(2) > div > p{
-  width:-10%;
-
-}
-.research-row-row:nth-child(2) > div > img{
-
-}
-.research-image-card{
-  display: flex;
-  flex-direction: column;
-}
-.research-image-card > sub{
-  text-align: center;
-  width:80%;
-}
 
 
 /*----------------------- Persona -----------------*/
@@ -254,7 +207,16 @@ p{
 
 /*----------------- Iteration One ------------------*/
 
-
+.iteration-one-list{
+  line-height:25px;
+  text-align:left;
+  width:30%;
+  margin:auto;
+  list-style-type:disc;
+}
+.margin-top-5{
+  margin-top:5em;
+}
 #iteration-one-background{
   width:100%;
   margin:auto;
@@ -262,41 +224,27 @@ p{
   padding:3.5em 0 7em 0;
   text-align: center;
 }
-#iteration-one-content-lofi > ul > li:nth-child(2){
-  padding-top:25px;
-}
-#iteration-one-content-lofi > ul > li{
-  font-size:16pt;
-}
-#iteration-one-row{
-  text-align: left;
-  line-height: 25px;
-}
-
-#iteration-one-content-lofi{
+#iteration-one-background > p{
   width:50%;
   margin:auto;
 }
-#iteration-one-content-lofi > p{
-
+#iteration-one-prototype-1{
+  width:85%;
+  margin:auto;
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  grid-gap:2em;
 }
-.push-top-2-5{
-  padding-top:2.5em;
-  /* border-bottom:1px solid #000; */
-  padding-bottom:2.5em;
+#iteration-one-prototype-1 > div:nth-child(2) > ul{
+  text-align: left;
+  line-height: 25px;
+  list-style-type:disc;
 }
-.push-bottom-2-5{
-  padding-bottom:2.5em;
+#iteration-one-full{
+  height:68vh;
+  width:90%;
 }
-#iteration-one-row > div > img{
-  width:100%;
-  height:60vh;
-}
-
-#iteration-one-content-hifi >  div > p{
-  text-align:center;
-}
-.three-by-two > div > img{
-  width:100%;
-  height:33.33%;
+#iteration-one-full-ul{
+  width:75%;
+  float:left;
 }
