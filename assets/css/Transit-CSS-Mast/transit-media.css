@@ -133,18 +133,18 @@
     width:90%;
   }
   #iteration-one-prototype-1{
-    width:85%;
+    width:100%;
     margin:auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap:2em;
   }
-  #iteration-one-full{
-    height:68vh;
+  #iteration-one-prototype-1 > div:nth-child(2) > p{
     width:90%;
+    margin:auto;
   }
-  #iteration-one-full-ul{
+  #iteration-one-full{
+    height:80vh;
     width:90%;
-    float:right;
   }
 }

@@ -57,6 +57,7 @@ p{
 
 .bolden{
   font-weight:bold;
+  font-size:13pt;
 }
 
 #splash{
@@ -243,8 +244,4 @@ p{
 #iteration-one-full{
   height:68vh;
   width:90%;
-}
-#iteration-one-full-ul{
-  width:75%;
-  float:left;
 }
