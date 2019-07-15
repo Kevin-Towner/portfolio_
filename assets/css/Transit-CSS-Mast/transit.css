@@ -199,6 +199,7 @@ p{
 .persona-row-column{
   display: flex;
   flex-direction: column;
+  margin-top:2em;
 }
 .persona-row-column > img{
   width:100%;
@@ -232,11 +233,12 @@ p{
 #iteration-one-prototype-1{
   width:85%;
   margin:auto;
+  padding-top:1em;
   display: grid;
-  grid-template-columns: .5fr 1fr;
+  grid-template-columns: 1fr .5fr;
   grid-gap:2em;
 }
-#iteration-one-prototype-1 > div:nth-child(2) > ul{
+#iteration-one-prototype-1 > div:nth-child(1) > ul{
   text-align: left;
   line-height: 25px;
   list-style-type:disc;
@@ -244,4 +246,25 @@ p{
 #iteration-one-full{
   height:68vh;
   width:90%;
+}
+
+
+/*----------------- Takeaways ------------------*/
+#improvements-row-background{
+  width:100%;
+  margin:auto;
+  background-color: #E9E5EF;
+  padding:3.5em 0 7em 0;
+}
+#improvements-row-content{
+  margin-top:5em;
+}
+#improvements-row-content > div:nth-child(1){
+  
+}
+#testee-image{
+  width:50vw;
+  height:66vh;
+  margin-top:2.5em;
+  margin:auto;
 }
