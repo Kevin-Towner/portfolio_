@@ -57,7 +57,7 @@ p{
 
 .bolden{
   font-weight:bold;
-  font-size:13pt;
+  font-size:12pt;
 }
 
 #splash{
@@ -256,15 +256,30 @@ p{
   background-color: #E9E5EF;
   padding:3.5em 0 7em 0;
 }
-#improvements-row-content{
-  margin-top:5em;
-}
-#improvements-row-content > div:nth-child(1){
-  
-}
 #testee-image{
   width:50vw;
   height:66vh;
   margin-top:2.5em;
   margin:auto;
+}
+#improvements-row-content{
+  margin-top:5em;
+}
+#improvements-row-content > div:nth-child(2){
+  width:50%;
+  margin:auto;
+  margin-top:5em;
+}
+#improvements-row-content > div:nth-child(2) > ul{
+  list-style-type: disc;
+  text-align: left;
+  line-height: 25px;
+}
+/*----------------- Iteration 2 High fidelity ------------------*/
+#iteration-2-high-fidelities > div:nth-child(2){
+  width:100%;
+  margin:auto;
+}
+#iteration-2-high-fidelities > div:nth-child(2) > img{
+  width:85%;;
 }

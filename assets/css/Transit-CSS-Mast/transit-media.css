@@ -166,4 +166,25 @@
     height:90vh;
     width:90%;
   }
+  /*----------------- Takeaways ------------------*/
+  #improvements-row-background{
+
+  }
+  #improvements-row-content{
+    margin-top:5em;
+  }
+  #improvements-row-content > div:nth-child(1){
+
+  }
+  #improvements-row-content > div:nth-child(2){
+    width:90%;
+    margin:auto;
+    margin-top:2.5em;
+  }
+  #testee-image{
+    width:90vw;
+    height:66vh;
+    margin-top:2.5em;
+    margin:auto;
+  }
 }
