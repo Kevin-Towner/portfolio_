@@ -187,4 +187,12 @@
     margin-top:2.5em;
     margin:auto;
   }
+
+  /*----------------- CURRENT STATUS --------------------------*/
+  #current-status-background > div:nth-child(2) > p{
+    width:90%;
+  }
+  #current-status-list{
+    width:90%;
+  }
 }

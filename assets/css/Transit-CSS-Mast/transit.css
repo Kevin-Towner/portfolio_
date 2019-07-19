@@ -212,7 +212,7 @@ p{
 .iteration-one-list{
   line-height:25px;
   text-align:left;
-  width:30%;
+  width:50%;
   margin:auto;
   list-style-type:disc;
 }
@@ -276,10 +276,35 @@ p{
   line-height: 25px;
 }
 /*----------------- Iteration 2 High fidelity ------------------*/
+#iteration-2-high-fidelities > div:nth-child(1) > h3{
+  padding-bottom:2.5em;
+}
 #iteration-2-high-fidelities > div:nth-child(2){
   width:100%;
   margin:auto;
 }
 #iteration-2-high-fidelities > div:nth-child(2) > img{
-  width:85%;;
+  width:90%;
+}
+
+/*----------------- CURRENT STATUS --------------------------*/
+#current-status-background{
+  width:100%;
+  margin:auto;
+  background-color: #E9E5EF;
+  padding:3.5em 0 7em 0;
+}
+#current-status-background > div:nth-child(2) > p{
+  width:50%;
+  margin:auto;
+}
+#current-status-h3{
+  margin-top:2.5em;
+}
+#current-status-list{
+  line-height:25px;
+  text-align:left;
+  width:50%;
+  margin:auto;
+  list-style-type:disc;
 }
