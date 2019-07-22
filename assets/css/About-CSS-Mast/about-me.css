@@ -3,6 +3,28 @@ body{
   margin: 0;
   padding:0;
 }
+h1{
+  font-size:24pt;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-bottom:1em;
+}
+
+p{
+  width:100%;
+  line-height:25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:auto;
+  font-size: 16pt;
+}
+h2{
+  font-size:20pt;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-bottom:1em;
+}
 .container{
   display: grid;
   grid-template-columns: 1fr;
@@ -25,7 +47,26 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:4em;
-  padding-bottom:2em;
+}
+.row-3{
+  display: grid;
+  grid-template-columns:1fr;
+  padding-bottom:5em;
+  margin-top:5em;
+}
+.row-3 > ul{
+  display: inline-flex;
+  margin:auto;
+  padding:0;
+}
+.row-3 > ul > li{
+padding:0 20px 0 20px;
+}
+.row-3 > ul > li > a > img{
+  opacity:1;
+}
+.row-3 > ul > li > a > img:hover{
+  opacity:.6;
 }
 .bolden{
   font-weight:bold;
@@ -43,17 +84,6 @@ body{
   height:50vh;
   max-height: 50vh;
 }
-h1{
-  font-size:24pt;
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  padding-bottom:1em;
-}
-p{
-  width:100%;
-  line-height:25px;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin:auto;
-  font-size: 16pt;
+#h-1{
+  margin-top:5em;
 }
