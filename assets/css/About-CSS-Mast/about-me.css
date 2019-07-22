@@ -25,6 +25,7 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:4em;
+  padding-bottom:2em;
 }
 .bolden{
   font-weight:bold;
