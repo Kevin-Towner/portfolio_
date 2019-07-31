@@ -21,7 +21,12 @@
   .row-2{
     grid-template-columns: 1fr;
     grid-gap:1em;
+    margin-top:0em;
   }
+  .row-3{
+    margin-top:0em;
+  }
+
   .bolden{
     font-weight:bold;
     font-size:16pt;

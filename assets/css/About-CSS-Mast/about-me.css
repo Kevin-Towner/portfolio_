@@ -19,7 +19,7 @@ p{
   font-size: 16pt;
 }
 h2{
-  font-size:20pt;
+  font-size:24pt;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -47,6 +47,7 @@ h2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:4em;
+  margin-top:2em;
 }
 .row-3{
   display: grid;
