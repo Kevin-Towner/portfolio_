@@ -51,8 +51,7 @@ body{
 #portfolio{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap:5em;
-  width:90%;
+  width:100%;
   margin:auto;
   margin-top:4em;
   margin-bottom:8em;
@@ -65,8 +64,8 @@ body{
 }
 .hover-box > img{
   width:100%;
-  min-height: 70vh;
-  max-height: 70vh;
+  min-height: 80vh;
+  max-height: 80vh;
 }
 .hover-box > h3{
   position:absolute;
