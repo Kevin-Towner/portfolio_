@@ -1,0 +1,68 @@
+@media only screen and (max-width: 500px){
+
+/* ~~~~~~~~~~~~~~~~~~~~~ GENERAL ~~~~~~~~~~~~~~~~~~~~~ */
+  h1{
+    font-size:28pt;
+  }
+  h2{
+    font-size:28pt;
+  }
+  p{
+    font-size:16pt;
+  }
+  span{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16pt;
+  }
+
+  .unordered-list{
+    font-size:16pt;
+    font-weight: lighter;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */
+  #header-image{
+    height:50vh;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~ Row-Introduction ~~~~~~~~~~~~~~~~~~~~~ */
+  #introduction-content{
+    width:90%;
+    margin:auto;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~ Row-Research ~~~~~~~~~~~~~~~~~~~~~ */
+  #research-content{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap:5em;
+    width:90%;
+    margin:Auto;
+  }
+  .research-sub-row{
+    display: flex;
+    flex-direction: column-reverse;
+    margin:auto;
+    width:100%;
+  }
+  #research-sub-row-2{
+    flex-direction: column;
+  }
+  .research-sub-row > div{
+    width:100%;
+  }
+  #research-sub-row-p-1{
+    width:100%;
+  }
+  #research-sub-row-p-2{
+    width:100%;
+  }
+  #research-img-1{
+    width:100%;
+  }
+  #research-img-2{
+    width:100%;
+  }
+  .research-img{
+    width:100%;
+    height:50vh;
+  }
+}

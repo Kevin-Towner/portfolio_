@@ -1,0 +1,149 @@
+/* ~~~~~~~~~~~~~~~~~~~~~ GENERAL ~~~~~~~~~~~~~~~~~~~~~ */
+
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Heebo', sans-serif;
+  background-color:#fafafa;
+  color:#2E2E2E;
+}
+h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:32pt;
+  margin-top:25vh;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:32pt;
+  text-align: center;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:12.5pt;
+  line-height: 22.5px;
+  color:#000;
+}
+span{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:12.5pt;
+  color:#000;
+}
+.bold{
+  font-weight:bolder;
+}
+.row{
+  padding:3em 0 3em 0;
+}
+.casestudy-content{
+  display: grid;
+  grid-template-columns: 1fr;
+  width:100%;
+}
+.unordered-list{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:12pt;
+  font-weight: bold;
+  list-style-type:circle;
+}
+.unordered-list > li{
+  padding-bottom:7.5px;
+  line-height:22.5px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */
+#row-header{
+}
+#header-image{
+  width:100vw;
+  height:100vh;
+}
+#subheader{
+  text-align: center;
+  padding-bottom:25vh;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~ Row-Overview ~~~~~~~~~~~~~~~~~~~~~ */
+#row-overview{
+  padding:25vh 0 25vh 0;
+}
+#overview-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width:80%;
+  margin:auto;
+}
+.overview_container-third-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:16pt;
+}
+.overview_container-third-content > ul{
+  padding:0;
+}
+.overview_container-third-content > ul > li{
+  padding-bottom:7.5px;
+}
+.overview_container-third-content > h3{
+  font-weight:bolder;
+}
+.overview_container-third:nth-child(1) > .overview_container-third-content{
+  float:left;
+}
+.overview_container-third:nth-child(3) > .overview_container-third-content{
+  float:right;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ Row-Introduction ~~~~~~~~~~~~~~~~~~~~~ */
+#row-introduction{
+  background-color:#E9E5EF;
+}
+#introduction-content{
+  width:50%;
+  margin:auto;
+}
+#introduction-content > p{
+  border-bottom:1px solid black;
+  padding-bottom:2em;
+}
+#introduction-content > ul{
+  margin-top:2em;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~ Row-Research ~~~~~~~~~~~~~~~~~~~~~ */
+#research-content{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap:5em;
+  width:80%;
+  margin:auto;
+  padding-top:3em;
+}
+.research-sub-row{
+  display: flex;
+  width:100%;
+}
+.research-sub-row > div{
+  width:50%;
+}
+#research-sub-row-p-1{
+  width:90%;
+}
+#research-sub-row-p-2{
+  width:90%;
+  float:right;
+}
+#research-img-1{
+  width:90%;
+  float:right;
+}
+#research-img-2{
+  width:90%;
+  float:left;
+}
+.research-img{
+  width:100%;
+  height:50vh;
+}
