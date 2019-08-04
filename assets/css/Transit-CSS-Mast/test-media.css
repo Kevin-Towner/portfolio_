@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
 
 /* ~~~~~~~~~~~~~~~~~~~~~ GENERAL ~~~~~~~~~~~~~~~~~~~~~ */
   h1{
@@ -22,7 +22,7 @@
 
   /* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */
   #header-image{
-    height:50vh;
+    height:45.5vh;
   }
   /* ~~~~~~~~~~~~~~~~~~~~~ Row-Introduction ~~~~~~~~~~~~~~~~~~~~~ */
   #introduction-content{
