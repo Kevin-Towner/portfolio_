@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 450px){
 
 /* ~~~~~~~~~~~~~~~~~~~~~ GENERAL ~~~~~~~~~~~~~~~~~~~~~ */
   h1{
@@ -24,6 +24,21 @@
   #header-image{
     height:45.5vh;
   }
+  /* ~~~~~~~~~~~~~~~~~~~~~ Row-Overview ~~~~~~~~~~~~~~~~~~~~~ */
+  #row-overview{
+    padding:0 0 2.5em 0;
+  }
+  #overview-content{
+    grid-template-columns: 1fr;
+    margin-top:-1em;
+  }
+  .overview_container-third:nth-child(1) > .overview_container-third-content{
+    float:none;
+  }
+  .overview_container-third:nth-child(3) > .overview_container-third-content{
+    float:none;
+  }
+
   /* ~~~~~~~~~~~~~~~~~~~~~ Row-Introduction ~~~~~~~~~~~~~~~~~~~~~ */
   #introduction-content{
     width:90%;
