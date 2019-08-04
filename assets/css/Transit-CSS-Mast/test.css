@@ -65,13 +65,14 @@ span{
 }
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Overview ~~~~~~~~~~~~~~~~~~~~~ */
 #row-overview{
-  padding:17.5vh 0 17.5vh 0;
+  padding:0 0 17.5vh 0;
 }
 #overview-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width:80%;
   margin:auto;
+  margin-top:17.5vh
 }
 .overview_container-third-content{
   display: flex;
@@ -107,7 +108,7 @@ span{
   margin:auto;
 }
 #introduction-content > p{
-  border-bottom:1px solid black;
+  border-bottom:1px solid #2E2E2E;
   padding-bottom:2em;
 }
 #introduction-content > ul{
@@ -120,7 +121,7 @@ span{
   grid-gap:5em;
   width:80%;
   margin:auto;
-  padding-top:3em;
+  padding-top:15vh;
 }
 .research-sub-row{
   display: flex;
