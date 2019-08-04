@@ -152,6 +152,7 @@ span{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:3em;
+  margin:17.5vh 0 17.5vh 0;
 }
 #research-sub-row-persona > img{
   width:100%;
