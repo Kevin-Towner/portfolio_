@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
 
 /* ~~~~~~~~~~~~~~~~~~~~~ GENERAL ~~~~~~~~~~~~~~~~~~~~~ */
   h1{
@@ -18,6 +18,11 @@
   .unordered-list{
     font-size:16pt;
     font-weight: lighter;
+  }
+  .unordered-list > li{
+    font-size:16pt;
+    font-weight: lighter;
+    padding-bottom:20px;
   }
 
   /* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */
@@ -48,7 +53,7 @@
   #research-content{
     display: grid;
     grid-template-columns:1fr;
-    grid-gap:5em;
+    grid-gap:2em;
     width:90%;
     margin:Auto;
   }
@@ -89,5 +94,9 @@
   #research-sub-row-persona > img{
     width:100%;
     height:75vh;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~ Row-Research-Recap ~~~~~~~~~~~~~~~~~~~~~ */
+  #research-recap-content{
+    width:90%;
   }
 }
