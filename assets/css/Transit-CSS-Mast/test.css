@@ -20,17 +20,17 @@ h2{
 }
 p{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:12.5pt;
+  font-size:14pt;
   line-height: 22.5px;
   color:#000;
 }
 span{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:12.5pt;
+  font-size:14pt;
   color:#000;
 }
 .bold{
-  font-weight:bolder;
+  font-weight:bold;
 }
 .row{
   padding:3em 0 3em 0;
@@ -42,7 +42,7 @@ span{
 }
 .unordered-list{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:12pt;
+  font-size:14pt;
   list-style-type:circle;
 }
 .unordered-list > li{

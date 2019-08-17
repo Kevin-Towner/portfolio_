@@ -14,7 +14,9 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size:16pt;
   }
-
+  .bold{
+    font-weight:bold;
+  }
   .unordered-list{
     font-size:16pt;
     font-weight: lighter;
