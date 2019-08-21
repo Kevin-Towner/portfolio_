@@ -3,7 +3,7 @@ nav{
   font-family: 'Source Sans Pro', sans-serif;
   background-color:#fff;
   top:0;
-  padding:10px 0 10px 0;
+
   width:100%;
   position:fixed;
   text-align: right;
@@ -14,10 +14,14 @@ nav{
 }
 .menu > a{
   clear:right;
-  color:red;
+  color:#000;
   margin:0 10px;
   line-height:70px;
   text-decoration:none;
+}
+.menu > a:hover{
+  font-weight:Bolder;
+  color:
 }
 .color-nav-item{
   color:#54D17A;
