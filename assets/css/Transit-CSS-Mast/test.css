@@ -53,6 +53,7 @@ span{
 
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */
 #row-header{
+  background-color: #E9E5EF;
 }
 #header-image{
   width:100vw;
