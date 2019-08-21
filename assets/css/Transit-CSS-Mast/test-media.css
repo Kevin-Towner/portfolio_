@@ -9,6 +9,7 @@
   }
   p{
     font-size:16pt;
+    line-height:25px;
   }
   span{
     font-family: 'Source Sans Pro', sans-serif;
@@ -25,6 +26,7 @@
     font-size:16pt;
     font-weight: lighter;
     padding-bottom:20px;
+    line-height: 25px;
   }
 
   /* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */

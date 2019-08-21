@@ -18,6 +18,16 @@
     height:15vh;
     display:block;
   }
+  .menu > a{
+    border-bottom:1px solid black;
+    margin:0;
+    height:15vh;
+    display:block;
+    color:#000;
+  }
+  .menu > a:hover{
+    color:#008081
+  }
   #toggle:checked + .menu{
     display: block;
     background-color:#fff;
