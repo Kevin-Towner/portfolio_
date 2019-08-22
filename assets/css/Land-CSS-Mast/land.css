@@ -36,21 +36,23 @@ body{
 #banner-ul > li > h1{
   font-size:32pt;
   padding:0;
-  padding-top:1em;
+  padding-top:3em;
   font-family: 'Raleway', sans-serif;
+  width:50%;
+  margin:auto;
 }
-#banner-ul > li:nth-child(2) > h3{
+/* #banner-ul > li:nth-child(2) > h3{
   font-family: 'Heebo', sans-serif;
   font-weight: lighter;
   font-size:12pt;
-}
+} */
 /*----------------------BANNER END-------------------*/
 
 
 /*----------------------PROJECTS-------------------*/
 #portfolio{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap:.5em;
   width:66.66%;
   margin:auto;
@@ -65,8 +67,7 @@ body{
 }
 .hover-box > img{
   width:100%;
-  min-height: 60vh;
-  max-height: 60vh;
+  height:85vh;
 }
 .hover-box > h3{
   position:absolute;
