@@ -13,20 +13,21 @@
     display: none;
   }
   .menu > a{
-    border-bottom:1px solid black;
+    border-bottom:1px solid #000;
     margin:0;
     height:15vh;
     display:block;
   }
   .menu > a{
-    border-bottom:1px solid black;
+    border-bottom:1px solid #000;
     margin:0;
     height:15vh;
     display:block;
     color:#000;
   }
   .menu > a:hover{
-    color:#008081
+    color:#008081;
+    border-bottom:2px solid #008081;
   }
   #toggle:checked + .menu{
     display: block;

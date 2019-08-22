@@ -12,12 +12,16 @@ h1{
   font-family: 'Montserrat', sans-serif;
   font-size:32pt;
   margin-top:25vh;
-  margin-top:8em;
+  margin-top:6em;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size:32pt;
   text-align: center;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size:16pt;
 }
 p{
   font-family: 'Source Sans Pro', sans-serif;
@@ -29,6 +33,13 @@ span{
   font-family: 'Source Sans Pro', sans-serif;
   font-size:14pt;
   color:#000;
+}
+figcaption{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:10pt;
+  color:#000;
+  width:90%;
+  padding-left:10px;
 }
 .bold{
   font-weight:bold;
@@ -45,6 +56,7 @@ span{
   font-family: 'Source Sans Pro', sans-serif;
   font-size:14pt;
   list-style-type:circle;
+  color:#000;
 }
 .unordered-list > li{
   padding-bottom:8px;
@@ -54,7 +66,7 @@ span{
 
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */
 #row-header{
-  background-color: #E9E5EF;
+  background-color: #E3FDFF;
 }
 #header-image{
   width:100vw;
@@ -80,7 +92,7 @@ span{
   flex-direction: column;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:16pt;
+  font-size:14pt;
 }
 .overview_container-third-content > ul{
   padding:0;
@@ -90,7 +102,7 @@ span{
   padding-bottom:7.5px;
 }
 .overview_container-third-content > h3{
-  font-weight:bolder;
+
 }
 .overview_container-third:nth-child(1) > .overview_container-third-content{
   float:left;
@@ -102,14 +114,13 @@ span{
 
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Introduction ~~~~~~~~~~~~~~~~~~~~~ */
 #row-introduction{
-  background-color:#E9E5EF;
+  background-color:#E3FDFF;
 }
 #introduction-content{
   width:50%;
   margin:auto;
 }
 #introduction-content > p{
-  border-bottom:1px solid #2E2E2E;
   padding-bottom:2em;
 }
 #introduction-content > ul{
@@ -127,7 +138,7 @@ span{
   grid-template-columns:1fr 1fr;
   grid-gap:1em;
 }
-#research-content-1 > img{
+#research-content-1 > figure > img{
   width:100%;
   height:60vh;
 }
@@ -139,7 +150,7 @@ span{
   grid-gap:1em;
   margin-top:5em;
 }
-#research-content-2 > img{
+#research-content-2 > div > img{
   width:100%;
   height:80vh;
 }
@@ -147,9 +158,13 @@ span{
 
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Research-Recap ~~~~~~~~~~~~~~~~~~~~~ */
 #row-research-recap{
-    background-color:#E9E5EF;
+    background-color:#E3FDFF;
 }
 #research-recap-content{
   width:50%;
+  margin:auto;
+  margin-top:5em;
+}
+#research-recap-content > .unordered-list{
   margin:auto;
 }
