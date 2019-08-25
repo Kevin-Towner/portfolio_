@@ -3,10 +3,22 @@
     grid-template-columns: 1fr;
   }
 
+
+
   #banner{
-    width:100%;
+    display: grid;
+    grid-template-columns: 1fr;
     margin:auto;
-    border-bottom:none;
+    color:#000;
+    width:100%;
+    padding-bottom:6em;
+    /* border-bottom:1px solid #e7e7e7; */
+  }
+
+  #banner-ul > li > h1{
+    width:90%;
+    margin:auto;
+    padding-top: 2em;
   }
   #banner-ul{
     text-align: ;

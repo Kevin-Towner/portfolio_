@@ -33,6 +33,24 @@
   #header-image{
     height:45.5vh;
   }
+  #subheader{
+    text-align: center;
+    padding-bottom:1vh;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~ Banner-Image ~~~~~~~~~~~~~~~~~~~~~ */
+  #banner-background-fit{
+    width:90%;
+    margin:auto;
+    padding-top:0em;
+  }
+  #banner-background-fit > img{
+    width:100%;
+    height:60vh;
+    object-fit:contain;
+  }
+
+
   /* ~~~~~~~~~~~~~~~~~~~~~ Row-Overview ~~~~~~~~~~~~~~~~~~~~~ */
   #row-overview{
     padding:0 0 2.5em 0;
@@ -63,6 +81,9 @@
     flex-direction: column-reverse; */
     grid-gap:1em;
   }
+  #research-content-1 > div{
+    width:100%;
+  }
   #research-content-1 > figure > img{
     width:100%;
     height:60vh;
@@ -70,7 +91,7 @@
   }
   #research-content-2{
     width:90%;
-    grid-template-columns:1fr;
+    grid-template-columns:1fr 1fr;
   }
   #research-content-2 > figure > img{
     width:100%;
@@ -79,5 +100,8 @@
   /* ~~~~~~~~~~~~~~~~~~~~~ Row-Research-Recap ~~~~~~~~~~~~~~~~~~~~~ */
   #research-recap-content{
     width:90%;
+  }
+  #research-recap-content > h3{
+    text-align:center;
   }
 }

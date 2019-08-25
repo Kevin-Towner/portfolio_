@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 <!doctype html>
 <html lang="en-us">
 
@@ -37,16 +30,18 @@
     <label for="toggle">&#9776;</label>
     <input type="checkbox" id = "toggle"/>
     <div class="menu">
-      <a href="index.html">Home</a>
-      <a href="about-me.html">About</a>
-      <a href="resume.html">Resume</a>
+      <a href="../index.html">Home</a>
+      <a href="../about-me.html">About</a>
+      <a href="../resume.html">Resume</a>
     </div>
   </nav>
   <div class="casestudy-content">
     <div id = "row-header" class="row">
       <h1>NJ Transit Redesign</h1>
       <p id = "subheader">A redesign of NJ Transit's mobile app - Trip Planning<br><br><span class = "bold">2nd Iteration</span></p>
-      <!-- <img id = "header-image" src="../assets/images/transit-displays/header-image.png" alt="header-image"> -->
+      <div id = "banner-background-fit">
+        <img src="../assets/images/transit-displays/banner-photo.png" alt="">
+      </div>
     </div>
     <div id = "row-overview" class="row">
       <h2>Design Overview</h2>
@@ -82,14 +77,7 @@
     <div id = "row-introduction" class="row">
       <h2>Introduction</h2>
       <div id = "introduction-content" class="row-subrow">
-        <p>Upon signing up for Brainstation's UX Design course, I realized I was about to step into unfamiliar territory. In order to get to the course on time, I would need to rush out of work 30 minutes early, take the train from Rahway Junction to NY Penn Station, figure out which subway to take (which, for me, meant I had to confidently distinguish which subway entrance was good vs no good), head downtown into the Soho area, and finally walk to the course's location.
-        <br>
-        <br>
-        I was born in, and have always lived in, the suburbs. I had only gone into NYC, alone, twice  and I went begrudgingly...AND I took a cab from NY Penn Station. Being the habitual over-thinker that I am, I was imagining myself getting off at the wrong stop, somehow losing my phone, having to ask for directions which may lead to a mugging attempt and disappearing into obscurity (not really). With all that lingering over my head, I did what anyone else in my shoes would do; research and plan my trip.
-        <br>
-        <br>
-        I figured using the NJ Transit App would be a good place to start. Granted, I had used the NJ Transit app before but I had only used it to purchase tickets. The app has a "Plan Trip" button, but what I ended up doing was using NJ Transit's mobile app to review the schedule and purchase tickets. I had to use Google Maps to help me with the majority of my trip, which worked out fine, but from a user experience perspective I was not impressed. Using two apps to help a person get from point A to point B is counter intuitive and creates more work for the user. The only real use, I see NJ Transit's mobile app to be helpful for, is for purchasing tickets.
-        </p>
+        <p>This is my second iteration of the NJ Transit, Trip Planning, redesign. My first rendition of NJ Transit was a part of my capstone project at Brainstation, in New York, NY.</p>
         <h3 style = "text-align:center;">What I hope to discover</h3>
         <ul class = "unordered-list" id = "introduction-content-ul">
           <li>Who finds NJ Transit's app the most helpful?</li>
@@ -117,10 +105,10 @@
             <li>Millennials</li>
           </ul>
         </div>
-        <figure class="">
+        <div class="">
           <img src="../assets/images/transit-displays/research-graph.png" alt="research-image">
           <figcaption>graphic representation of interviewee responses and color-highlighted areas to showcase motivations, behaviors and pain points</figcaption>
-        </figure>
+        </div>
       </div>
       <div id="research-content-2">
         <div class="">
@@ -136,14 +124,25 @@
     <div id = "row-research-recap" class="row">
         <h2>Research Recap</h2>
         <div id = "research-recap-content">
-          <h3 style = "text-align:center;">Discovery</h3>
+          <h3>Discovery</h3>
           <ul class = "unordered-list">
-            <li>Who finds NJ Transit's app the most helpful? <br><br><span class = "bold">- Baby Boomers and Millennials</span></li><Br>
-            <li>What other apps are popular for commuter purposes? <br><br><span class = "bold">- Google Maps and Waze</span></li><Br>
-            <li>Where in the process of traveling via public transit do people experience the most stress? <br><br><span class = "bold">- After arriving at their NJ Transit Destination (at arrival)</span></li><br>
-            <li>When do people decide to use another mobile app, besides NJ Transit, to help them get to where they're going? <Br><br><span class = "bold">- once they arrive and leave the scope of NJ Transit</span></li><br>
-            <li>Why do people prefer public transportation over driving their personal vehicels? <br><br><span class = "bold">- Because personal vehicles aren't an option once you get to your arrival destination. Uber or ride-sharing apps are a popular alternative</span></li><br>
-            <li>How often do people need to use a GPS-based navigation app after they have gotten to their NJ Transit destination? <br><br><span class = "bold">- Unless the individual is familiar with their destination area, he or she will more likely than not use a GPS or navigational application</span></li>
+            <li>Who finds NJ Transit's app the most helpful?</li>
+            <li style = "list-style-type:none; font-weight:bolder;">- Boomers and Millennials</li>
+            <br>
+            <li>What other apps are popular for commuter purposes? </li>
+            <li style = "list-style-type:none; font-weight:bolder;">- Google Maps and Waze</li>
+            <Br>
+            <li>Where in the process of traveling via public transit do people experience the most stress?</li>
+            <li style = "list-style-type:none; font-weight:bolder;">- After arriving at their NJ Transit Destination (at arrival)</li>
+            <Br>
+            <li>When do people decide to use another mobile app, besides NJ Transit, to help them get to where they're going?</li>
+            <li style = "list-style-type:none; font-weight:bolder;">- Once they arrive and leave the scope of NJ Transit</li>
+            <Br>
+            <li>Why do people prefer public transportation over driving their personal vehicels? </li>
+            <li style = "list-style-type:none; font-weight:bolder;">- Because personal vehicles aren't an option once you get to your arrival destination. Uber or ride-sharing apps are a popular alternative</li>
+            <br>
+            <li>How often do people need to use a GPS-based navigation app after they have gotten to their NJ Transit destination?</li>
+            <li style = "list-style-type:none; font-weight:bolder;">- Unless the individual is familiar with their destination area, he or she will more likely than not use a GPS or navigational application</li>
           </ul>
           <h3>Millennials:</h3>
           <ul class = "unordered-list">
@@ -155,7 +154,7 @@
           <h3>Baby Boomers:</h3>
           <ul class = "unordered-list">
             <li>use Google Maps for foot/walking & driving direction</li>
-            <li>prefer Google Maps over Waze for it's reliability and the fact that Waze is owned by Google</li>
+            <li>prefer Google Maps over Waze for its reliability and the fact that Waze is owned by Google</li>
             <li>use NJ Transit's app for checking schedules and buying tickets</li>
             <li>would prefer to use Uber for convenience</li>
           </ul>

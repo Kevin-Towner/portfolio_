@@ -66,16 +66,29 @@ figcaption{
 
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Header ~~~~~~~~~~~~~~~~~~~~~ */
 #row-header{
-  background-color: #E3FDFF;
-}
-#header-image{
-  width:100vw;
-  height:100vh;
+  background-color: #FCF7FF;
 }
 #subheader{
   text-align: center;
-  padding-bottom:25vh;
+  padding-bottom:10vh;
 }
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ Banner-Image ~~~~~~~~~~~~~~~~~~~~~ */
+#banner-background-fit{
+  width:66.66%;
+  margin:auto;
+  padding-bottom:10em;
+
+}
+#banner-background-fit > img{
+  width:100%;
+  height:60vh;
+  object-fit:contain;
+}
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Overview ~~~~~~~~~~~~~~~~~~~~~ */
 #row-overview{
   padding:0 0 17.5vh 0;
@@ -111,10 +124,9 @@ figcaption{
   float:right;
 }
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Introduction ~~~~~~~~~~~~~~~~~~~~~ */
 #row-introduction{
-  background-color:#E3FDFF;
+  background-color:#FCF7FF;
 }
 #introduction-content{
   width:50%;
@@ -138,7 +150,10 @@ figcaption{
   grid-template-columns:1fr 1fr;
   grid-gap:1em;
 }
-#research-content-1 > figure > img{
+#research-content-1 > div{
+  height:60vh;
+}
+#research-content-1 > div > img{
   width:100%;
   height:60vh;
 }
@@ -152,18 +167,21 @@ figcaption{
 }
 #research-content-2 > div > img{
   width:100%;
-  height:80vh;
+  height:70vh;
 }
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Research-Recap ~~~~~~~~~~~~~~~~~~~~~ */
 #row-research-recap{
-    background-color:#E3FDFF;
+    background-color:#FCF7FF;
 }
 #research-recap-content{
   width:50%;
   margin:auto;
   margin-top:5em;
+}
+#research-recap-content > h3{
+  padding-top:2em;
 }
 #research-recap-content > .unordered-list{
   margin:auto;
