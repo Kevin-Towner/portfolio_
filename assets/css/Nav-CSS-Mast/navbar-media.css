@@ -2,6 +2,9 @@
 
 
 @media only screen and (max-width: 500px){
+  nav{
+    height:60px;
+  }
   label{
     display: block;
     cursor:pointer;
@@ -11,12 +14,6 @@
     width:100%;
     height:100vh;
     display: none;
-  }
-  .menu > a{
-    border-bottom:1px solid #000;
-    margin:0;
-    height:15vh;
-    display:block;
   }
   .menu > a{
     border-bottom:1px solid #000;
