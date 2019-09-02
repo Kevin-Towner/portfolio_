@@ -2,7 +2,7 @@
 
 /* ~~~~~~~~~~~~~~~~~~~~~ GENERAL ~~~~~~~~~~~~~~~~~~~~~ */
   h1{
-    font-size:90pt;
+    font-size:28pt;
   }
   h2{
     font-size:28pt;
@@ -93,10 +93,14 @@
   #research-content-2{
     width:90%;
     grid-template-columns:1fr;
-    grid-gap:2em;
   }
+
   #research-content-2 > div{
-    margin-top:-2em;
+
+  }
+
+  #research-content-2 > div:nth-child(1){
+    margin-top:-em;
   }
 
   #research-content-2 > div > img{
