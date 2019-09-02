@@ -77,13 +77,15 @@
     margin:auto;
     display: grid;
     grid-template-columns:1fr;
-    /* display: flex;
-    flex-direction: column-reverse; */
     grid-gap:1em;
   }
   #research-content-1 > div{
     width:100%;
-    padding-bottom:6em;
+
+  }
+  #research-content-1 > div:nth-child(2){
+    margin-top:6em;
+
   }
   #research-content-1 > div > img{
     width:100%;
@@ -91,7 +93,7 @@
   #research-content-2{
     width:90%;
     grid-template-columns:1fr;
-    grid-gap:6em;
+    grid-gap:2em;
   }
   #research-content-2 > div{
     margin-top:-2em;
