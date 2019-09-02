@@ -84,7 +84,6 @@
 
   }
   #research-content-1 > div:nth-child(2){
-    margin-top:6em;
 
   }
   #research-content-1 > div > img{
@@ -100,7 +99,7 @@
   }
 
   #research-content-2 > div:nth-child(1){
-    margin-top:-em;
+    margin-top:-2em;
   }
 
   #research-content-2 > div > img{
