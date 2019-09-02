@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   h1{
     font-size:36pt;
   }
@@ -109,7 +109,7 @@
     grid-template-columns:1fr;
   }
   #research-grid > div{
-    margin-top:-3em;
+
   }
   #qualit-results{
     padding-bottom:2.5em;
