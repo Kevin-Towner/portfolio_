@@ -42,41 +42,34 @@
     box-shadow: 0px 0px 5.5px #949494;
   }
 
+  /* ~~~~~~~~~~~~~~~~ ROW 1 ~~~~~~~~~~~~~~~~~~~~*/
   #row-1 > p{
     width:90%;
-    font-size:12pt;
+    margin:auto;
+    text-align: center;
+  }
+
+  #row-1-list{
+    display: inline-flex;
+    width:95%;
+    margin:auto;
+    font-size:11pt;
+    font-weight:lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:2em 0 0 0;
+  }
+  #row-1-list > li{
+    margin:auto;
   }
 
   /*-----------------------HEADER-----------------*/
-  #header-button{
-    background-color:#fff;
-    border:1px solid #373737;
-    padding:10px 0 10px 0;
-    width:8em;
-    max-width:10em;
-    color:#373737;
-    text-align:center;
-    border-radius:7px;
-    margin:2em auto 2em auto;
-    font-family: 'Raleway', sans-serif;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
-  }
-  #header-button:hover{
-    background-color:#3895d3;
-    border:1px solid #3895d3;
-    color:#fff;
-  }
 
-  /*-----------------------ROW 2-----------------*/
+  /*-----------------------ROW 2-4-----------------*/
   #row-2{
     grid-template-columns: 1fr;
   }
 
   .resume-row-column{
   }
-  
+
 }

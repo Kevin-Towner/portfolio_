@@ -48,6 +48,7 @@ p{
   font-size:11pt;
   font-weight:lighter;
   font-family: 'Source Sans Pro', sans-serif;
+  color:#636363;
 }
 .resume-row-column{
   display: grid;
@@ -72,14 +73,14 @@ p{
 }
 
 
-/* ~~~~~~~~~~~~~~~~ ROW 2-4 ~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~ ROW 1 ~~~~~~~~~~~~~~~~~~~~*/
 #row-1 > p{
-  width:66.66%;
+  width:55%;
   margin:auto;
   text-align: center;
 }
 
-#header-button{
+/* #header-button{
   font-family: 'Open Sans', sans-serif;
   background-color:#fff;
   border:1px solid #373737;
@@ -100,7 +101,38 @@ p{
   background-color:#3895d3;
   border:1px solid #3895d3;
   color:#fff;
+} */
+
+#row-1-list{
+  display: inline-flex;
+  width:70%;
+  margin:auto;
+  font-size:11pt;
+  font-weight:lighter;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding:2em 0 0 0;
 }
+#row-1-list > li{
+  margin:auto;
+}
+
+#row-1-list > li > a{
+  color:#636363;
+  font-size:11pt;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#row-1-list > li > a:hover{
+  color:#000;
+  font-size:12pt;
+}
+
+
 
 /* ~~~~~~~~~~~~~~~~ ROW 2-4 ~~~~~~~~~~~~~~~~~~~~*/
 
@@ -109,7 +141,7 @@ p{
   grid-template-columns: .3fr 1fr;
   width:90%;
   margin:auto;
-  margin-top:4em;
+  margin-top:6em;
 }
 #row-2-column{
   display: grid;
