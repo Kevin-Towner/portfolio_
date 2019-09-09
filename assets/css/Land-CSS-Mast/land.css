@@ -1,5 +1,5 @@
 body{
-  background-color: #dadedf;
+  background-color: #F2F2F2;
   margin: 0;
   padding:0;
 }
@@ -35,10 +35,9 @@ body{
 }
 #banner-ul > li > h1{
   font-size:28pt;
-  padding:0;
-  padding-top:3em;
+  padding: 3em 0 0 0;
   font-family: 'Raleway', sans-serif;
-  width:50%;
+  width:80%;
   margin:auto;
 }
 /* #banner-ul > li:nth-child(2) > h3{
