@@ -188,3 +188,16 @@ figcaption{
 #research-recap-content > .unordered-list{
   margin:auto;
 }
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ Row-Information Architecture-Recap ~~~~~~~~~~~~~~~~~~~~~ */
+#information-architecture-background-fit{
+    width:80%;
+    margin:auto;
+}
+
+#information-architecture-background-fit > img{
+    width:100%;
+    object-fit:contain;
+}
