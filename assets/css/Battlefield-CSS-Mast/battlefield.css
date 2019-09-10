@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Heebo', sans-serif;
+  background-color:#fff;
+  color:#2E2E2E;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:32pt;
+  margin-top:25vh;
+  margin-top:3em;
+}
+.casestudy-content{
+  display: grid;
+  grid-template-columns: 1fr;
+  width:100%;
+}
