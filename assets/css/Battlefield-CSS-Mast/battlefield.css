@@ -13,8 +13,61 @@ h1{
   margin-top:25vh;
   margin-top:3em;
 }
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:32pt;
+  text-align: center;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size:16pt;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:14pt;
+  line-height: 22.5px;
+  color:#000;
+}
 .casestudy-content{
   display: grid;
   grid-template-columns: 1fr;
   width:100%;
+}
+#subheader{
+  text-align: center;
+  padding-bottom:10vh;
+}
+
+#row-overview{
+  padding:0 0 17.5vh 0;
+}
+#overview-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width:80%;
+  margin:auto;
+  margin-top:17.5vh
+}
+.overview_container-third-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:14pt;
+}
+.overview_container-third-content > ul{
+  padding:0;
+  margin-top:0;
+}
+.overview_container-third-content > ul > li{
+  padding-bottom:7.5px;
+}
+.overview_container-third-content > h3{
+
+}
+.overview_container-third:nth-child(1) > .overview_container-third-content{
+  float:left;
+}
+.overview_container-third:nth-child(3) > .overview_container-third-content{
+  float:right;
 }
