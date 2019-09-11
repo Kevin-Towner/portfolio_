@@ -38,6 +38,7 @@ body{
   padding: 3em 0 0 0;
   font-family: 'Raleway', sans-serif;
   width:80%;
+  line-height:46px;
   margin:auto;
 }
 /* #banner-ul > li:nth-child(2) > h3{
