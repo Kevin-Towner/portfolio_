@@ -52,7 +52,7 @@ body{
 #portfolio{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap:1em;
+  grid-gap:2em;
   width:50%;
   margin:auto;
   margin-top:4em;
