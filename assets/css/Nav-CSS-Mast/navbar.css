@@ -1,7 +1,7 @@
 
 nav{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   font-family: 'Source Sans Pro', sans-serif;
   background-color:#fff;
   top:0;
