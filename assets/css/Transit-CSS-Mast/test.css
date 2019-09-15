@@ -60,7 +60,7 @@ figcaption{
 }
 .unordered-list > li{
   padding-bottom:8px;
-  line-height:22.5px;
+  line-height:25px;
 }
 
 
@@ -214,4 +214,19 @@ figcaption{
 /* ~~~~~~~~~~~~~~~~~~~~~ Row-Current Status ~~~~~~~~~~~~~~~~~~~~~ */
 #row-current-status{
   background-color: #FCF7FF;
+  padding-bottom:8em;
+}
+#status-content > div > p{
+  width:50%;
+  margin:auto;
+}
+#current-status-background-fit{
+    width:80%;
+    margin:auto;
+}
+
+#current-status-background-fit > img{
+    width:100%;
+    object-fit:contain;
+    padding:4em 0 4em 0;
 }

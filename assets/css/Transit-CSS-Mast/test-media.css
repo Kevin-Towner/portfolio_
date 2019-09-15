@@ -87,7 +87,7 @@
   }
   #research-content-1 > div > img{
     width:100%;
-    
+
   }
   #research-content-2{
     width:90%;
@@ -112,5 +112,28 @@
   }
   #research-recap-content > h3{
     text-align:center;
+  }
+
+
+
+  /* ~~~~~~~~~~~~~~~~~~~~~Current Status-Recap ~~~~~~~~~~~~~~~~~~~~~ */
+
+  #row-current-status{
+    background-color: #FCF7FF;
+    padding-bottom:8em;
+  }
+  #status-content > div > p{
+    width:90%;
+    margin:auto;
+  }
+  #current-status-background-fit{
+      width:95%;
+      margin:auto;
+  }
+
+  #current-status-background-fit > img{
+      width:100%;
+      object-fit:contain;
+      padding:4em 0 4em 0;
   }
 }
