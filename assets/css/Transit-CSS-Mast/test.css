@@ -209,3 +209,9 @@ figcaption{
 #userflow-content{
   margin-top:4em;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ Row-Current Status ~~~~~~~~~~~~~~~~~~~~~ */
+#row-current-status{
+  background-color: #FCF7FF;
+}
