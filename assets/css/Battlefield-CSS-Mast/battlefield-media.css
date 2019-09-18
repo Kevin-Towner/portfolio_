@@ -22,41 +22,34 @@
 
   /*-----------------------OVERVIEW ROW---------------------*/
   #row-overview{
-    padding:0 0 17.5vh 0;
+    padding:0 0 0 0;
   }
   #overview-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width:80%;
-    margin:auto;
-    margin-top:17.5vh
-  }
-  .overview_container-third-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:14pt;
-  }
-  .overview_container-third-content > ul{
-    padding:0;
-    margin-top:0;
-  }
-  .overview_container-third-content > ul > li{
-    padding-bottom:7.5px;
-  }
-  .overview_container-third-content > h3{
-
+    grid-template-columns: 1fr;
   }
   .overview_container-third:nth-child(1) > .overview_container-third-content{
-    float:left;
+    float:none;
   }
   .overview_container-third:nth-child(3) > .overview_container-third-content{
-    float:right;
+    float:none;;
   }
 
 
 
   /*-----------------------CHALLENGE ROW---------------------*/
-
+  #row-challenge{
+    display: grid;
+    grid-template-columns: 1fr;
+    width:90%;
+    margin:auto;
+  }
+  #row-challenge > div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:4em;
+  }
+  #image-challenge-1{
+    width:100%;
+    object-fit:contain;
+  }
 }

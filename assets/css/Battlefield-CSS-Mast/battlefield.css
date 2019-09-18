@@ -15,6 +15,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size:32pt;
   text-align: center;
+  padding-bottom:1em;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -30,6 +31,10 @@ p{
   display: grid;
   grid-template-columns: 1fr;
   width:100%;
+}
+.bold{
+  font-weight:bold;
+  font-size:14.5pt;
 }
 
 
@@ -62,14 +67,13 @@ p{
 
 /*-----------------------OVERVIEW ROW---------------------*/
 #row-overview{
-  padding:0 0 17.5vh 0;
+  padding:5em 0 17.5vh 0;
 }
 #overview-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width:80%;
   margin:auto;
-  margin-top:17.5vh
 }
 .overview_container-third-content{
   display: flex;
@@ -99,6 +103,17 @@ p{
 
 /*-----------------------CHALLENGE ROW---------------------*/
 #row-challenge{
-  width:50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  width:85%;
   margin:auto;
+}
+#row-challenge > div{
+  display: grid;
+  grid-template-columns: .333fr .666fr;
+  grid-gap:4em;
+}
+#image-challenge-1{
+  width:100%;
+  object-fit:contain;
 }
