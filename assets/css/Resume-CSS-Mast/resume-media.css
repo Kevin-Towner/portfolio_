@@ -68,6 +68,10 @@
   #row-2{
     grid-template-columns: 1fr;
   }
+  #row-2-column{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
   .resume-row-column{
   }
