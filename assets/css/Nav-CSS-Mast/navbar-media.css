@@ -36,7 +36,6 @@
     display: block;
     background-color:#fff;
     z-index:1;
-
   }
   #toggle:checked + label{
     display: block;
