@@ -52,4 +52,16 @@
     width:100%;
     object-fit:contain;
   }
+  #row-current-status{
+    margin-top:4em;
+    padding-bottom:8em;
+  }
+
+
+
+    /*-----------------------Status ROW---------------------*/
+  #status-content > div > p{
+    width:90%;
+    margin:auto;
+  }
 }
