@@ -2,7 +2,6 @@
 nav{
   display: grid;
   grid-template-columns: 1fr;
-  /* font-family: 'Source Sans Pro', sans-serif; */
   background-color:#fff;
   top:0;
   width:100%;
@@ -13,7 +12,7 @@ nav{
   box-shadow: 0px 2px 2px lightgrey;
 }
 nav > div{
-  height:100vh;
+  /* height:100vh; */
 }
 /* nav > div:nth-child(1) > img{
   float:left;
@@ -32,7 +31,7 @@ nav > div{
   font-family: 'Source Sans Pro', sans-serif;
 }
 .menu > a:hover{
-  font-weight:Bolder;
+  font-weight:bolder;
   color:
 }
 .color-nav-item{
