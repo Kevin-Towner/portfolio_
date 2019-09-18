@@ -27,6 +27,19 @@ p{
   font-size:14pt;
   line-height: 22.5px;
 }
+ul{
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:14pt;
+  line-height: 22.5px;
+}
+figcaption{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:10pt;
+  color:#fff;
+  width:90%;
+  padding-left:10px;
+}
 .casestudy-content{
   display: grid;
   grid-template-columns: 1fr;
@@ -35,6 +48,9 @@ p{
 .bold{
   font-weight:bold;
   font-size:14.5pt;
+}
+.list{
+  list-style-type: disc;
 }
 
 
@@ -116,6 +132,10 @@ p{
 #image-challenge-1{
   width:100%;
   object-fit:contain;
+}
+#row-challenge-cont{
+  width:85%;
+  margin:4em auto 0 auto;
 }
 
 
