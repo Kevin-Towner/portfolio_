@@ -1,0 +1,62 @@
+@media only screen and (max-width: 500px){
+
+
+  /*-----------------------HEADER ROW---------------------*/
+
+  #header-content{
+    width:100%;
+    margin:auto;
+    margin-top:2em;
+    text-align: center;
+    padding:2em 0 2em 0;
+    background-color:rgb(15,10,15,.8)
+  }
+  #header-content > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:16pt;
+  }
+
+
+
+
+
+  /*-----------------------OVERVIEW ROW---------------------*/
+  #row-overview{
+    padding:0 0 17.5vh 0;
+  }
+  #overview-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:80%;
+    margin:auto;
+    margin-top:17.5vh
+  }
+  .overview_container-third-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14pt;
+  }
+  .overview_container-third-content > ul{
+    padding:0;
+    margin-top:0;
+  }
+  .overview_container-third-content > ul > li{
+    padding-bottom:7.5px;
+  }
+  .overview_container-third-content > h3{
+
+  }
+  .overview_container-third:nth-child(1) > .overview_container-third-content{
+    float:left;
+  }
+  .overview_container-third:nth-child(3) > .overview_container-third-content{
+    float:right;
+  }
+
+
+
+  /*-----------------------CHALLENGE ROW---------------------*/
+
+}
