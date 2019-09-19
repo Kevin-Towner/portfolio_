@@ -131,7 +131,7 @@ figcaption{
 #row-challenge{
   display: grid;
   grid-template-columns: 1fr;
-  width:85%;
+  width:80.5%;
   margin:auto;
 }
 #row-challenge > div{
