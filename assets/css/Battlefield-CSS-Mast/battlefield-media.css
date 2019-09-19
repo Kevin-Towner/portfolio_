@@ -6,7 +6,14 @@
   }
 
   /*-----------------------HEADER ROW---------------------*/
-
+  #row-header{
+    /* background: url(https://thumbs.gfycat.com/OrdinaryBossyGar-size_restricted.gif); */
+    background: url(https://www.gamepur.com/files/imagepicker/48/battlefield-4-gamescom-2013-screen-1.jpg);
+    /* background: url(https://primagames.com/media/images/news/Phantom_Trainee_Hero.jpg); */
+    padding:10em 0 10em 0;
+    background-size: contain;
+    background-position: center;
+  }
   #header-content{
     width:100%;
     margin:auto;
