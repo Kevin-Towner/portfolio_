@@ -1,5 +1,9 @@
 body{
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background: url(../../images/about-me-displays/background.png);
+  background-position:top;
+  background-size:cover;
+  background-repeat:no-repeat;
   margin: 0;
   padding:0;
 }

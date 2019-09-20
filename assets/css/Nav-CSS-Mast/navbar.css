@@ -1,7 +1,7 @@
 
 nav{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color:#fff;
   top:0;
   width:100%;
@@ -49,7 +49,7 @@ label{
   display: none;
 }
 #logo{
-  height:50px;
+  height:45px;
   float:left;
   margin-left:7.5vw;
 }

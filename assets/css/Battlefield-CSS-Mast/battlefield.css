@@ -23,8 +23,6 @@ h1{
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size:32pt;
-  text-align: center;
-  padding-bottom:1em;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -95,13 +93,16 @@ figcaption{
 
 /*-----------------------OVERVIEW ROW---------------------*/
 #row-overview{
-  padding:5em 0 17.5vh 0;
+  padding:8em 0 8em 0;
+  width:80%;
+  margin:auto;
+}
+#row-overview > h2{
+  text-align: center;
 }
 #overview-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width:80%;
-  margin:auto;
 }
 .overview_container-third-content{
   display: flex;
@@ -136,6 +137,8 @@ figcaption{
   width:80.5%;
   margin:auto;
 }
+#row-challenge > h2{
+}
 #row-challenge > div{
   display: grid;
   grid-template-columns: .333fr .666fr;
@@ -147,16 +150,20 @@ figcaption{
 }
 /*-----------------------Research ROW---------------------*/
 #row-research{
-  margin-top:4em;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-#row-research-p-1{
-  width:50%;
+  width:80%;
   margin:auto;
+  margin-top:4em;
 }
-#row-research > h3{
-  padding-top:1em;
+#row-research > h2{
+}
+
+#row-research-grid{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap:3em;
+}
+#row-research-p-1 > h3{
+  margin-top:2em;
 }
 
 
@@ -165,9 +172,9 @@ figcaption{
 /*-----------------------Status ROW---------------------*/
 
 #row-current-status{
-  margin-top:4em
+  margin-top:4em;
+  width:80%;
+  margin:auto;
 }
 #status-content > div > p{
-  width:50%;
-  margin:auto;
 }
