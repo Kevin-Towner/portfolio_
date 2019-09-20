@@ -49,4 +49,7 @@
   #toggle:checked + .container{
 
   }
+  #logo{
+    margin-top:5px;
+  }
 }
