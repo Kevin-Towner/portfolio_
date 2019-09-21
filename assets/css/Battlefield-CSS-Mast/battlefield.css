@@ -160,7 +160,7 @@ figcaption{
 #row-research-grid{
   display: grid;
   grid-template-columns:1fr;
-  grid-gap:3em;
+
 }
 #row-research-p-1 > h3{
   margin-top:2em;
