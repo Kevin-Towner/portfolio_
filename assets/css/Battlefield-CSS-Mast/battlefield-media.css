@@ -1,7 +1,7 @@
 @media only screen and (max-width: 500px){
   #toggle:checked + .menu{
     display: block;
-    background-color:#18191E;
+    /* background-color:#18191E; */
     z-index:1;
   }
   h2{
