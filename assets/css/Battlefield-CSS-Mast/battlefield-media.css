@@ -28,6 +28,7 @@
 
   /*-----------------------OVERVIEW ROW---------------------*/
   #row-overview{
+    width:80%;
     padding:0 0 0 0;
   }
   #overview-content{
@@ -46,7 +47,7 @@
   #row-challenge{
     display: grid;
     grid-template-columns: 1fr;
-    width:90%;
+    width:80%;
     margin:auto;
   }
   #row-challenge > div{
@@ -58,12 +59,17 @@
     width:100%;
     object-fit:contain;
   }
+  #row-research-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+  }
 
 
 
     /*-----------------------Status ROW---------------------*/
   #status-content > div > p{
-    width:90%;
+    width:88%;
     margin:auto;
   }
 }
