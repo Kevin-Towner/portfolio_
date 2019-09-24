@@ -6,6 +6,19 @@
   }
   h2{
     padding-bottom:none;
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+
+
+  .casestudy-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:2em;
+    width:100%;
+    padding-bottom:4em;
   }
   /*-----------------------HEADER ROW---------------------*/
 
@@ -59,10 +72,22 @@
     width:100%;
     object-fit:contain;
   }
-  #row-research-grid{
+  #row-research-grid-1{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap:1em;
+  }
+  .research-grid-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:3em;
+  }
+  #row-research-grid-2{
+    grid-template-columns: 1fr;
+  }
+  .research-grid-2:nth-child(2){
+    display: flex;
+    flex-direction: column-reverse;
   }
 
 

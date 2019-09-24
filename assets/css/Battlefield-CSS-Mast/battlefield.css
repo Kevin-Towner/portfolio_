@@ -54,7 +54,7 @@ figcaption{
 .casestudy-content{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap:8em;
+  grid-gap:4em;
   width:100%;
   padding-bottom:4em;
 }
@@ -67,10 +67,10 @@ figcaption{
  padding:0;
  list-style-type:circle;
 }
-.white-space{
-  padding-bottom:4em;
-  padding-top:4em;
-}
+/* .white-space{
+  padding-bottom:2em;
+  padding-top:2em;
+} */
 
 
 /*-----------------------HEADER ROW---------------------*/
@@ -152,6 +152,9 @@ figcaption{
   grid-template-columns: .333fr .666fr;
   grid-gap:3em;
 }
+#row-challenge-cont{
+  margin-top:2em;
+}
 #image-challenge-1{
   width:100%;
   object-fit:contain;
@@ -174,14 +177,32 @@ figcaption{
   margin-top:2em;
 }
 
-#row-research-grid{
+#row-research-grid-1{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:3em;
 }
-#row-research-grid > div > img{
-height:20%;
+.research-grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:4em;
 }
+.user-photo{
+  width:100%;
+}
+.user-list{
+  margin:0;
+  list-style-type:circle;
+}
+.research-grid-2-h3{
+  text-align: center;
+}
+
+#research-grid-2-second{
+  margin-top:3em;
+}
+
+
 
 
 
