@@ -166,8 +166,11 @@ figcaption{
   margin:auto;
   display: grid;
   grid-template-columns:1fr 1fr;
-  grid-gap:1em;
+  grid-gap:4em;
   margin-top:5em;
+}
+#research-content-2 > div > img{
+  height:90vh;
 }
 #research-content-2 > div{
   margin-top:3em;
@@ -216,10 +219,17 @@ figcaption{
   background-color: #FCF7FF;
   padding-bottom:8em;
 }
-
+#status-content{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap:4em;
+}
 #status-content > div > p{
   width:50%;
   margin:auto;
+}
+#status-content > div > h3{
+text-align: center;
 }
 #current-status-background-fit{
     width:80%;
@@ -236,11 +246,12 @@ figcaption{
   box-shadow: 4px 5px 20px #C5BBCD;
 }
 .proto_row{
+  margin:auto;
   display: grid;
   grid-template-columns: 333fr 666fr;
   grid-gap:2em;
-  margin:auto;
   width:80%;
+  margin-top:6em;
 }
 .mini-ia-photo{
   width:80%;

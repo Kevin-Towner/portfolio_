@@ -136,20 +136,5 @@
       object-fit:contain;
       padding:4em 0 4em 0;
   }
-  .gify{
-    width:100%;
-    box-shadow: 4px 5px 20px #C5BBCD;
-    margin:auto;
-  }
-  .proto_row{
-    padding-top:4em;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin:auto;
-    width:90%;
-  }
-  .mini-ia-photo{
-    width:90%;
-    height:50vh;
-  }
+
 }
