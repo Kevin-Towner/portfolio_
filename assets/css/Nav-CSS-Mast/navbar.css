@@ -49,7 +49,8 @@ label{
   display: none;
 }
 #logo{
-  height:45px;
+  height:35px;
   float:left;
   margin-left:7.5vw;
+  margin-top:5px;
 }
