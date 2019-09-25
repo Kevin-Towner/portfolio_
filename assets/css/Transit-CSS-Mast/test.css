@@ -216,6 +216,7 @@ figcaption{
   background-color: #FCF7FF;
   padding-bottom:8em;
 }
+
 #status-content > div > p{
   width:50%;
   margin:auto;
@@ -229,4 +230,20 @@ figcaption{
     width:100%;
     object-fit:contain;
     padding:4em 0 4em 0;
+}
+.gify{
+  padding: 10px;
+  box-shadow: 4px 5px 20px #C5BBCD;
+}
+.proto_row{
+  padding-top:4em;
+  display: grid;
+  grid-template-columns: 333fr 666fr;
+  margin:auto;
+  width:80%;
+}
+.mini-ia-photo{
+  width:80%;
+  height:50vh;
+  margin-top:2em;
 }
