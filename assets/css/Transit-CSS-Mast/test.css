@@ -256,6 +256,12 @@ text-align: center;
   grid-gap:4em;
   margin:auto;
 }
+#proto_row-3{
+  display: grid;
+  grid-template-columns: 333fr 666fr;
+  grid-gap:4em;
+  margin:auto;
+}
 #proto_row-2 > div:nth-child(2) > img{
   float:right;
 }
