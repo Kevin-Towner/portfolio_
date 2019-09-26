@@ -222,7 +222,7 @@ figcaption{
 #status-content{
   display: grid;
   grid-template-columns:1fr;
-  grid-gap:4em;
+  grid-gap:8em;
 }
 #status-content > div > p{
   width:50%;
@@ -260,7 +260,7 @@ text-align: center;
   float:right;
 }
 .gify{
-  width:80%;
+  width:88%;
   box-shadow: 4px 5px 20px #C5BBCD;
 }
 .proto_row{
