@@ -271,5 +271,13 @@ text-align: center;
 }
 .proto_row{
   width:80%;
-  margin-top:8em;
+  padding-bottom:4em;
+  padding-top:4em;
+  /* border-bottom:1px solid grey; */
+}
+.proto_row:not(:last-child){
+  /* border-bottom:1px solid #fff; */
+}
+#proto_row-3{
+  border-bottom:none;
 }

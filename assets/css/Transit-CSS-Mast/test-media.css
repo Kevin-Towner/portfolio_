@@ -7,6 +7,9 @@
   h2{
     font-size:28pt;
   }
+  h3{
+
+  }
   p{
     font-size:16pt;
     line-height:25px;
@@ -144,20 +147,22 @@
 
   #proto_row-1{
     grid-gap:1.5em;
+    grid-template-columns: 1fr 1fr;
   }
   #proto_row-2{
     grid-gap:1.5em;
+    grid-template-columns: 1fr 1fr;
   }
   #proto_row-3{
     grid-gap:1.5em;
-  }
-  /* .proto_row{
-    margin:auto;
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:1em;
+  }
+  .proto_row{
+    padding:1em 0 1em 0;
     width:90%;
-    margin-top:6em;
-  } */
+  }
+  #status{
+    padding:1em 0 1em 0;
+  }
 
 }
