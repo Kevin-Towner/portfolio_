@@ -4,7 +4,10 @@
 @media only screen and (max-width: 500px){
   nav{
     height:60px;
-    background-color:#fff;
+    background-color:#FBFBFB;
+    position:fixed;
+    margin-top:0px;
+    padding-top:50px; /*  =-=-=-=-=-=-=--==--= */
   }
   nav > div{
 
@@ -18,14 +21,12 @@
     width:100%;
     height:105vh;
     display: none;
-    background-color:#000;
+    background-color:#FBFBFB;
   }
   .menu > a{
     margin:0;
     height:15vh;
     display:block;
-    color:#000;
-    font-family: 'Raleway', sans-serif;
     font-size:24pt;
   }
   .menu > a:hover{
@@ -34,7 +35,7 @@
   }
   #toggle:checked + .menu{
     display: block;
-    background-color:#fff;
+    background-color:##FBFBFB;
     z-index:1;
   }
   #toggle:checked + label{

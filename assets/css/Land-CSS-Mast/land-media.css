@@ -1,46 +1,84 @@
-@media only screen and (max-width: 500px) {
-  #splash{
-    grid-template-columns: 1fr;
+@media only screen and (max-width: 550px){
+  label{
+    display:block;
+    cursor:pointer;
+    font-size:40px;
+    color:#7d7d7d;
+    margin:0;
+    margin-top:.25em;
+    float:right;
   }
-
-
-
-  #banner{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin:auto;
+  label:hover{
     color:#000;
-    width:100%;
-    padding-bottom:6em;
-    /* border-bottom:1px solid #e7e7e7; */
+  }
+  nav{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:90%;
+    margin:auto;
+  }
+  p{
+    width:90%;
+    line-height:26px;
   }
 
-  #banner-ul > li > h1{
-    margin:auto;
-    padding-top: 2em;
-    width:90%
-  }
-  #banner-ul{
-    text-align: ;
-    padding:0;
-    /* margin-left: 5vw; */
-  }
-  #banner-ul > li:nth-child(2) h3{
-    width:100%;
+  figcaption{
+    margin-left:5%;
   }
 
-  #portfolio{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap:2em;
-    width:100%;
+  #logo{
+    height:40px;
+  }
+
+  #home-container-all{
+    display:grid;width:100%;
     margin:auto;
+  }
+
+  #toggle{
+    display:none;
+  }
+  #menu{
+    display:none;
+  }
+
+  #toggle:checked + #menu{
+    display:block;
+    z-index:1;
+    position:absolute;
+    height:300vh;
+    margin-top:5em;
+    background-color:#fff;
+    text-align:center;
+    width:100%;
+    left:0;
+  }
+
+  #menu > a:nth-child(2){
+    padding:2em 0 2em 0;
+  }
+  #menu > a:nth-child(1){
     margin-top:4em;
-    margin-bottom:4em;
   }
-  .hover-box > img{
-    width:100%;
-    height:55vh;
-    border:1px solid #f1f1f1;
+  #menu > a {
+    display:block;
+    font-size:24pt;
+  }
+
+
+  #headline{
+    width:90%;
+    margin-left:5%;
+  }
+
+  #case-studies{
+    grid-template-columns: 1fr;
+    grid-gap:10em;
+    margin-top:8em;
+  }
+  #case-studies > figure{
+    height:64vh;
+    background-color:#000;
+    border-radius:5px;
   }
 }

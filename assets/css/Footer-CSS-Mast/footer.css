@@ -5,16 +5,16 @@
   margin:0 auto;
   width:100%;
   bottom:0;
-  background-color:#fff;
-  z-index:1
+  padding:5em 0 5em 0;
+  z-index:1;
+  font-family: 'Lato', sans-serif;
 }
 #footer > ul{
   text-align: center;
-  color:#000;
+  color:#575757;
   font-size:12pt;
   padding:0;
   line-height: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 #footer > ul:nth-child(2){
   display: inline-flex;

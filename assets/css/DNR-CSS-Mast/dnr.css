@@ -1,0 +1,148 @@
+body{
+  background-color: #F2F2F2;
+  margin: 0;
+  padding:0;
+  font-size:14pt;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight:300;
+}
+header{
+  background: linear-gradient(90deg, #292929 0%, #525252 50%, #292929 100%);
+  color:#fff;
+  padding:33vh 0 33vh 0;
+  text-align:left;
+}
+h1{
+  font-size:32pt;
+  text-align: center;
+  line-height:50px;
+  font-family: 'Work Sans', sans-serif;
+}
+h2{
+  font-size:24pt;
+  margin-block-start:0;
+  font-family: 'Work Sans', sans-serif;
+}
+p{
+  line-height: 32px;
+}
+li{
+line-height: 32px;
+}
+sub{
+  color:;
+  font-size:8pt;
+}
+.italic{
+  font-style:italic;
+}
+.bold{
+  font-weight:Bold;
+  font-family: 'Work Sans', sans-serif;
+}
+.container-row{
+  padding:6em 0 6em 0;
+}
+.row-content{
+  width:66.66%;
+  margin:auto;
+}
+.persona-quote{
+  font-size:20pt;
+  line-height:30px;
+}
+
+
+
+
+#casestudy--content{
+  display: grid;
+  grid-template-columns: 1fr;
+  width:100%;
+}
+#case-study--container{
+  margin:auto;
+}
+
+
+
+/*---------First ROW ------------*/
+#row-content--one{
+  width:66.66%;
+  display:grid;
+  grid-template-columns: .333fr .666fr;
+  grid-gap:4em;
+  margin:auto;
+}
+.one-ul{
+  padding-left:0;
+}
+
+/*---------SECOND ROW ------------*/
+#row-content--two{
+  width:66.66%;
+  display:grid;
+  grid-template-columns: .666fr .333fr;
+  grid-gap:4em;
+  margin:auto;
+}
+.two-ul{
+  padding-left:0;
+}
+.two-thumbnail{
+  height:28px;
+  width:28px;
+  border-radius:50%;
+}
+
+
+
+
+/*---------THIRD ROW ------------*/
+
+.three-persona{
+  padding:6em 0 6em 0;
+}
+.direct-quotes{
+  font-size:16pt;
+  font-weight:150;
+}
+.episode-citation{
+  font-size: 12pt;
+}
+#three-persona--daniels{
+  width:100%;
+  display: grid;
+  grid-template-columns: .6fr .4fr;
+  grid-gap: 4em;
+}
+#three-persona--daniels > div > img{
+  width:100%;
+  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.18);
+  border-radius:2px;
+}
+
+#three-persona--rhonda{
+  width:100%;
+  display: grid;
+  grid-template-columns: .4fr .6fr;
+  grid-gap: 4em;
+}
+#three-persona--rhonda > div > img{
+  width:100%;
+  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.18);
+  border-radius:2px;
+}
+
+
+#three-persona--freamon{
+  width:100%;
+  display: grid;
+  grid-template-columns: .6fr .4fr;
+  grid-gap: 4em;
+}
+#three-persona--freamon > div > img{
+  width:100%;
+  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.18);
+  border-radius:2px;
+}
