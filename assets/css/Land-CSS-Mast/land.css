@@ -92,7 +92,7 @@ p{
 #case-studies{
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
-  grid-gap:2em;
+  grid-gap:1.8em;
   width:100%;
   margin:12em 0 12em 0;
   z-index:0;
