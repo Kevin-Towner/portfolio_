@@ -11,7 +11,7 @@ figcaption{
   font-family: 'Lato', sans-serif;
   font-size:14pt;
   line-height: 26px;
-  padding-top:em;
+  display:none;
 }
 footer{
   width:100%;
@@ -20,22 +20,11 @@ footer{
   background-color:#efefef;
   margin-top:4em;
   color:#000;
-  font-size:16pt;
+  font-size:12pt;
   z-index:2;
   position:absolute;
 }
 
-nav{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  width:100%;
-}
-
-label{
-  margin:auto;
-  text-align:center;
-  display:none;
-}
 
 h1{
   font-family: 'Raleway', sans-serif;
@@ -54,51 +43,25 @@ p{
 }
 
 #home-container-all{
-  display:grid;width:67%;
   margin:auto;
-}
-#logo{
-  margin:1em 0 0 0;
-  height:40px;
-}
-
-#toggle{
-  display:none;
-}
-
-#menu{
-  margin:1.5em 0 0 0;
-  float: right;
-}
-
-#menu > a{
-  text-decoration: none;
-  color:#212121;
-}
-#menu > a:hover{
-  font-weight:bold;
-  color:blue;
-}
-
-#menu > a:nth-child(2){
-  padding:0 2em 0 2em;
 }
 
 #headline{
-  margin:14em 0 0 0;
+  margin:14em auto 0 auto;
   color:#212121;
+  width:90%;
 }
 
 #case-studies{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-gap:1.8em;
-  width:100%;
-  margin:12em 0 12em 0;
+  grid-template-columns:1fr 1fr;
+  grid-gap:1em;
+  width:90%;
+  margin:12em auto 12em auto;
   z-index:0;
 }
 #case-studies > figure{
-  height:40vh;
+  height:75vh;
   border-radius:5px;
 }
 #case-studies > figure > a > img{
