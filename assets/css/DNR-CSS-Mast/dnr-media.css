@@ -14,7 +14,7 @@
   /*---------First ROW ------------*/
   #row-content--one{
     display:flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width:90%;
   }
 

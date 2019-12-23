@@ -18,6 +18,10 @@
     width:90%;
     margin-left:5%;
     margin-top:12em;
+    text-align:left;;
+  }
+  #headline > p{
+    line-height: 32px;
   }
 
   #case-studies{

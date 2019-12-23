@@ -70,7 +70,7 @@ sub{
 #row-content--one{
   width:66.66%;
   display:grid;
-  grid-template-columns: .333fr .666fr;
+  grid-template-columns: .666fr .333fr;
   grid-gap:4em;
   margin:auto;
 }
@@ -85,6 +85,9 @@ sub{
   grid-template-columns: .666fr .333fr;
   grid-gap:4em;
   margin:auto;
+}
+.row-content--side-list{
+  margin-top:3em;
 }
 .two-ul{
   padding-left:0;
