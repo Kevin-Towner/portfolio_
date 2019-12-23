@@ -50,29 +50,33 @@ p{
   margin:14em auto 0 auto;
   color:#212121;
   width:90%;
+  text-align: center;
 }
 
 #case-studies{
   display:grid;
   grid-template-columns:1fr 1fr;
-  grid-gap:1em;
-  width:90%;
+  width:100%;
   margin:12em auto 12em auto;
   z-index:0;
 }
-#case-studies > figure{
-  height:75vh;
-  border-radius:5px;
-}
-#case-studies > figure > a > img{
+#case-studies > a{
+  height:60vh;
   width:100%;
-  height:100%;
-  opacity:.6;
-  border-radius:2px;
+  display:grid;
 }
-#case-studies > figure > a > img:hover{
-  width:100%;
-  height:100%;
-  opacity:1;
-  box-shadow: 2px 2px 6px #989898;
+.case-studies--card{
+  display:flex;
+}
+#case-studies--one{
+  background:#82DADC;
+}
+#case-studies--two{
+  background:#9A46F1;
+}
+.case-studies--card > img{
+  height:200px;
+  width:200px;
+  margin:auto;
+  object-fit:contain;
 }

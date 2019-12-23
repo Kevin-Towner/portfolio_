@@ -7,7 +7,7 @@ body{
   font-weight:300;
 }
 header{
-  background: linear-gradient(90deg, #292929 0%, #525252 50%, #292929 100%);
+  /* background: linear-gradient(90deg, #292929 0%, #525252 50%, #292929 100%); */
   color:#fff;
   padding:33vh 0 33vh 0;
   text-align:left;
