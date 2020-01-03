@@ -64,7 +64,7 @@ p{
   padding-bottom:4em;
   padding-top:1em;
   height:50vh;
-  transition:.5s;
+  transition:1s;
 }
 #case-studies--one{
   background:#82DADC;
@@ -77,13 +77,14 @@ p{
   width:200px;
   margin:auto;
   object-fit:contain;
+  transition:1s;
 }
 .case-studies--card > h2{
   font-family: 'Raleway', sans-serif;
   font-size:20pt;
   text-align: center;
   opacity:0;
-  transition:.5s;
+  transition:1s;
   color:#fff;
 }
 .case-studies--card:hover > img{
