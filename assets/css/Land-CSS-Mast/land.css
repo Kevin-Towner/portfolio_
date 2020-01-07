@@ -62,12 +62,12 @@ p{
   display:flex;
   flex-direction: column;
   padding-bottom:4em;
-  padding-top:1em;
+  padding-top:2em;
   height:50vh;
   transition:1s;
 }
 #case-studies--one{
-  background:#82DADC;
+  background:#41A4A6;
 }
 #case-studies--two{
   background:#9A46F1;
@@ -77,19 +77,19 @@ p{
   width:200px;
   margin:auto;
   object-fit:contain;
-  transition:1s;
+  transition:.5s;
 }
 .case-studies--card > h2{
   font-family: 'Raleway', sans-serif;
   font-size:20pt;
   text-align: center;
   opacity:0;
-  transition:1s;
+  transition:.5s;
   color:#fff;
 }
 .case-studies--card:hover > img{
-  opacity:.5;
+  opacity:.2;
 }
 .case-studies--card:hover > h2{
-  opacity:1;
+  opacity:.8;
 }
