@@ -1,11 +1,8 @@
 body{
-  background:#fff;
+  background:#f3f3f3;
   color:#222;
   margin:0 auto;
   font-family: 'Lato', sans-serif;
-}
-figure{
-  margin:0;
 }
 figcaption{
   font-family: 'Lato', sans-serif;
@@ -31,6 +28,8 @@ a{
 h1{
   font-family: 'Raleway', sans-serif;
   font-size:32pt;
+  color:#323232;
+  text-shadow:2px 2px 2px lightgrey;
 }
 
 p{
@@ -50,6 +49,13 @@ p{
   width:90%;
   text-align: center;
 }
+#headline > p{
+  font-size:16pt;
+  font-weight:bold;
+  margin-top:2em;
+  letter-spacing: .2px;
+  color:#323232;
+}
 
 #case-studies{
   display:grid;
@@ -61,7 +67,7 @@ p{
 .case-studies--card{
   display:flex;
   flex-direction: column;
-  padding-bottom:4em;
+  padding-bottom:6em;
   padding-top:2em;
   height:50vh;
   transition:1s;
