@@ -1,7 +1,7 @@
 body{
   background-color:#f3f3f3;
   margin:0 auto;
-  font-size:16pt;
+  font-size:12pt;
   font-weight:Bold;
   font-family: 'Lato', sans-serif;
 }
@@ -13,7 +13,7 @@ h1{
 }
 p{
   line-height: 32px;
-  word-spacing:2px;
+  /* word-spacing:2px; */
 }
 ul > li{
   list-style-type:circle;
