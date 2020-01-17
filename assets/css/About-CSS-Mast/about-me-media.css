@@ -1,57 +1,7 @@
 @media only screen and (max-width: 500px) {
-  body{
-    background-color: #f2f2f2;
-    margin: 0;
-    padding:0;
-  }
-  .container{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .two-rows{
-    display: grid;
-    grid-template-rows: 1fr;
-    width:90%;
-    margin:auto;
-  }
-  .row-1{
-    grid-template-columns: 1fr;
-    grid-gap:1em;
-  }
-  .row-2{
-    grid-template-columns: 1fr;
-    grid-gap:1em;
-    margin-top:0em;
-  }
-  .row-3{
-    margin-top:0em;
-  }
-
-  .bolden{
-    font-weight:bold;
-    font-size:16pt;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-
-  .about-me-img{
-    width:100%;
-    height:50vh;
-    max-height: 50vh;
-  }
-  h1{
-    font-size:24pt;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    padding-bottom:.5em;
-    margin-top:4em;
-  }
-  p{
-    width:100%;
-    line-height:25px;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin:auto;
-    font-size: 16pt;
-  }
+#container{
+  margin-top:10em;
+  width:90%;
+}
 
 }
