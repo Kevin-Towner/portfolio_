@@ -21,13 +21,13 @@
     margin: auto;
     z-index:1;
     background-color:#fff;
-    padding:1em 0 1em 0;
+    padding:1em 0 .5em 0;
     top:0;
   }
   #logo{
     height:40px;
     margin-left:5%;
-    margin-top:.5em;
+    margin-top:.25em;
   }
 
   #home-container-all{
