@@ -1,151 +1,135 @@
 body{
-  background-color: #F2F2F2;
-  margin: 0;
-  padding:0;
+  background:#f3f3f3;
+  color:#000;
+  margin:0 auto;
+  font-family: 'Lato', sans-serif;
   font-size:14pt;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight:300;
 }
 header{
-  /* background: linear-gradient(90deg, #292929 0%, #525252 50%, #292929 100%); */
-  color:#000;
-  padding:33vh 0 33vh 0;
-  text-align:left;
-}
-h1{
-  font-size:32pt;
   text-align: center;
-  line-height:50px;
-  font-family: 'Work Sans', sans-serif;
+}
+
+header > img{
+ width:100%;
+ border-radius:5px;
+ margin-top:8em;
+ box-shadow:2px 2px 1px lightgrey;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size:32pt;
+  color:#323232;
+  text-shadow:1px 1px 1px lightgrey;
+  text-align:center;
 }
 h2{
-  font-size:24pt;
-  margin-block-start:0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size:32pt;
+  color:#323232;
+  text-shadow:1px 1px 1px lightgrey;
+  text-align: center;
+}
+figcaption{
+  font-family: 'Lato', sans-serif;
+  font-size:14pt;
+  line-height: 26px;
+  display:none;
+}
+footer{
+  width:100%;
+  padding:6em 0 4em 0;
+  text-align:center;
+  background-color:#fefefe;
+  color:#000;
+  font-size:12pt;
+  z-index:2;
+  position:absolute;
 }
 p{
-  line-height: 32px;
+  line-height:32px;
+  text-align: left;
 }
-li{
-line-height: 32px;
+ul{
+ line-height: 32px;
 }
-sub{
-  color:;
-  font-size:8pt;
+
+
+a{
+  text-decoration: none;
 }
-.italic{
-  font-style:italic;
+
+.section-all{
+  margin-top:10em;
 }
+
 .bold{
-  font-weight:Bold;
-  font-family: 'Work Sans', sans-serif;
+  font-weight:1000;
+  font-size:14.5pt;
 }
-.container-row{
-  padding:6em 0 6em 0;
+.italic-bold{
+  font-style:italic;
+  font-weight:1000;
 }
-.row-content{
-  width:66.66%;
-  margin:auto;
-}
-.persona-quote{
-  font-size:20pt;
-  line-height:30px;
+.h2-side-text{
+  font-family: 'Raleway', sans-serif;
+  font-size:14pt;
 }
 
 
-
-
-#casestudy--content{
-  display: grid;
-  grid-template-columns: 1fr;
-  width:100%;
+#home-container-all{
 }
-#case-study--container{
-  margin:auto;
+#home-container-content{
+  width:66.7%;
+  margin: 9em auto 0 auto;
 }
 
 
-
-/*---------First ROW ------------*/
-#row-content--one{
-  width:66.66%;
+/*-- Section Introduction --*/
+.list-horizontal{
   display:grid;
-  grid-template-columns: .666fr .333fr;
-  grid-gap:4em;
-  margin:auto;
-}
-.one-ul{
+  grid-template-columns:1fr 1fr 1fr;
   padding-left:0;
+  width:100%;
+  text-align: center;
 }
 
-/*---------SECOND ROW ------------*/
-#row-content--two{
-  width:66.66%;
+.list-inner-overview-vertical{
   display:grid;
-  grid-template-columns: .666fr .333fr;
-  grid-gap:4em;
+  grid-template-rows: 1fr 1fr;
+  padding-left:0;
+  text-align: center;
+}
+
+.list-inner-overview-vertical > li:nth-child(2){
+  margin-top:8px;
+}
+
+#list-inner-overview-basis{
+  float:left;
+}
+
+#list-inner-overview-type{
+  float:right;
+}
+
+#section-introduction{
+ width:75%;
+ margin:auto;
+ margin-top:8em;
+}
+
+
+
+/*-- Section Personas --*/
+#image-personas{
+  width:100%;
+  border-radius:5px;
+}
+#section-personas > div{
+  width:75%;
   margin:auto;
 }
-.row-content--side-list{
-  margin-top:3em;
-}
-.two-ul{
-  padding-left:0;
-}
-.two-thumbnail{
-  height:28px;
-  width:28px;
-  border-radius:50%;
-}
-
-
-
-
-/*---------THIRD ROW ------------*/
-
-.three-persona{
-  padding:6em 0 6em 0;
-}
-.direct-quotes{
-  font-size:16pt;
-  font-weight:150;
-}
-.episode-citation{
-  font-size: 12pt;
-}
-#three-persona--daniels{
-  width:100%;
-  display: grid;
-  grid-template-columns: .6fr .4fr;
-  grid-gap: 4em;
-}
-#three-persona--daniels > div > img{
-  width:100%;
-  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.18);
-  border-radius:2px;
-}
-
-#three-persona--rhonda{
-  width:100%;
-  display: grid;
-  grid-template-columns: .4fr .6fr;
-  grid-gap: 4em;
-}
-#three-persona--rhonda > div > img{
-  width:100%;
-  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.18);
-  border-radius:2px;
-}
-
-
-#three-persona--freamon{
-  width:100%;
-  display: grid;
-  grid-template-columns: .6fr .4fr;
-  grid-gap: 4em;
-}
-#three-persona--freamon > div > img{
-  width:100%;
-  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.18);
-  border-radius:2px;
+#image-personas{
+  margin-top:2em;
 }

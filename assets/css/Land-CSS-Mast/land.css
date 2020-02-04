@@ -29,7 +29,7 @@ h1{
   font-family: 'Raleway', sans-serif;
   font-size:32pt;
   color:#323232;
-  text-shadow:2px 2px 2px lightgrey;
+  text-shadow:1px 1px 1px lightgrey;
 }
 
 p{
@@ -75,11 +75,11 @@ p{
 
 
 #case-studies--one{
-  background:#6DCD69;
+  background:#1654F8;
 }
-#case-studies--one > h2{
+/* #case-studies--one > h2{
   color:#131D1C;
-}
+} */
 
 
 #case-studies--two{
