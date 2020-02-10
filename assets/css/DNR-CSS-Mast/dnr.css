@@ -30,6 +30,15 @@ h2{
   text-shadow:1px 1px 1px lightgrey;
   text-align: center;
 }
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size:20pt;
+  color:#323232;
+  text-shadow:1px 1px 1px lightgrey;
+  text-align: center;
+  margin-top:4em;
+}
+
 figcaption{
   font-family: 'Lato', sans-serif;
   font-size:14pt;
@@ -122,14 +131,12 @@ a{
 
 
 /*-- Section Personas --*/
-#image-personas{
-  width:100%;
-  border-radius:5px;
-}
 #section-personas > div{
   width:75%;
   margin:auto;
 }
 #image-personas{
-  margin-top:2em;
+  margin-top:4em;
+  width:100%;
+  border-radius:5px;
 }
