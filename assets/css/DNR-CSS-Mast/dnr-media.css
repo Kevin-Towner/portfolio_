@@ -1,99 +1,36 @@
 @media only screen and (max-width: 500px) {
-  h1{
-    font-size:32pt;
-    text-align: left;
-    width:90%;
-    margin:auto;
-    line-height:50px;
-    font-family: 'Work Sans', sans-serif;
+  body{
+    font-size:16pt;
   }
   header{
-    background: linear-gradient(90deg, #292929 0%, #525252 50%, #292929 100%);
-    padding:20vh 0 20vh 0;
+    text-align: left;
   }
-  /*---------First ROW ------------*/
-  #row-content--one{
-    display:flex;
-    flex-direction: column;
+  h1{
+    text-align: left;
+    line-height: 40px;
+  }
+  h2{
+    text-align: left;
+    font-size:24pt;
+  }
+  h3{
+    text-align: left;
+    font-size:18pt;
+  }
+
+  .bold{
+    font-size:16.5pt;
+  }
+  .section-all{
+
+  }
+  #home-container-content{
     width:90%;
   }
-
-  #row-content--one > div:nth-child(1){
-    margin-top:1em;
-  }
-
-  .one-ul{
-    padding-left:0;
-  }
-  .row-content{
-    width:90%;
-  }
-
-  .container-row{
-    padding:2em 0 2em 0;
-  }
-
-  /*---------SECOND ROW ------------*/
-  #row-content--two{
-    display:flex;
-    flex-direction: column;
-    width:90%;
-  }
-
-  #row-content--two > div:nth-child(2){
-    margin-top:1em;
-  }
-
-  .two-ul{
-    padding-left:0;
-  }
-
-  .two-thumbnail{
-    height:28px;
-    width:28px;
-    border-radius:50%;
-  }
-
-
-  /*---------THIRD ROW ------------*/
-
-  .three-persona{
-    padding:4em 0 4em 0;
-  }
-  .direct-quotes{
-    font-size:16pt;
-    font-weight:150;
-  }
-  #three-persona--daniels{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0em;
-  }
-  #three-persona--daniels > div > img{
-    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.18);
-    border-radius:2px;
-  }
-
-  #three-persona--rhonda{
-    display: flex;
-    flex-direction:column-reverse;
-  }
-
-  #three-persona--rhonda > div > img{
+  #section-introduction{
     width:100%;
-    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.18);
-    border-radius:2px;
   }
-
-
-  #three-persona--freamon{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0em;
-  }
-  #three-persona--freamon > div > img{
+  #section-personas > div{
     width:100%;
-    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.18);
-    border-radius:2px;
   }
 }

@@ -11,14 +11,13 @@
   h2{
     font-size:16pt;
   }
-  footer{margin-top:0;}
 
 
   #headline{
     width:90%;
     margin-left:5%;
     margin-top:12em;
-    text-align:left;;
+    text-align:left;
   }
   #headline > p{
     line-height: 32px;

@@ -3,6 +3,7 @@ nav{
   grid-template-columns:1fr 1fr;
   width:90%;
   margin:auto;
+  padding:.5em 0 .5em 0;
 }
 
 label{
@@ -11,8 +12,7 @@ label{
   display:none;
 }
 #logo{
-  margin:1em 0 0 0;
-  height:40px;
+  height:32px;
   float:
 }
 
@@ -21,7 +21,6 @@ label{
 }
 
 #menu{
-  margin:1.5em 0 0 0;
   float: right;
 }
 

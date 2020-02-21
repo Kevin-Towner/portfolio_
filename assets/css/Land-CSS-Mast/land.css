@@ -18,7 +18,6 @@ footer{
   color:#000;
   font-size:12pt;
   z-index:2;
-  position:absolute;
 }
 
 a{
@@ -83,7 +82,7 @@ p{
 
 
 #case-studies--two{
-  background:#9A46F1;
+  background:#FF781F;
 }
 
 
@@ -104,8 +103,8 @@ p{
   color:#fff;
 }
 .case-studies--card:hover > img{
-  opacity:.2;
+  opacity:.1;
 }
 .case-studies--card:hover > h2{
-  opacity:.8;
+  opacity:1;
 }
