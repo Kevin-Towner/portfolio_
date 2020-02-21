@@ -20,18 +20,8 @@ ul > li{
   line-height: 36px;
 }
 
-footer{
-  width:100%;
-  padding:4em 0 4em 0;
-  text-align:center;
-  background-color:#fefefe;
-  color:#000;
-  font-size:12pt;
-  position:absolute;
-}
-
 .contact-icons{
-  height:24px;
+  height:32px;
   border-radius:2px;
 }
 .contact-icons:hover{
@@ -51,6 +41,12 @@ footer{
 #container > div > img{
   width:100%;
   border-radius:4px;
+  opacity:.8;
+}
+#container > div > img:hover{
+  width:100%;
+  border-radius:4px;
+  opacity:1;
 }
 #contact-list{
   display:inline-flex;
@@ -60,6 +56,9 @@ footer{
 }
 #contact-list > li{
   list-style-type:none;
+}
+#contact-list > li:nth-child(1){
+  margin-left:1em;
 }
 #contact-list > li:nth-child(2){
   padding-left:24px;
