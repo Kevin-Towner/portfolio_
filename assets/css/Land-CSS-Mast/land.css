@@ -10,15 +10,6 @@ figcaption{
   line-height: 26px;
   display:none;
 }
-footer{
-  width:100%;
-  padding:6em 0 4em 0;
-  text-align:center;
-  background-color:#fefefe;
-  color:#000;
-  font-size:12pt;
-  z-index:2;
-}
 
 a{
   text-decoration: none;
