@@ -21,11 +21,14 @@ ul > li{
 }
 
 .contact-icons{
-  height:32px;
+  height:28px;
   border-radius:2px;
 }
 .contact-icons:hover{
   background-color:#eee;
+}
+.bold{
+  font-weight:bold;
 }
 
 #container{
