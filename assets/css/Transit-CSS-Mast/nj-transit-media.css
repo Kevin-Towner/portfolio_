@@ -21,6 +21,10 @@
   p{
     line-height:32px;
   }
+  figcaption{
+    margin-top:0;
+    font-size:12pt;
+  }
   .bold{
     font-size:16pt;
   }
@@ -47,6 +51,9 @@
     list-style-type:circle;
     padding-left:16px;
     margin-top:24px;
+  }
+  #qualitative-row-images{
+    width:100%;
   }
 
 }
