@@ -96,6 +96,8 @@ a{
   margin-top:10em;
 }
 
+/*----OVERVIEW --*/
+
 #list-inner-overview-basis{
   float:left;
 }
@@ -104,6 +106,8 @@ a{
   float:right;
 }
 
+
+/*----Introduction--*/
 #section-introduction{
  margin:auto;
  margin-top:8em;
@@ -119,4 +123,24 @@ a{
   width:100%;
   border-radius:5px;
   margin-top:4em;
+}
+
+/*--Research--*/
+#section-qualitative{
+  width:75%;
+  margin:auto;
+  margin-top:8em;
+}
+.row-qualitative-all{
+  display:flex;
+  flex-direction:row;
+}
+.row-qualitative-all > img{
+  height:50vh;
+  width:40%;
+  margin-top:4em;
+}
+.research-list{
+  list-style-type:disc;
+  margin:auto;
 }
