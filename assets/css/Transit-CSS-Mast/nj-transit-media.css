@@ -25,6 +25,12 @@
     margin-top:0;
     font-size:12pt;
   }
+  header > img{
+   width:100%;
+   border-radius:5px;
+   margin-top:2em;
+   box-shadow:2px 2px 4px #999;
+  }
   .bold{
     font-size:16pt;
   }
@@ -42,7 +48,9 @@
     width:90%;
     margin:auto;
   }
-
+  #section-overview{
+    margin-top:4em;
+  }
   #list-inner-overview-basis{
     float:left;
   }

@@ -92,7 +92,7 @@ figcaption{
   font-size:12.5pt;
 }
 
-.section-all{
+.section-all:nth-child(1){
   margin-top:10em;
 }
 
