@@ -28,10 +28,31 @@
   .bold{
     font-size:16pt;
   }
+  .list-horizontal{
+    grid-template-columns:1fr;
+    grid-gap:2em;
+  }
+  .list-inner-overview-vertical > li{
+    text-align:left;
+  }
+  .list-inner-overview-vertical > li:nth-child(2){
+    margin-top:4px;
+  }
   #home-container-content{
     width:90%;
     margin:auto;
   }
+
+  #list-inner-overview-basis{
+    float:left;
+  }
+  #list-inner-overview-role{
+    float:left;
+  }
+  #list-inner-overview-type{
+    float:left;
+  }
+
   #section-introduction > div{
    width:100%;
    margin:auto;
