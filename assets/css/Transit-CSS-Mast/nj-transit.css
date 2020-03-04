@@ -12,7 +12,7 @@ header > img{
  width:100%;
  border-radius:5px;
  margin-top:8em;
- box-shadow:2px 2px 1px lightgrey;
+ box-shadow:2px 2px 4px #999;
 }
 
 h1{
@@ -38,13 +38,6 @@ h3{
   margin-top:4em;
 }
 
-
-figcaption{
-  font-family: 'Lato', sans-serif;
-  font-size:14pt;
-  line-height: 26px;
-  display:none;
-}
 p{
   line-height:32px;
   text-align: left;
@@ -52,10 +45,17 @@ p{
 ul{
  line-height: 32px;
 }
-
-
 a{
   text-decoration: none;
+}
+figure{
+  width:100%;
+  margin:auto;
+}
+figcaption{
+  text-align:center;
+  color:#535353;
+  margin-top:5px;
 }
 
 #home-container-all{
@@ -123,13 +123,14 @@ a{
   width:100%;
   border-radius:5px;
   margin-top:4em;
+  box-shadow:1px 1px 4px #999;
 }
 
 /*--Research--*/
 #section-qualitative{
-  width:75%;
   margin:auto;
   margin-top:8em;
+  width:75%;
 }
 .row-qualitative-all{
   display:flex;
@@ -141,6 +142,8 @@ a{
   margin-top:4em;
 }
 .research-list{
-  list-style-type:disc;
+  list-style-type:circle;
   margin:auto;
+  margin-top:0;
+  padding-left:28px;
 }

@@ -1,4 +1,52 @@
 @media only screen and (max-width: 500px){
-
+  body{
+    font-size:16pt;
+    line-height:40px;
+  }
+  header{
+    text-align: left;
+  }
+  h1{
+    text-align: left;
+    line-height: 40px;
+  }
+  h2{
+    text-align: left;
+    font-size:24pt;
+  }
+  h3{
+    text-align: left;
+    font-size:18pt;
+  }
+  p{
+    line-height:32px;
+  }
+  .bold{
+    font-size:16pt;
+  }
+  #home-container-content{
+    width:90%;
+    margin:auto;
+  }
+  #section-introduction > div{
+   width:100%;
+   margin:auto;
+  }
+  #section-introduction{
+   margin:auto;
+   margin-top:4em;
+  }
+  #section-qualitative{
+    width:100%;
+    margin-top:4em;
+  }
+  #list-assumptions > li{
+    margin-top:16px;
+  }
+  .research-list > li{
+    list-style-type:circle;
+    padding-left:16px;
+    margin-top:24px;
+  }
 
 }
