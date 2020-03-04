@@ -147,3 +147,17 @@ figcaption{
   margin-top:0;
   padding-left:28px;
 }
+#qualitative-row-images{
+  width:75%;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap:1em;
+  margin:auto;
+}
+#qualitative-row-images > figure{
+  width:100%;
+}
+#qualitative-row-images > figure > img{
+  width:100%;
+  height:33.3vh;
+}
