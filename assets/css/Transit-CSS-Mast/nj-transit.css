@@ -121,6 +121,7 @@ figcaption{
 }
 #assumptions-map{
   width:100%;
+  height:120vh;
   border-radius:5px;
   margin-top:4em;
   box-shadow:1px 1px 4px #999;
@@ -136,11 +137,6 @@ figcaption{
   display:flex;
   flex-direction:row;
 }
-.row-qualitative-all > img{
-  height:50vh;
-  width:40%;
-  margin-top:4em;
-}
 .research-list{
   list-style-type:circle;
   margin:auto;
@@ -148,7 +144,6 @@ figcaption{
   padding-left:28px;
 }
 #qualitative-row-images{
-  width:75%;
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-gap:1em;
