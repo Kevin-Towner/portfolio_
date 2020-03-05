@@ -155,4 +155,6 @@ figcaption{
 #qualitative-row-images > figure > img{
   width:100%;
   height:33.3vh;
+  border-radius:5px;
+  box-shadow:.5px .5px 2px #999;
 }
