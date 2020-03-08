@@ -137,10 +137,11 @@ figcaption{
   flex-direction:row;
 }
 .research-list{
-  list-style-type:circle;
+  list-style-type:none;
   margin:auto;
   margin-top:0;
   padding-left:28px;
+  text-align: center;
 }
 #qualitative-row-images{
   display:grid;
