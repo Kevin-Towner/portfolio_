@@ -78,8 +78,7 @@ p{
 
 
 .case-studies--card > img{
-  height:200px;
-  width:200px;
+  width:240px;
   margin:auto;
   object-fit:contain;
   transition:.5s;
