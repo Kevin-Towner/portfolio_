@@ -121,7 +121,6 @@ figcaption{
 }
 #assumptions-map{
   width:100%;
-  height:120vh;
   border-radius:5px;
   margin-top:4em;
   box-shadow:1px 1px 4px #999;
@@ -154,7 +153,6 @@ figcaption{
 }
 #qualitative-row-images > figure > img{
   width:100%;
-  height:33.3vh;
   border-radius:5px;
   box-shadow:.5px .5px 2px #999;
 }
