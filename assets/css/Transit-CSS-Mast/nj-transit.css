@@ -120,9 +120,9 @@ figcaption{
   list-style-type:upper-alpha;
 }
 #assumptions-map{
-  width:100%;
-  border-radius:5px;
   margin-top:4em;
+  max-height:75vh;
+  border-radius:5px;
   box-shadow:1px 1px 4px #999;
 }
 
@@ -140,8 +140,17 @@ figcaption{
   list-style-type:none;
   margin:auto;
   margin-top:0;
-  padding-left:28px;
+  padding-left:0;
   text-align: center;
+  padding-left:24px;
+}
+#figure-assumptions-map{
+  width:75%;
+  margin:auto;
+}
+
+#assumptions-map{
+  width:100%;
 }
 #qualitative-row-images{
   display:grid;
