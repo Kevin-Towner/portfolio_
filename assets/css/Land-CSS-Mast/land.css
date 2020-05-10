@@ -87,7 +87,7 @@ p{
   font-family: 'Raleway', sans-serif;
   font-size:20pt;
   text-align: center;
-  opacity:0;
+  opacity:.0;
   transition:.5s;
   color:#fff;
 }
@@ -95,5 +95,5 @@ p{
   opacity:.1;
 }
 .case-studies--card:hover > h2{
-  opacity:1;
+  opacity:.8;
 }
