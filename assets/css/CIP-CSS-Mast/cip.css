@@ -4,27 +4,125 @@ body{
   margin:0;
   font-family: 'Lato', sans-serif;
 }
+
 header{
   text-align: center;
+  margin:auto;
   margin-top:14em;
+  width:67%;
 }
+
 h1{
   font-family: 'Raleway', sans-serif;
   font-size:50pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
 }
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size:45pt;
+  color:#323232;
+  text-shadow:1px 1px 1px lightgrey;
+  text-align:center;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size:32pt;
+  color:#323232;
+  text-shadow:1px 1px 1px lightgrey;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-size:16pt;
+  color:#323232;
+  text-shadow:1px 1px 1px lightgrey;
+}
+
 p{
   font-size:16pt;
+  line-height:28px;
 }
+
 #home-container-all{
   margin:auto;
 
 }
-#home-container-content{
-  width:66.7%;
-  margin:auto;
-}
+
+
 .bold{
   font-weight:bold;
+}
+
+.section-all-67{
+  width:67%;
+  margin:auto;
+  margin-top:10em
+}
+
+.section-all-33{
+  width:33%;
+  margin:auto;
+  margin-top:10em;
+}
+
+
+
+
+/*-- Section Overview --*/
+.list-horizontal{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  padding-left:0;
+  width:100%;
+  text-align: center;
+}
+
+.list-inner-overview-vertical{
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  padding-left:0;
+  text-align: center;
+}
+
+.list-inner-overview-vertical > li:nth-child(2){
+
+}
+
+.bold{
+  font-weight:1000;
+  font-size:12.5pt;
+}
+
+.section-all:nth-child(1){
+  margin-top:10em;
+}
+
+#section-overview{
+  font-size:16pt;
+}
+
+#list-inner-overview-basis{
+  float:left;
+}
+
+#list-inner-overview-type{
+  float:right;
+}
+
+
+
+/*--Section Problem --*/
+
+#list-goals{
+  line-height: 28px;
+  list-style-type: disc;
+}
+#list-goals > li:nth-child(2){
+  margin-top:12px;
+}
+#list-goals > li:nth-child(3){
+  margin-top:12px;
 }

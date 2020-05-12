@@ -1,0 +1,81 @@
+@media only screen and (max-width: 500px){
+  header{
+    text-align:left;
+    width:80%;
+  }
+
+  h1{
+    font-size:40pt;
+  }
+
+  h2{
+    font-size:32pt;
+    text-align: left;
+  }
+
+
+  .section-all-67{
+    width:80%;
+    margin-top:4em
+  }
+
+  .section-all-33{
+    width:33%;
+    margin-top:4em;
+  }
+
+
+
+  /*-- Section Overview --*/
+  .list-horizontal{
+    display:grid;
+    grid-template-columns:1fr;
+    padding-left:24px;
+    width:100%;
+    text-align: left;
+  }
+
+  .list-inner-overview-vertical{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left:0;
+    text-align: left;
+  }
+
+  .list-inner-overview-vertical > li:nth-child(2){
+    list-style-type: disc;
+    margin-left:28px;
+  }
+  .list-inner-overview-vertical > li:nth-child(3){
+    list-style-type: disc;
+    margin-left:28px;
+  }
+
+  .bold{
+    font-weight:1000;
+    font-size:12.5pt;
+  }
+
+  .section-all:nth-child(1){
+    margin-top:10em;
+  }
+
+
+  #list-horizontal-overview > li:nth-child(2){
+    margin-top:2em;
+  }
+  #list-horizontal-overview > li:nth-child(3){
+    margin-top:2em;
+  }
+  #section-overview{
+    font-size:16pt;
+  }
+
+  #list-inner-overview-basis{
+    float:none;
+  }
+
+  #list-inner-overview-type{
+    float:none;
+  }
+}

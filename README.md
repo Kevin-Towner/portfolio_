@@ -1,2 +1,2 @@
 # Product-Portfolio
-UI // UX // Digital Product Design Portfolio
+User Experience ++ UI Design Portfolio

@@ -6,24 +6,23 @@
     display:block;
     cursor:pointer;
     font-size:32px;
-    color:#7d7d7d;
+    color:#262626;
     float:right;
     margin-right:5%;
   }
   label:hover{
-    color:#000;
+    color:#1654F8;
   }
   nav{
     display:grid;
     grid-template-columns:1fr 1fr;
     width:100%;
     position:fixed;
-    margin: auto;
     z-index:1;
     background-color:#fff;
     margin:0;
-    padding:30px 0 30px 0;
-    top:0;
+    padding:15px 0 15px 0;
+    box-shadow: 0px 1px 2.5px #888888;
   }
   #logo{
     margin-left:5%;
