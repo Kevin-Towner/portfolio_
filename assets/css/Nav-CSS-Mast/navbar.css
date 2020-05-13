@@ -12,7 +12,7 @@ label{
   display:none;
 }
 #logo{
-  height:32px;
+  height:36px;
 }
 
 #toggle{
@@ -25,8 +25,9 @@ label{
 
 #menu > a{
   text-decoration: none;
-  color:#262626;
-  font-size:12pt;
+  color:rgb(50,50,50, .8);
+  font-size:14pt;
+  font-weight:lighter;
   font-family: 'Lato', sans-serif;
 }
 
