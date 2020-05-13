@@ -2,6 +2,7 @@
   h1{
     text-align: left;
     margin-left:3%;
+
   }
   /*------CONTAINERS---*/
   #container-resume-page{
@@ -29,10 +30,10 @@
     margin-top:2em;
     margin:auto;
     line-height:28px;
+
   }
   #list-horizontal-header{
       display:block;
-      padding-left:0;
   }
   #list-horizontal-header > li{
       float:none;
