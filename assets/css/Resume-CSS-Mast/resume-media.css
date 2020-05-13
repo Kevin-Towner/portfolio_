@@ -62,7 +62,7 @@
   }
   .position{
     font-weight:Bold;
-    font-size:12.5pt;
+    font-size:12pt;
     letter-spacing:.4px;
     color:rgb(50,50,50);
 
@@ -91,7 +91,7 @@
   .invisible{
     visibility:visible;
     font-weight:Bold;
-    font-size:12.5pt;
+    font-size:12pt;
     letter-spacing:.4px;
     color:rgb(50,50,50, .6);
   }
