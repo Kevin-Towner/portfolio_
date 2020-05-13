@@ -54,6 +54,8 @@ header{
   margin-left:80px;
 }
 #list-horizontal-header > li > a{
+    font-size:12.5pt;
+    letter-spacing:.4px;
     color:#323232;
     text-decoration:none;
 }
