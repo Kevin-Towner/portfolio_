@@ -6,4 +6,5 @@ footer{
   font-size:14pt;
   color:rgb(50,50,50, .8);
   font-family: 'Lato', sans-serif;
+  box-shadow: 0px -.3px -.6px #888888;
 }
