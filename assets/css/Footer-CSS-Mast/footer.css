@@ -3,7 +3,7 @@ footer{
   padding:4em 0 4em 0;
   text-align:center;
   background-color:#fefefe;
-  font-size:16pt;
-  color:#262626;
+  font-size:14pt;
+  color:rgb(50,50,50, .8);
   font-family: 'Lato', sans-serif;
 }
