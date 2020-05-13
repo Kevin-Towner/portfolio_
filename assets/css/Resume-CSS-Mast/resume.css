@@ -60,7 +60,6 @@ header{
     text-decoration:none;
 }
 #list-horizontal-header > li > a:hover{
-    color:#1654F8;
     font-weight:bold;
     text-decoration:underline;
 }
