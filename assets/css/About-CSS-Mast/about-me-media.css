@@ -1,12 +1,109 @@
 @media only screen and (max-width: 500px) {
-  #container{
-    display:flex;
-    flex-direction:column-reverse;
+  body{
+    background:#f3f3f3;
+    margin:0 auto;
+    font-family: 'Lato', sans-serif;
   }
   h1{
+    font-family: 'Raleway', sans-serif;
+    font-size:28pt;
+    color:#323232;
+    text-shadow:1px 1px 1px lightgrey;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Lato', sans-serif;
+    color:rgb(50,50,50,.6);
+    text-align:left;
+  }
+  header{
+    border-bottom:1px solid rgb(50,50,50,.3);
+  }
+  /*------CONTAINERS---*/
+  #container-resume-page{
+    background-color:#fff;
+    margin:auto;
+    width:78%;
+    margin-top:8em;
+    margin-bottom:8em;
+    padding-top:2em;
+    padding-bottom:2em;
+    box-shadow:0px 1px 5px lightgrey;
+  }
+  #container-resume-content{
+    width:92%;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
     margin-top:2em;
   }
-  #container > div > img{
+
+  /*------CONTACT INFORMATION---*/
+  #container-list-contact{
+    text-align:center;
+    width: 100%;
+    margin-top:2em;
+  }
+  #list-horizontal-header{
+      display:inline-block;
+  }
+  #list-horizontal-header > li{
+      float:left;
+  }
+  #list-horizontal-header > li:not(:first-child) a{
+    margin-left:80px;
+  }
+  #list-horizontal-header > li > a{
+      color:#323232;
+      text-decoration:none;
+  }
+  #list-horizontal-header > li > a:hover{
+      color:#1654F8;
+      font-weight:bold;
+      text-decoration:underline;
+  }
+  /*-----CONTENT----*/
+  .content-row{
+    display:grid;
+    grid-template-columns: .5fr 2fr .5fr;
+  }
+  .row-date > li{
+
+  }
+  .position{
+    font-weight:Bold;
+    font-size:12.5pt;
+    letter-spacing:.4px;
+    color:rgb(50,50,50);
+
+  }
+  .position-criteria > li:not(first){
+    margin-top:8px;
+  }
+  .date{
+    font-weight:Bold;
+    letter-spacing:.4px;
+    color:rgb(50,50,50, .6);
+  }
+  .criteria{
+    line-height:20px;
+  }
+  .category{
+    font-weight:Bold;
+    letter-spacing:.4px;
+    color:#000;
+    font-size:12.5pt;
+    border-right: 1px solid black;
+  }
+  .position-criteria{
+    list-style-type: circle;
+    margin-top:8px;
+  }
+
+  #content-row-experience{
+    margin-top:4em;
+  }
+  #content-row-skills{
     margin-top:4em;
   }
 

@@ -1,0 +1,110 @@
+@media only screen and (max-width: 500px) {
+  h1{
+    text-align: left;
+    margin-left:3%;
+  }
+  /*------CONTAINERS---*/
+  #container-resume-page{
+    background-color:#fff;
+    margin:auto;
+    width:90%;
+    margin-top:8em;
+    margin-bottom:8em;
+    padding-top:2em;
+    padding-bottom:2em;
+    box-shadow:0px 1px 5px lightgrey;
+  }
+  #container-resume-content{
+    width:94%;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    margin-top:2em;
+  }
+
+  /*------CONTACT INFORMATION---*/
+  #container-list-contact{
+    text-align:left;
+    width: 94%;
+    margin-top:2em;
+    margin:auto;
+    line-height:28px;
+  }
+  #list-horizontal-header{
+      display:block;
+      padding-left:0;
+  }
+  #list-horizontal-header > li{
+      float:none;
+  }
+  #list-horizontal-header > li:not(:first-child) a{
+    margin-left:0;
+  }
+  #list-horizontal-header > li > a{
+      color:#323232;
+      text-decoration:none;
+  }
+  #list-horizontal-header > li > a:hover{
+      color:#1654F8;
+      font-weight:bold;
+      text-decoration:underline;
+  }
+  /*-----CONTENT----*/
+  .content-row{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-row > div > ul{
+    padding-inline-start:0;
+  }
+  .row-date > li{
+
+  }
+  .position{
+    font-weight:Bold;
+    font-size:12.5pt;
+    letter-spacing:.4px;
+    color:rgb(50,50,50);
+
+  }
+  .position-criteria > li:not(first){
+    margin-top:8px;
+  }
+  .date{
+    color:rgb(50,50,50, .6);
+  }
+  .criteria{
+    line-height:24px;
+    width:90%;
+  }
+  .category{
+    font-weight:Bold;
+    letter-spacing:.4px;
+    color:#000;
+    font-size:14pt;
+    border-right: none;
+  }
+  .position-criteria{
+    list-style-type: circle;
+    margin-top:8px;
+  }
+  .invisible{
+    visibility:visible;
+    font-weight:Bold;
+    font-size:12.5pt;
+    letter-spacing:.4px;
+    color:rgb(50,50,50, .6);
+  }
+  .dates-chunk{
+    display:none;
+  }
+
+  #content-row-experience{
+    margin-top:2em;
+  }
+  #content-row-skills{
+    margin-top:2em;
+  }
+
+
+}

@@ -114,7 +114,7 @@ p{
 
 
 
-/*--Section Problem --*/
+/*--Section Goals --*/
 
 #list-goals{
   line-height: 28px;
@@ -125,4 +125,11 @@ p{
 }
 #list-goals > li:nth-child(3){
   margin-top:12px;
+}
+#section-goals > figure > img{
+ width:100%;
+ height:100vh;
+ border-radius:5px;
+ margin-top:2em;
+ box-shadow:2px 2px 1px lightgrey;
 }
