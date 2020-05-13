@@ -61,10 +61,10 @@
 
   }
   .position{
-    font-weight:Bold;
+    font-weight:bold;
     font-size:12pt;
-    letter-spacing:.4px;
-    color:rgb(50,50,50);
+    letter-spacing:.2px;
+    color:rgb(50,50,50, .8);
 
   }
   .position-criteria > li:not(first){
@@ -79,9 +79,8 @@
   }
   .category{
     font-weight:Bold;
-    letter-spacing:.6px;
-    color:#000;
-    font-size:14.4pt;
+    color:rgb(50,50,50, .6);
+    font-size:12pt;
     border-right: none;
   }
   .position-criteria{
@@ -92,7 +91,7 @@
     visibility:visible;
     font-weight:Bold;
     font-size:12pt;
-    letter-spacing:.4px;
+    letter-spacing: .2px;
     color:rgb(50,50,50, .6);
   }
   .dates-chunk{
