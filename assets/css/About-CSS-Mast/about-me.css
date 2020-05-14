@@ -6,15 +6,17 @@ body{
 }
 h1{
   font-family: 'Raleway', sans-serif;
-  font-size:24pt;
+  font-size:20pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
+  line-height: 32px;
 }
 p{
   font-size:12pt;
 }
 ul{
   font-size:12pt;
+  line-height:22px;
 }
 
 main{
@@ -29,10 +31,10 @@ main{
 
 /*-----main content----*/
 .mainColumns{
-  line-height:24px;
+  line-height:22px;
 }
 .icons{
-  height:32px;
+  height:28px;
   opacity:.6;
   transition-property: opacity, height;
   transition-duration: .5s;
@@ -41,7 +43,7 @@ main{
 
 
 .icons:hover{
-  height:36px;
+  height:30px;
   opacity:1;
 }
 #hobbies{
