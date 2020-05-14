@@ -39,6 +39,7 @@
   }
   #main-left{
     width:100%;
+    border-right:none;
   }
   #icon-hi{
     height:32px;
