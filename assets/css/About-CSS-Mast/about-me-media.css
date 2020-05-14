@@ -31,7 +31,7 @@
     display:inline-flex;
     padding-left:0;
     position:static;
-    margin-top:-1em;;
+    border-left:none;
 
   }
   #list-socialMedia > li:not(:nth-child(1)){

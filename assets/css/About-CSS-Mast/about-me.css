@@ -19,9 +19,9 @@ ul{
 
 main{
   width:67%;
-  margin:2em auto 2em auto;
+  margin:4em auto 4em auto;
   display:grid;
-  grid-template-columns: 2.5fr .5fr;
+  grid-template-columns: 8fr 2fr;
   grid-gap:.5em;
 
 }
@@ -32,7 +32,7 @@ main{
   line-height:32px;
 }
 .icons{
-  height:28px;
+  height:32px;
   opacity:.6;
   transition-property: opacity, height;
   transition-duration: .5s;
@@ -41,7 +41,7 @@ main{
 
 
 .icons:hover{
-  height:30px;
+  height:36px;
   opacity:1;
 }
 #hobbies{
@@ -50,14 +50,19 @@ main{
 #list-socialMedia{
     margin-top:4em;
     position:fixed;
-    padding-left:80px;
+    padding-left:5%;
 }
 #list-socialMedia > li:not(first){
   margin-top:8px;
 }
 #main-left{
-  width:90%;
+  border-right:2px solid rgb(50,50,50,.05);
+  padding-right:40px;
 }
+#main-right{
+
+}
+
 #icon-hi{
   height:32px;
 }
