@@ -58,11 +58,14 @@ header{
     font-size:12.5pt;
     color:#323232;
     text-decoration:none;
+    transition-property: font-size, color, font-weight;
+    transition-duration: .5s;
+    transition-delay: .2s;
 }
 #list-horizontal-header > li > a:hover{
+    font-size:13pt;
     color:#1654F8;
     font-weight:bold;
-    text-decoration:underline;
 }
 /*-----CONTENT----*/
 .content-row{
