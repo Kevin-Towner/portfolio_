@@ -33,7 +33,7 @@ main{
 }
 .icons{
   height:28px;
-  opacity:.7;
+  opacity:.6;
   transition-property: opacity, height;
   transition-duration: .5s;
   transition-delay: 0s;
@@ -48,7 +48,9 @@ main{
     list-style-type: circle;
 }
 #list-socialMedia{
-    margin-top:8em;
+    margin-top:4em;
+    position:fixed;
+    padding-left:80px;
 }
 #list-socialMedia > li:not(first){
   margin-top:8px;
