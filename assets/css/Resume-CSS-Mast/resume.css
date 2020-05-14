@@ -60,7 +60,7 @@ header{
     text-decoration:none;
     transition-property: font-size, color, font-weight;
     transition-duration: .5s;
-    transition-delay: .2s;
+    transition-delay: 0s;
 }
 #list-horizontal-header > li > a:hover{
     font-size:13pt;
