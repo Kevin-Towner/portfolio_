@@ -45,12 +45,13 @@
     display:block;
     z-index:1;
     position:absolute;
-    height:350vh;
+    height:500vh;
     margin-top:3em;
     background-color:#fff;
     text-align:center;
     width:100%;
     left:0;
+    top:0;
   }
 
   #menu > a:nth-child(2){

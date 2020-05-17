@@ -1,19 +1,23 @@
 @media only screen and (max-width: 500px){
   body{
     font-size:16pt;
-    line-height:28px;
+    line-height:30px;
   }
 
   header{
     margin:8em auto 8em auto;
     width:90%;
-    text-align: left;
+    text-align: center;
+  }
+  header > p{
+    margin-top:4em !important;
+    text-align:left;
   }
   h2{
     text-align: left;
   }
   p{
-    line-height:28px;
+    line-height:30px;
   }
 
 
@@ -80,7 +84,7 @@
     list-style-type: circle;
   }
   #list-goals > li{
-    line-height: 28px;
+    line-height: 30px;
   }
   #list-goals > li:not(:nth-child(1)){
     margin-top:16px;

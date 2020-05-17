@@ -40,7 +40,7 @@ h4{
 }
 
 p{
-  line-height:22px;
+  line-height:24px;
 }
 
 #home-container-all{
@@ -88,7 +88,7 @@ p{
 
 .list-inner-overview-vertical{
   margin:auto;
-  line-height: 22px;
+  line-height: 24px;
   padding-left:0;
 }
 
@@ -113,7 +113,7 @@ p{
 /*--------------------SECTION GOALS-----------------*/
 
 #list-goals{
-  line-height: 22px;
+  line-height: 24px;
   list-style-type: disc;
 }
 #list-goals > li:not(:nth-child(1)){
