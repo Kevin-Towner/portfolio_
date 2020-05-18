@@ -72,7 +72,6 @@
 @media only screen and (max-width: 500px){
   body{
     font-size:16pt;
-    line-height:30px;
   }
 
   header{
@@ -125,7 +124,7 @@
 
   .list-inner-overview-vertical{
     margin:auto;
-    line-height: 22px;
+    line-height: 30px;
     padding-left:0;
     text-align: left !important;
   }
