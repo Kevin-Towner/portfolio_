@@ -43,13 +43,14 @@ header{
   width: 100%;
   margin-top:2em;
   padding-bottom:1em;
-  /* padding-inline-start:0; */
 }
 #list-horizontal-header{
     display:inline-block;
+    padding-inline-start:0;
 }
 #list-horizontal-header > li{
     float:left;
+
 }
 #list-horizontal-header > li:not(:first-child) a{
   margin-left:80px;
