@@ -36,7 +36,7 @@
 
   }
   #list-horizontal-header{
-      display:block;
+
   }
   #list-horizontal-header > li{
       float:none;
@@ -68,11 +68,12 @@
     font-weight:bold;
     font-size:12pt;
     letter-spacing:.2px;
-    color:rgb(50,50,50, .8);
+    color:rgb(50,50,50);
 
   }
   .position-criteria > li:not(first){
     margin-top:8px;
+    color:rgb(50,50,50);
   }
   .date{
     color:rgb(50,50,50, .6);

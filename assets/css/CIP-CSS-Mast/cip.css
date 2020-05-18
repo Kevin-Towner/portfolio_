@@ -129,6 +129,7 @@ p{
 .grid-graphics-column > figure > figcaption{
   font-size:10pt;
   text-align: center;
+  line-height:18px;
 }
 
 .graphic-goals{
