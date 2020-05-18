@@ -105,12 +105,12 @@
   }
 
   .section-all-67{
-    width:75%;
+    width:90%;
     margin:auto;
   }
 
   .section-all-50{
-    width:75%;
+    width:90%;
     margin:auto;
     padding:4em 0 4.5em 0;
   }
@@ -172,6 +172,9 @@
   .graphic-goals{
     width:100%;
     margin:auto;
+  }
+  #section-goals{
+    width:90%;
   }
   #section-goals > p{
       text-align: left;
