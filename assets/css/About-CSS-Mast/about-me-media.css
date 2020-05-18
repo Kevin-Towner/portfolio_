@@ -43,9 +43,10 @@
     position:static;
     border-left:none;
     margin-bottom:0;
-
   }
+
   #list-socialMedia > li:not(:nth-child(1)){
+    margin-left:24px;
   }
   #main-left{
     width:100%;
