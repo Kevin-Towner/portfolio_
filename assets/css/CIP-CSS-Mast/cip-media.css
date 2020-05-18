@@ -5,9 +5,9 @@
   }
 
   header{
-    margin:8em auto 8em auto;
+    margin:12em auto 8em auto;
     width:90%;
-    text-align: center;
+    text-align:left;
   }
   header > p{
     margin-top:4em !important;
@@ -18,6 +18,9 @@
   }
   p{
     line-height:30px;
+  }
+  figcaption{
+    font-size:12pt;
   }
 
 
@@ -79,22 +82,25 @@
 
 
   /*--------------------SECTION GOALS-----------------*/
-
-  #list-goals{
-    list-style-type: circle;
+  .images-goals{
+    width:100%;
   }
-  #list-goals > li{
-    line-height: 30px;
+  #list-goals{
+    display:grid;
+    grid-template-columns: 1fr;
+    width:100%;
+  }
+
+  #list-goals > li > figure{
+    padding-bottom:4em;
+    text-align: left;
+  }
+
+  #list-goals > li > h3{
+    text-align: center;
   }
   #list-goals > li:not(:nth-child(1)){
     margin-top:16px;
-  }
-  #section-goals > figure > img{
-   width:100%;
-   height:100vh;
-   border-radius:5px;
-   margin-top:2em;
-   box-shadow:2px 2px 1px lightgrey;
   }
 
 }
