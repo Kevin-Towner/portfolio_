@@ -6,7 +6,7 @@ body{
 }
 h1{
   font-family: 'Raleway', sans-serif;
-  font-size:20pt;
+  font-size:44pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
   line-height: 32px;
@@ -36,14 +36,14 @@ main{
 .icons{
   height:28px;
   opacity:.6;
-  transition-property: opacity, height;
+  transition-property: opacity, height, box-shadow;
   transition-duration: .5s;
   transition-delay: 0s;
 }
 
 
 .icons:hover{
-  height:30px;
+  height:29px;
   opacity:1;
 }
 #hobbies{
@@ -70,5 +70,16 @@ main{
 }
 
 #icon-hi{
-  height:32px;
+  height:44px;
+}
+
+
+#anchor-drexel{
+  color:#062A4D;
+  text-decoration:none;
+}
+#anchor-drexel:hover{
+  color:#FFC600;
+  text-decoration:underline;
+  font-weight:bold;
 }
