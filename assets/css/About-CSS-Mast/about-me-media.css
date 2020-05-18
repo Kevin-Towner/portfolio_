@@ -30,14 +30,12 @@
 
   #list-socialMedia{
     display:inline-flex;
-    padding-left:0;
     position:static;
     border-left:none;
     margin-bottom:0;
 
   }
   #list-socialMedia > li:not(:nth-child(1)){
-    margin-left:16px;
   }
   #main-left{
     width:100%;
