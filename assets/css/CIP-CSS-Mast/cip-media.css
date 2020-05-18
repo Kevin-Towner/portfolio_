@@ -173,7 +173,9 @@
     width:100%;
     margin:auto;
   }
-
+  #section-goals > p{
+      text-align: left;
+    }
   #goals-grid-graphics{
     display:grid;
     grid-template-columns:1fr;
