@@ -43,6 +43,7 @@
     position:static;
     border-left:none;
     margin-bottom:0;
+
   }
 
   #list-socialMedia > li:not(:nth-child(1)){
