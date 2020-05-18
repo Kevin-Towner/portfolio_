@@ -43,6 +43,21 @@
     margin-top:16px;
   }
 
+  #goals-grid-graphics{
+    display:grid;
+    grid-template-columns:1fr;
+    width:100%;
+    margin:auto;
+
+  }
+
+  #section-goals > p{
+      text-align: center;
+    }
+  #goals-grid-graphics > .grid-graphics-column{
+    margin-top:4em;
+  }
+
 }
 
 
@@ -145,10 +160,6 @@
     align-items: center;
   }
 
-  .grid-graphics-column > figure{
-
-  }
-
   .grid-graphics-column > h3{
     text-align: center;
   }
@@ -162,6 +173,7 @@
     width:100%;
     margin:auto;
   }
+
   #goals-grid-graphics{
     display:grid;
     grid-template-columns:1fr;
