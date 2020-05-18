@@ -15,8 +15,8 @@
   #headline{
     width:90%;
     margin-left:5%;
-    margin-top:12em;
-    text-align:left;
+    margin-top:10em;
+    padding:8em 0 8em 0;
   }
   #headline > p{
     line-height: 32px;
