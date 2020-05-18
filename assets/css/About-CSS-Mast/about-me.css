@@ -48,6 +48,7 @@ main{
 }
 #hobbies{
     list-style-type: circle;
+    line-height:24px;
 }
 #list-socialMedia{
     margin-top:.67em;
