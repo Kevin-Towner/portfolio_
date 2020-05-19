@@ -14,9 +14,6 @@
   }
 
 
-
-
-
   .images-goals{
     width:100%;
   }
@@ -34,6 +31,7 @@
   #list-goals > li > figure > figcaption{
     text-align:left;
     opacity:.7;
+
   }
 
   #list-goals > li > h3{
@@ -55,7 +53,7 @@
       text-align: center;
     }
   #goals-grid-graphics > .grid-graphics-column{
-    margin-top:4em;
+    margin-top:1em;
   }
 
 }
@@ -106,12 +104,13 @@
   .section-all-67{
     width:90%;
     margin:auto;
+    padding:2em 0 2.5em 0;
   }
 
   .section-all-50{
     width:90%;
     margin:auto;
-    padding:4em 0 4.5em 0;
+    padding:2em 0 2.5em 0;
   }
 
 
@@ -159,13 +158,19 @@
     align-items: center;
   }
 
+  .grid-graphics-column > figure{
+    margin-inline-start:0px;
+    margin-inline-end:0px;
+  }
+
   .grid-graphics-column > h3{
     text-align: center;
   }
 
   .grid-graphics-column > figure > figcaption{
     font-size:10pt;
-    text-align: center;
+    text-align: left;
+    font-size:12pt;
   }
 
   .graphic-goals{
