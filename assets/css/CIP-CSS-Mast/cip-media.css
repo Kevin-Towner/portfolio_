@@ -192,5 +192,13 @@
 
   }
 
+  /*--------------------SECTION Research-----------------*/
+
+  .research-columns{
+    grid-template-columns:1fr;
+    grid-gap:1em;
+    text-align: left;
+  }
+
 
 }
