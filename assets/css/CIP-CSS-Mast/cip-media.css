@@ -136,7 +136,7 @@
     margin-left:40px;
   }
   .list-inner-overview-vertical > li:not(:nth-child(-n+2)){
-    margin-top:16px;
+    margin-top:4px;
   }
   #list-horizontal-overview > li:not(:nth-child(1)){
     margin-top:1em;
@@ -182,6 +182,7 @@
   }
   #section-goals > p{
       text-align: left;
+      width:100%;
     }
   #goals-grid-graphics{
     display:grid;
