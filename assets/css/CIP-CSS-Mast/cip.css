@@ -176,9 +176,8 @@ p{
 }
 .research-columns{
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
   background-color:#fff;
-  flex:1 1;
-  grid-gap:4em;
+  grid-gap:6em;
   text-align: left;
 }
