@@ -194,10 +194,26 @@
 
   /*--------------------SECTION Research-----------------*/
 
-  .research-columns{
-    grid-template-columns:1fr;
+  #section-research{
+    display:flex;
+    flex-direction:column;
+  }
+
+  #research-column-one{
     grid-gap:1em;
     text-align: left;
+  }
+
+  #research-column-two{
+    grid-template-columns:1fr;
+  }
+
+  #research-column-three{
+    grid-template-columns:1fr;
+  }
+
+  .research-column-lists{
+    line-height:30px;
   }
 
 
