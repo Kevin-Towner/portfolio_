@@ -116,7 +116,7 @@ p{
 .grid-graphics-column{
   display:flex;
   flex-direction:column;
-  align-items: center;
+
   width:100%;
 }
 
@@ -129,7 +129,7 @@ p{
 }
 
 .grid-graphics-column > h3{
-  margin-inline-start:-20px;
+
 }
 
 .grid-graphics-column > figure > figcaption{
