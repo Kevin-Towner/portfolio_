@@ -10,6 +10,7 @@ h1{
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
   line-height: 32px;
+  margin-block-start:0;
 }
 p{
   font-size:12pt;
@@ -21,10 +22,11 @@ ul{
 
 main{
   width:67%;
-  margin:4em auto 4em auto;
+  margin:0 auto 0 auto;;
   display:grid;
   grid-template-columns: 8fr 2fr;
   grid-gap:.5em;
+  margin:8em auto 6em auto;
 
 }
 
@@ -50,28 +52,23 @@ main{
     list-style-type: circle;
     line-height:24px;
 }
+
 #list-socialMedia{
-    margin-top:.67em;
     position:fixed;
-    margin-top:4em;
 }
+
 #list-socialMedia > li:not(first){
   margin-top:8px;
 }
+
 #main-left{
   border-right:2px solid rgb(50,50,50,.05);
   padding-right:40px;
 }
 
-#main-left > p{
-  margin-top:2em;
-}
-
-
 #icon-hi{
   height:44px;
 }
-
 
 #anchor-drexel{
   color:#062A4D;
