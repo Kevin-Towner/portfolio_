@@ -182,7 +182,7 @@ p{
 }
 #research-column-three{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 2fr;
   grid-gap:2em;
   padding-top:2em;
   text-align: left;
@@ -205,11 +205,11 @@ p{
 }
 
 .research-column-lists > li > a{
+  color: #1654F8;
   text-decoration: none;
-  opacity:.7;
 }
 .research-column-lists > li > a:hover{
-  color:#1654F8;
+  color:#000;
   opacity:1;
   font-weight:bold;
   text-decoration: underline;
