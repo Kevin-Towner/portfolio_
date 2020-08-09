@@ -126,11 +126,11 @@ p{
 }
 
 .grid-graphics-column > figure{
-
+ width:100%;
 }
 
 .grid-graphics-column > h3{
-
+  text-align: center;
 }
 
 .grid-graphics-column > figure > figcaption{
@@ -173,8 +173,8 @@ p{
 }
 #research-column-two{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-gap:2em;
+  grid-template-columns:1fr;
+  grid-gap:1em;
   margin-top:2em;
   padding-bottom:2em;
   text-align: left;
