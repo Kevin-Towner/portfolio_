@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/">
+<rdf:Description rdf:about="https://www.thrillist.com/drink/nation/trader-joes-beer-every-beer-at-trader-joes-ranked">
+<dc:title>Every Trader Joe's Beer, Ranked by Great Divide's Head Brewer1`</dc:title>
+<dc:description>Ethan Osborne, the head of Denver brewery Great Divide, blindly tasted all beers from Trader Joe's and ranked them </dc:description>
+<dcterms:abstract>All beers were given to Ethan in a tasting glass without him seeing the label, and he was asked to rate them on two criteria: taste and whether or not he'd order another one. Is this 100% scientific? No. Is this 100% a great way to learn if you should buy one of TJ's beers over another? Of course. Bonus: all of these 29 beers cost $40.37 before tax -- you can stock up.</dcterms:abstract>
+<dc:language>eng</dc:language>
+<dc:subject>Beer</dc:subject>
+<dc:creator>Breslouer, Lee</dc:creator>
+<dc:date>2015</dc:date>
+<dc:audience>general consumers</dc:audience>
+<dcterms:mediator>Thrillist</dcterms:mediator>
+<dc:Identifier>https</dc:Identifier>
+<dcterms:identifier>RFC7230</dcterms:identifier>
+</rdf:Description>
+</rdf:RDF>
