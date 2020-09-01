@@ -2,7 +2,7 @@
 
   h1{
     font-size:40pt;
-    text-align: center;
+    text-align: left;
   }
   figcaption{
     margin-left:5%;
@@ -16,12 +16,13 @@
     width:90%;
     margin-left:5%;
     margin-top:10em;
-    padding:8.2em 0 8.2em 0;
+    padding:6.2em 0 8.2em 0;
   }
   #headline > p{
     line-height: 28px;
     width:75%;
-    text-align:center;
+    text-align:left;
+    margin-left:0;
     font-size:16pt;
   }
 
