@@ -6,7 +6,7 @@ body{
 }
 h1{
   font-family: 'Raleway', sans-serif;
-  font-size:44pt;
+  font-size:36pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
   line-height: 32px;
@@ -23,11 +23,10 @@ ul{
 
 main{
   width:67%;
-  margin:0 auto 0 auto;;
   display:grid;
   grid-template-columns: 8fr 2fr;
   grid-gap:.5em;
-  margin:8em auto 6em auto;
+  margin:16em auto 12em auto;
 
 }
 
