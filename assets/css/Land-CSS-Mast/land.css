@@ -20,6 +20,7 @@ h1{
   font-size:44pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
+  margin-block-end:.335em;
 }
 
 .bold{
@@ -37,13 +38,11 @@ h1{
   text-align: center;
 }
 #headline > p{
-  font-size:12pt;
-  margin-top:2em;
+  font-size:14.2pt;
   color:#323232;
   width:33%;
-  line-height:22px;
+  line-height:28px;
   margin:auto;
-  word-spacing:.8px;
 }
 
 #case-studies{

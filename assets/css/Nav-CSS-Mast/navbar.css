@@ -1,9 +1,11 @@
 nav{
   display:grid;
   grid-template-columns:1fr 1fr;
-  width:90%;
+  width:100%;
   margin:auto;
   padding:15px 0 15px 0;
+  background-color:#fff;
+  border-bottom:1px solid rgb(148,149,153,.3)
 }
 
 label{
@@ -13,6 +15,7 @@ label{
 }
 #logo{
   height:36px;
+  margin-left:5vw;
 }
 
 #toggle{
@@ -21,13 +24,14 @@ label{
 
 #menu{
   float: right;
+  margin-right:5vw;
+  margin-top:7.5px;
 }
 
 #menu > a{
   text-decoration: none;
-  color:rgb(50,50,50, .8);
+  color:rgb(0,0,0, .7);
   font-size:12pt;
-  font-weight:lighter;
   font-family: 'Lato', sans-serif;
 }
 
