@@ -17,10 +17,10 @@ a{
 
 h1{
   font-family: 'Raleway', sans-serif;
-  font-size:42pt;
+  font-size:36pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
-  margin-block-end:.335em;
+  margin-block-end:.67em;
 }
 
 .bold{

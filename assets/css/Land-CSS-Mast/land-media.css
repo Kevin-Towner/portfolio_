@@ -1,7 +1,7 @@
 @media only screen and (max-width: 550px){
 
   h1{
-    font-size:40pt;
+    font-size:36pt;
   }
   figcaption{
     margin-left:5%;
@@ -12,14 +12,15 @@
 
 
   #headline{
-    width:90%;
-    margin-top:16em;
+    width:100%;
+    margin-top:14em;
   }
   #headline > p{
     line-height: 28px;
-    width:75%;
     font-size:16pt;
     text-align:left;
+    width:66.7%;
+    padding-left:24px;
   }
 
   #case-studies{
