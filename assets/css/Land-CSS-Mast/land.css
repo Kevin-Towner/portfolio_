@@ -17,7 +17,7 @@ a{
 
 h1{
   font-family: 'Raleway', sans-serif;
-  font-size:44pt;
+  font-size:42pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
   margin-block-end:.335em;
@@ -38,10 +38,10 @@ h1{
   text-align: center;
 }
 #headline > p{
-  font-size:14.2pt;
+  font-size:12pt;
   color:#323232;
   width:33%;
-  line-height:28px;
+  line-height:24px;
   margin:auto;
 }
 
