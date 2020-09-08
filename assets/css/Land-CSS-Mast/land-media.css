@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 450px){
 
   h1{
     font-size:36pt;
@@ -18,9 +18,10 @@
     margin-bottom:4em;
   }
   #headline > p{
-    line-height: 28px;
+    line-height: 30px;
     font-size:16pt;
     width:100%;
+    text-align: left;
   }
 
   #case-studies{
