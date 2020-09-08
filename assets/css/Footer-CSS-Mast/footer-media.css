@@ -1,8 +1,35 @@
 @media only screen and (max-width: 500px) {
-  footer > div{
-    text-align: center;
-    margin-left:5%;
-  }
   footer{
+    width:100%;
+    padding:4em 0 4em 0;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    border-top:1px solid rgb(148,149,153,.3);
+    z-index:1;
+    bottom:0;
+    display:flex;
+    flex-direction:column;
+  }
+  #footer-left-section{
+    display:none;
+  }
+  #footer-right-section{
+    display:flex;
+    justify-content:center;
+  }
+  #socialMedia-list{
+    display:inline-flex;
+    margin-block-start:.46em;
+    float:none;
+    margin-block-start:2em;
+  }
+  #socialMedia-list > li:nth-child(1){
+      margin-right:1em;
+  }
+  #socialMedia-list > li:nth-child(2){
+      margin-right:1em;
+  }
+  .icons{
+    height:28px;
   }
 }

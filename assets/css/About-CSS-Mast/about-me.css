@@ -14,11 +14,14 @@ h1{
 }
 p{
   font-size:12pt;
-  word-spacing:.8px;
+  line-height: 24px;
 }
 ul{
   font-size:12pt;
   line-height:22px;
+}
+ul > li{
+  margin-top:4px;
 }
 
 main{
@@ -32,9 +35,6 @@ main{
 
 
 /*-----main content----*/
-.mainColumns{
-  line-height:22px;
-}
 #hobbies{
     list-style-type: circle;
     line-height:24px;
