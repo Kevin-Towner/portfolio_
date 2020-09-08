@@ -2,6 +2,7 @@
 
   h1{
     font-size:36pt;
+
   }
   figcaption{
     margin-left:5%;
@@ -14,13 +15,12 @@
   #headline{
     width:100%;
     margin-top:14em;
+    margin-bottom:4em;
   }
   #headline > p{
     line-height: 28px;
     font-size:16pt;
-    text-align:left;
-    width:66.7%;
-    padding-left:24px;
+    width:100%;
   }
 
   #case-studies{
