@@ -1,17 +1,16 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
 
   h1{
     font-size:36pt;
-    line-height:
   }
 
   p{
     font-size:16pt;
-    line-height: 32px;
+    line-height: 30px;
   }
   main{
     width:90%;
-    margin:7em auto 2em auto;
+    margin:10em auto 3em auto;
     display:grid;
     grid-template-columns:1fr;
     grid-gap:.5em;

@@ -10,7 +10,6 @@ h1{
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
   line-height: 32px;
-  margin-block-start:0;
 }
 p{
   font-size:12pt;
@@ -29,7 +28,7 @@ main{
   display:grid;
   grid-template-columns: 8fr 2fr;
   grid-gap:.5em;
-  margin:16em auto 10em auto;
+  margin:0 auto 10em auto;
 
 }
 
