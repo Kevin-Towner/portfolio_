@@ -4,12 +4,6 @@ body{
   margin:0 auto;
   font-family: 'Lato', sans-serif;
 }
-figcaption{
-  font-family: 'Lato', sans-serif;
-  font-size:14pt;
-  line-height: 26px;
-  display:none;
-}
 
 a{
   text-decoration: none;
@@ -20,6 +14,7 @@ h1{
   font-size:36pt;
   color:#323232;
   text-shadow:1px 1px 1px lightgrey;
+
 }
 
 .bold{
@@ -83,7 +78,7 @@ h1{
 }
 .case-studies--card > h2{
   font-family: 'Raleway', sans-serif;
-  font-size:28pt;
+  font-size:24pt;
   text-align: center;
   opacity:.0;
   transition:.5s;
