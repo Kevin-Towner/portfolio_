@@ -3,7 +3,7 @@ footer{
   padding:4em 0 4em 0;
   background-color: #fff;
   font-family: 'Lato', sans-serif;
-  border-bottom:1px solid rgb(148,149,153,.3);
+  border-top:1px solid rgb(148,149,153,.3);
   z-index:1;
   bottom:0;
   display:grid;
@@ -27,7 +27,7 @@ footer{
 
 }
 .icons{
-  height:28px;
+  height:24px;
   opacity:.6;
   transition-property: opacity, height, box-shadow;
   transition-duration: .5s;
