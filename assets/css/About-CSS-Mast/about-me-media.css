@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
 
   h1{
     font-size:36pt;
@@ -9,12 +9,9 @@
     line-height: 30px;
   }
   main{
-    width:90%;
-    margin:10em auto 3em auto;
-    display:grid;
-    grid-template-columns:1fr;
-    grid-gap:.5em;
-
+    width:90% !important;
+    margin:auto;
+    margin:10em auto 5em auto;
   }
 
 
@@ -35,28 +32,6 @@
   #hobbies{
     line-height: 32px;
     font-size:16pt;
-  }
-
-  #list-socialMedia{
-    display:inline-flex;
-    position:static;
-    border-left:none;
-    margin-bottom:0;
-  }
-
-  #list-socialMedia > li:not(:nth-child(1)){
-    margin-left:24px;
-  }
-  #main-left{
-    width:100%;
-    padding-right:0;
-    border-right:none;
-  }
-  #icon-hi{
-    height:32px;
-  }
-  #list-socialMedia{
-      margin-top:1em;
   }
 
 }
