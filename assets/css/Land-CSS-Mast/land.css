@@ -17,6 +17,12 @@ h1{
 
 }
 
+.subhead{
+  color:#323232;
+  /* font-weight:bold; */
+  text-shadow:.25px .25px .25px #9F9F9F;
+}
+
 .bold{
   font-weight:bold;
 }
@@ -30,13 +36,6 @@ h1{
   color:#212121;
   width:90%;
   text-align: center;
-}
-#headline > p{
-  font-size:12pt;
-  color:#323232;
-  width:33%;
-  line-height:24px;
-  margin:auto;
 }
 
 #case-studies{
