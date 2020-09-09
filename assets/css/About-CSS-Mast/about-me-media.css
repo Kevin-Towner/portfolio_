@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
 
   h1{
     font-size:36pt;
@@ -6,12 +6,11 @@
 
   p{
     font-size:16pt;
-    line-height: 30px;
+    line-height: 32px;
   }
   main{
-    width:90% !important;
-    margin:auto;
-    margin:10em auto 5em auto;
+    width:75% !important;
+    margin-left:10vw;
   }
 
 
