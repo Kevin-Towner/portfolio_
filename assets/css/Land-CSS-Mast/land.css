@@ -20,7 +20,7 @@ h1{
 .subhead{
   color:#323232;
   /* font-weight:bold; */
-  text-shadow:.25px .25px .25px #9F9F9F;
+  text-shadow:.25px .25px .5px #9F9F9F;
 }
 
 .bold{
