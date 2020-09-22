@@ -2,7 +2,7 @@ body{
   background:#f3f3f3;
   color:#222;
   margin:0 auto;
-  font-family: 'Lato', sans-serif;
+  Font-Family: 'Muli', Sans-Serif;
 }
 
 a{
@@ -10,17 +10,17 @@ a{
 }
 
 h1{
-  font-family: 'Raleway', sans-serif;
-  font-size:36pt;
+  Font-Family: 'Merriweather', Serif;
+  font-size:32pt;
   color:#323232;
-  text-shadow:1px 1px 1px lightgrey;
+  text-shadow:1px 1px 1px #CCCCCC;
 
 }
 
 .subhead{
   color:#323232;
   /* font-weight:bold; */
-  text-shadow:.25px .25px .5px #9F9F9F;
+  font-size:12pt;
 }
 
 .bold{
@@ -77,8 +77,8 @@ h1{
   transition:.5s;
 }
 .case-studies--card > h2{
-  font-family: 'Raleway', sans-serif;
-  font-size:24pt;
+  Font-Family: 'Muli', Sans-Serif;
+  font-size:16.5pt;
   text-align: center;
   opacity:.0;
   transition:.5s;

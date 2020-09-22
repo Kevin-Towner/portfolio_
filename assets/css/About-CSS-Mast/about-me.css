@@ -2,18 +2,17 @@ body{
   background:#f3f3f3;
   color:#222;
   margin:0 auto;
-  font-family: 'Lato', sans-serif;
+  Font-Family: 'Muli', Sans-Serif;
 }
 h1{
-  font-family: 'Raleway', sans-serif;
+  Font-Family: 'Merriweather', Serif;
+  Font-Size: 32px;
   font-size:36pt;
   color:#323232;
-  text-shadow:1px 1px 1px lightgrey;
-  line-height: 32px;
 }
 p{
   font-size:12pt;
-  line-height: 24px;
+  line-height: 28px;
 }
 ul{
   font-size:12pt;
