@@ -25,7 +25,7 @@ ul{
 .contents{
   width:50%;
   margin:12em 33vw 8em auto;
-  animation: fadeInAnimation ease 1s;
+  animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
